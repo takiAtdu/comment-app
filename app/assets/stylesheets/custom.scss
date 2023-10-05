@@ -1,0 +1,37 @@
+.highlighted {
+  color: #14ccf4;
+  background-color: #14ccf4;
+  /* ハイライトの背景色 */
+}
+
+
+.overlay {
+  position: relative;
+  font-size: 18px;
+}
+
+.background-text {
+  color: white;
+}
+
+#commentable-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#commentable-text {
+  z-index: 100;
+}
+
+#highlightable-text {
+  z-index: 1;
+  color: white;
+}

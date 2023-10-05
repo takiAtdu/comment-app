@@ -1,2 +1,68 @@
-<h1>Texts#edit</h1>
-<p>Find me in app/views/texts/edit.html.erb</p>
+<script>
+  var highlightedTexts = <%= raw @highlighted_texts %>;
+</script>
+
+<div class="row align-items-center">
+  <div class="col">
+    <div class="overlay">
+      <div id="commentable-text">
+        <%= @text.text %>
+      </div>
+      <div id="highlightable-text">
+        <%= @text.text %>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div id="comment-form" class="p-3" style="display: none;">
+      <%= form_with(model: Comment.new, remote: true, html: { class: 'comment-form' }) do |form| %>
+        <%= form.hidden_field :text_id, value: @text.id %>
+        <%= form.text_area :comment, placeholder: 'コメントを入力', rows: 3, class: "form-control" %>
+        <%= form.hidden_field :highlighted_text %>
+        <%= form.hidden_field :start_offset, id: 'start-offset-field' %>
+        <%= form.hidden_field :end_offset, id: 'end-offset-field' %>
+        <%= form.submit 'コメントを追加', class: 'btn btn-outline-primary' %>
+      <% end %>
+    </div>
+    <div id="comments" class="p-3">
+      <% @comments.each do |comment| %>
+        <div class="comment border border-3 border-info rounded-3 p-2 my-3">
+          <div id="comment-show">
+            <div>
+              コメント：
+              <%= comment.comment %>
+            </div>
+            <div>
+              ハイライトするテキスト：
+              <%= comment.highlighted_text %>
+            </div>
+            <div>
+              位置情報：
+              <%= comment.start_offset %>,<%= comment.end_offset %>
+            </div>
+          </div>
+          <div id="comment-edit-form" style="display: none;">
+            <%= form_with(model: comment, remote: true, html: { class: 'comment-form' }) do |form| %>
+              <%= form.hidden_field :text_id, value: @text.id %>
+              <%= form.text_area :comment, value: comment.comment, rows: 3, class: "form-control" %>
+              <%= form.hidden_field :highlighted_text %>
+              <%= form.hidden_field :start_offset %>
+              <%= form.hidden_field :end_offset %>
+              <%= form.submit '更新する', class: 'btn btn-outline-primary' %>
+            <% end %>
+          </div>
+          <span id="comment-edit-btn" class="btn btn-outline-secondary">編集</span>
+          <%= link_to "削除", comment, data: {turbo_method: :delete, turbo_confirm: "本当に削除しますか？"}, class: "btn btn-outline-danger" %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<div id="positionInfo" class="pt-5">
+  <p id="selectedText">選択したテキスト内容がここに表示されます。</p>
+  <p>選択したテキストの位置情報:</p>
+  <p id="startOffset">開始オフセット:</p>
+  <p id="endOffset">終了オフセット:</p>
+</div>

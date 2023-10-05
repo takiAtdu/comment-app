@@ -14,6 +14,26 @@
 
   <body>
     <div class="container">
+      <div id="head-manu">
+        <%= link_to "ホーム",  root_path, class: "btn" %>
+
+        <% if logged_in? %>
+          <%= link_to "ユーザー一覧", users_path, class: "btn" %>
+          <a href="#", class="btn">
+            アカウント<b class="caret"></b>
+          </a>
+          <%= link_to "プロフィール", current_user, class: "btn" %>
+          <%= link_to "設定", edit_user_path(current_user), class: "btn" %>
+          <%# <%= button_to "ログアウト", logout_path, data: { "turbo-method": :delete}, class: "btn" %>
+          <%= button_to "ログアウト", logout_path, method: :delete, data: {turbo: false}, class: "btn" %>
+        <% else %>
+          <%= link_to login_path do %>
+            <button class="btn btn-outline-primary">ログイン</button>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+    <div class="container">
       <% flash.each do |message_type, message| %>
         <div class="alert alert-<%= message_type %>"><%= message %></div>
       <% end %>

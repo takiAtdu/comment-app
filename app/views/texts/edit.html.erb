@@ -12,6 +12,7 @@
         <%= @text.text %>
       </div>
     </div>
+    <%= button_to "削除", @text, method: :delete, data: {turbo: false, confirm: "本当に削除しますか？"}, class: "btn btn-outline-danger" %>
   </div>
 
   <div class="col">

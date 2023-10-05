@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  comment: MyText
+  highlighted_text: MyString
+  start_offset: 1
+  end_offset: 1
+  text_id: 1
+
+two:
+  comment: MyText
+  highlighted_text: MyString
+  start_offset: 1
+  end_offset: 1
+  text_id: 1

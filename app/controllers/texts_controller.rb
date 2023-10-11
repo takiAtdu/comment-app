@@ -1,4 +1,6 @@
 class TextsController < ApplicationController
+  before_action :logged_in_user, only: [:new, :create, :edit, :destroy]
+
   def new
     @text = Text.new
   end

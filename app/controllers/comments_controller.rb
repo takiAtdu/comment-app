@@ -1,8 +1,5 @@
 class CommentsController < ApplicationController
-  def index
-    @comments = Comment.all.order(start_offset: "ASC")
-    @highlighted_texts = @comments.pluck(:highlighted_text).uniq
-  end
+  before_action :logged_in_user, only: [:update, :create, :destroy]
 
   def update
     comment = Comment.find(params[:id])

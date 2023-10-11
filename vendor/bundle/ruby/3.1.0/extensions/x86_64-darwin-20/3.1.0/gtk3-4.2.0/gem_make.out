@@ -1,0 +1,177 @@
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/gtk3-4.2.0/ext/gtk3
+/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20231011-98320-u3jvuh.rb extconf.rb
+checking for --enable-debug-build option... no
+checking for -Wall option to compiler... yes
+checking for -Wcast-align option to compiler... yes
+checking for -Wextra option to compiler... no
+checking for -Wformat=2 option to compiler... yes
+checking for -Winit-self option to compiler... yes
+checking for -Wlarger-than-65500 option to compiler... yes
+checking for -Wmissing-declarations option to compiler... yes
+checking for -Wmissing-format-attribute option to compiler... yes
+checking for -Wmissing-include-dirs option to compiler... yes
+checking for -Wmissing-noreturn option to compiler... yes
+checking for -Wmissing-prototypes option to compiler... yes
+checking for -Wnested-externs option to compiler... yes
+checking for -Wold-style-definition option to compiler... yes
+checking for -Wpacked option to compiler... yes
+checking for -Wp,-D_FORTIFY_SOURCE=2 option to compiler... yes
+checking for -Wpointer-arith option to compiler... yes
+checking for -Wundef option to compiler... yes
+checking for -Wout-of-line-declaration option to compiler... yes
+checking for -Wunsafe-loop-optimizations option to compiler... no
+checking for -Wwrite-strings option to compiler... yes
+checking for Homebrew... yes
+checking for cairo... yes (1.18.0)
+checking for rb_cairo.h... yes
+checking for gtk+-3.0... yes (3.24.38)
+checking for gobject-introspection-1.0... yes (1.78.1)
+creating ruby-gtk3.pc
+creating Makefile
+
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/gtk3-4.2.0/ext/gtk3
+make DESTDIR\= clean
+
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/gtk3-4.2.0/ext/gtk3
+make DESTDIR\=
+compiling rb-gtk3-accel-map.c
+compiling rb-gtk3-cell-layout.c
+compiling rb-gtk3-container.c
+compiling rb-gtk3-spin-button.c
+compiling rb-gtk3-tree-model.c
+compiling rb-gtk3-tree-view.c
+compiling rb-gtk3-widget.c
+In file included from rb-gtk3-widget.c:23:
+/Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/cairo-1.17.12/ext/cairo/../../lib/rb_cairo.h:164:9: warning: 'RVAL2POINTER' macro redefined [-Wmacro-redefined]
+#define RVAL2POINTER(obj)       ((void *)(obj))
+        ^
+/Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/glib2-4.2.0/ext/glib2/../../lib/rbglib.h:142:9: note: previous definition is here
+#define RVAL2POINTER(value) ((gpointer)(value))
+        ^
+1 warning generated.
+compiling rb-gtk3-window.c
+compiling rb-gtk3.c
+rb-gtk3.c:506:15: warning: 'gtk_action_get_proxies' is deprecated [-Wdeprecated-declarations]
+    proxies = gtk_action_get_proxies(action);
+              ^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gtk/deprecated/gtkaction.h:129:1: note: 'gtk_action_get_proxies' has been explicitly marked deprecated here
+GDK_DEPRECATED_IN_3_10
+^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gdk/gdkversionmacros.h:328:47: note: expanded from macro 'GDK_DEPRECATED_IN_3_10'
+# define GDK_DEPRECATED_IN_3_10               GDK_DEPRECATED
+                                              ^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gdk/gdkversionmacros.h:48:24: note: expanded from macro 'GDK_DEPRECATED'
+#define GDK_DEPRECATED G_DEPRECATED _GDK_EXTERN
+                       ^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:1262:37: note: expanded from macro 'G_DEPRECATED'
+#define G_DEPRECATED __attribute__((__deprecated__))
+                                    ^
+rb-gtk3.c:534:15: warning: 'gtk_action_group_list_actions' is deprecated [-Wdeprecated-declarations]
+    actions = gtk_action_group_list_actions(group);
+              ^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gtk/deprecated/gtkactiongroup.h:197:1: note: 'gtk_action_group_list_actions' has been explicitly marked deprecated here
+GDK_DEPRECATED_IN_3_10
+^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gdk/gdkversionmacros.h:328:47: note: expanded from macro 'GDK_DEPRECATED_IN_3_10'
+# define GDK_DEPRECATED_IN_3_10               GDK_DEPRECATED
+                                              ^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gdk/gdkversionmacros.h:48:24: note: expanded from macro 'GDK_DEPRECATED'
+#define GDK_DEPRECATED G_DEPRECATED _GDK_EXTERN
+                       ^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:1262:37: note: expanded from macro 'G_DEPRECATED'
+#define G_DEPRECATED __attribute__((__deprecated__))
+                                    ^
+rb-gtk3.c:551:21: warning: 'gtk_ui_manager_get_action_groups' is deprecated [-Wdeprecated-declarations]
+    action_groups = gtk_ui_manager_get_action_groups(manager);
+                    ^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:144:1: note: 'gtk_ui_manager_get_action_groups' has been explicitly marked deprecated here
+GDK_DEPRECATED_IN_3_10
+^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gdk/gdkversionmacros.h:328:47: note: expanded from macro 'GDK_DEPRECATED_IN_3_10'
+# define GDK_DEPRECATED_IN_3_10               GDK_DEPRECATED
+                                              ^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gdk/gdkversionmacros.h:48:24: note: expanded from macro 'GDK_DEPRECATED'
+#define GDK_DEPRECATED G_DEPRECATED _GDK_EXTERN
+                       ^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:1262:37: note: expanded from macro 'G_DEPRECATED'
+#define G_DEPRECATED __attribute__((__deprecated__))
+                                    ^
+rb-gtk3.c:557:29: warning: 'gtk_ui_manager_get_accel_group' is deprecated [-Wdeprecated-declarations]
+    rbgobj_gc_mark_instance(gtk_ui_manager_get_accel_group(manager));
+                            ^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:146:1: note: 'gtk_ui_manager_get_accel_group' has been explicitly marked deprecated here
+GDK_DEPRECATED_IN_3_10
+^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gdk/gdkversionmacros.h:328:47: note: expanded from macro 'GDK_DEPRECATED_IN_3_10'
+# define GDK_DEPRECATED_IN_3_10               GDK_DEPRECATED
+                                              ^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gdk/gdkversionmacros.h:48:24: note: expanded from macro 'GDK_DEPRECATED'
+#define GDK_DEPRECATED G_DEPRECATED _GDK_EXTERN
+                       ^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:1262:37: note: expanded from macro 'G_DEPRECATED'
+#define G_DEPRECATED __attribute__((__deprecated__))
+                                    ^
+rb-gtk3.c:586:31: warning: 'gtk_action_get_type' is deprecated [-Wdeprecated-declarations]
+    rbgobj_register_mark_func(GTK_TYPE_ACTION, rb_gtk3_action_mark);
+                              ^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gtk/deprecated/gtkaction.h:40:37: note: expanded from macro 'GTK_TYPE_ACTION'
+#define GTK_TYPE_ACTION            (gtk_action_get_type ())
+                                    ^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gtk/deprecated/gtkaction.h:95:1: note: 'gtk_action_get_type' has been explicitly marked deprecated here
+GDK_DEPRECATED_IN_3_10
+^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gdk/gdkversionmacros.h:328:47: note: expanded from macro 'GDK_DEPRECATED_IN_3_10'
+# define GDK_DEPRECATED_IN_3_10               GDK_DEPRECATED
+                                              ^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gdk/gdkversionmacros.h:48:24: note: expanded from macro 'GDK_DEPRECATED'
+#define GDK_DEPRECATED G_DEPRECATED _GDK_EXTERN
+                       ^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:1262:37: note: expanded from macro 'G_DEPRECATED'
+#define G_DEPRECATED __attribute__((__deprecated__))
+                                    ^
+rb-gtk3.c:590:31: warning: 'gtk_action_group_get_type' is deprecated [-Wdeprecated-declarations]
+    rbgobj_register_mark_func(GTK_TYPE_ACTION_GROUP, rb_gtk3_action_group_mark);
+                              ^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gtk/deprecated/gtkactiongroup.h:41:45: note: expanded from macro 'GTK_TYPE_ACTION_GROUP'
+#define GTK_TYPE_ACTION_GROUP              (gtk_action_group_get_type ())
+                                            ^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gtk/deprecated/gtkactiongroup.h:172:1: note: 'gtk_action_group_get_type' has been explicitly marked deprecated here
+GDK_DEPRECATED_IN_3_10
+^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gdk/gdkversionmacros.h:328:47: note: expanded from macro 'GDK_DEPRECATED_IN_3_10'
+# define GDK_DEPRECATED_IN_3_10               GDK_DEPRECATED
+                                              ^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gdk/gdkversionmacros.h:48:24: note: expanded from macro 'GDK_DEPRECATED'
+#define GDK_DEPRECATED G_DEPRECATED _GDK_EXTERN
+                       ^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:1262:37: note: expanded from macro 'G_DEPRECATED'
+#define G_DEPRECATED __attribute__((__deprecated__))
+                                    ^
+rb-gtk3.c:593:31: warning: 'gtk_ui_manager_get_type' is deprecated [-Wdeprecated-declarations]
+    rbgobj_register_mark_func(GTK_TYPE_UI_MANAGER, rb_gtk3_ui_manager_mark);
+                              ^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:43:41: note: expanded from macro 'GTK_TYPE_UI_MANAGER'
+#define GTK_TYPE_UI_MANAGER            (gtk_ui_manager_get_type ())
+                                        ^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:127:1: note: 'gtk_ui_manager_get_type' has been explicitly marked deprecated here
+GDK_DEPRECATED_IN_3_10
+^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gdk/gdkversionmacros.h:328:47: note: expanded from macro 'GDK_DEPRECATED_IN_3_10'
+# define GDK_DEPRECATED_IN_3_10               GDK_DEPRECATED
+                                              ^
+/usr/local/Cellar/gtk+3/3.24.38/include/gtk-3.0/gdk/gdkversionmacros.h:48:24: note: expanded from macro 'GDK_DEPRECATED'
+#define GDK_DEPRECATED G_DEPRECATED _GDK_EXTERN
+                       ^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:1262:37: note: expanded from macro 'G_DEPRECATED'
+#define G_DEPRECATED __attribute__((__deprecated__))
+                                    ^
+7 warnings generated.
+linking shared-object gtk3.bundle
+
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/gtk3-4.2.0/ext/gtk3
+make DESTDIR\= install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 gtk3.bundle ./.gem.20231011-98320-coqk2o
+if test -n ""; then			\
+	  /usr/local/opt/coreutils/bin/gmkdir -p ;				\
+	  /usr/local/opt/coreutils/bin/ginstall -c -m 644 ruby-gtk3.pc ;		\
+	fi

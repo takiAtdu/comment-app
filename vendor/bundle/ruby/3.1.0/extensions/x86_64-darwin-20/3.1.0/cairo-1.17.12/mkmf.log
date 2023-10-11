@@ -1,0 +1,166 @@
+checking for GCC... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/lib "gcc -o conftest -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/x86_64-darwin20 -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/ruby/backward -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -Wundef -fno-common -pipe conftest.c  -L. -L/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/lib -L. -L/usr/local/opt/libyaml/lib -L/usr/local/opt/libksba/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib -fstack-protector-strong -L/usr/local/lib     -lruby.3.1   "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/lib "gcc -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/x86_64-darwin20 -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/ruby/backward -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -Wundef -fno-common -pipe   -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: #ifndef __GNUC__
+5: # error
+6: |:/ === __GNUC__ undefined === /:|
+7: #endif
+/* end */
+
+--------------------
+
+checking for Homebrew... -------------------- yes
+
+--------------------
+
+have_package: checking for cairo version (>= 1.2.0)... -------------------- yes (1.18.0)
+
+--------------------
+
+have_package: checking for cairo-ft... -------------------- yes (1.18.0)
+
+--------------------
+
+yes
+checking for RubyCocoa... no
+checking for macOS... -------------------- yes
+
+checking for CAIRO_HAS_QUARTZ_SURFACE in cairo.h... have_macro: checking for CAIRO_HAS_QUARTZ_SURFACE in cairo.h... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/lib "gcc -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/x86_64-darwin20 -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/ruby/backward -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0 -I. -I/usr/local/Cellar/cairo/1.18.0/include/cairo -I/usr/local/opt/libpng/include/libpng16 -I/usr/local/Cellar/fontconfig/2.14.2/include -I/usr/local/opt/freetype/include/freetype2 -I/usr/local/Cellar/libx11/1.8.6/include -I/usr/local/Cellar/libxcb/1.16/include -I/usr/local/Cellar/libxau/1.0.11/include -I/usr/local/Cellar/libxdmcp/1.1.4/include -I/usr/local/Cellar/libxext/1.3.5/include -I/usr/local/Cellar/libxrender/0.9.11/include -I/usr/local/Cellar/pixman/0.42.2/include/pixman-1 -I/usr/local/Cellar/xorgproto/2023.2/include -I/usr/local/Cellar/cairo/1.18.0/include -I/usr/local/Cellar/cairo/1.18.0/include/cairo -I/usr/local/opt/libpng/include/libpng16 -I/usr/local/Cellar/fontconfig/2.14.2/include -I/usr/local/opt/freetype/include/freetype2 -I/usr/local/Cellar/libx11/1.8.6/include -I/usr/local/Cellar/libxcb/1.16/include -I/usr/local/Cellar/libxau/1.0.11/include -I/usr/local/Cellar/libxdmcp/1.1.4/include -I/usr/local/Cellar/libxext/1.3.5/include -I/usr/local/Cellar/libxrender/0.9.11/include -I/usr/local/Cellar/pixman/0.42.2/include/pixman-1 -I/usr/local/Cellar/xorgproto/2023.2/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -Wundef -fno-common -pipe -Wall     -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <cairo.h>
+4: /*top*/
+5: #ifndef CAIRO_HAS_QUARTZ_SURFACE
+6: # error
+7: |:/ === CAIRO_HAS_QUARTZ_SURFACE undefined === /:|
+8: #endif
+/* end */
+
+--------------------
+
+block in <main>: checking for RubyCocoa... -------------------- no
+
+--------------------
+
+--------------------
+
+have_macro: checking for HAVE_RUBY_ST_H in ruby.h... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/lib "gcc -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/x86_64-darwin20 -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/ruby/backward -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0 -I. -I/usr/local/Cellar/cairo/1.18.0/include/cairo -I/usr/local/opt/libpng/include/libpng16 -I/usr/local/Cellar/fontconfig/2.14.2/include -I/usr/local/opt/freetype/include/freetype2 -I/usr/local/Cellar/libx11/1.8.6/include -I/usr/local/Cellar/libxcb/1.16/include -I/usr/local/Cellar/libxau/1.0.11/include -I/usr/local/Cellar/libxdmcp/1.1.4/include -I/usr/local/Cellar/libxext/1.3.5/include -I/usr/local/Cellar/libxrender/0.9.11/include -I/usr/local/Cellar/pixman/0.42.2/include/pixman-1 -I/usr/local/Cellar/xorgproto/2023.2/include -I/usr/local/Cellar/cairo/1.18.0/include -I/usr/local/Cellar/cairo/1.18.0/include/cairo -I/usr/local/opt/libpng/include/libpng16 -I/usr/local/Cellar/fontconfig/2.14.2/include -I/usr/local/opt/freetype/include/freetype2 -I/usr/local/Cellar/libx11/1.8.6/include -I/usr/local/Cellar/libxcb/1.16/include -I/usr/local/Cellar/libxau/1.0.11/include -I/usr/local/Cellar/libxdmcp/1.1.4/include -I/usr/local/Cellar/libxext/1.3.5/include -I/usr/local/Cellar/libxrender/0.9.11/include -I/usr/local/Cellar/pixman/0.42.2/include/pixman-1 -I/usr/local/Cellar/xorgproto/2023.2/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -Wundef -fno-common -pipe -Wall     -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <ruby.h>
+4: /*top*/
+5: #ifndef HAVE_RUBY_ST_H
+6: # error
+7: |:/ === HAVE_RUBY_ST_H undefined === /:|
+8: #endif
+/* end */
+
+--------------------
+
+have_macro: checking for HAVE_RUBY_IO_H in ruby.h... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/lib "gcc -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/x86_64-darwin20 -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/ruby/backward -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0 -I. -I/usr/local/Cellar/cairo/1.18.0/include/cairo -I/usr/local/opt/libpng/include/libpng16 -I/usr/local/Cellar/fontconfig/2.14.2/include -I/usr/local/opt/freetype/include/freetype2 -I/usr/local/Cellar/libx11/1.8.6/include -I/usr/local/Cellar/libxcb/1.16/include -I/usr/local/Cellar/libxau/1.0.11/include -I/usr/local/Cellar/libxdmcp/1.1.4/include -I/usr/local/Cellar/libxext/1.3.5/include -I/usr/local/Cellar/libxrender/0.9.11/include -I/usr/local/Cellar/pixman/0.42.2/include/pixman-1 -I/usr/local/Cellar/xorgproto/2023.2/include -I/usr/local/Cellar/cairo/1.18.0/include -I/usr/local/Cellar/cairo/1.18.0/include/cairo -I/usr/local/opt/libpng/include/libpng16 -I/usr/local/Cellar/fontconfig/2.14.2/include -I/usr/local/opt/freetype/include/freetype2 -I/usr/local/Cellar/libx11/1.8.6/include -I/usr/local/Cellar/libxcb/1.16/include -I/usr/local/Cellar/libxau/1.0.11/include -I/usr/local/Cellar/libxdmcp/1.1.4/include -I/usr/local/Cellar/libxext/1.3.5/include -I/usr/local/Cellar/libxrender/0.9.11/include -I/usr/local/Cellar/pixman/0.42.2/include/pixman-1 -I/usr/local/Cellar/xorgproto/2023.2/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -Wundef -fno-common -pipe -Wall     -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <ruby.h>
+4: /*top*/
+5: #ifndef HAVE_RUBY_IO_H
+6: # error
+7: |:/ === HAVE_RUBY_IO_H undefined === /:|
+8: #endif
+/* end */
+
+--------------------
+
+have_func: checking for rb_errinfo() in ruby.h... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/lib "gcc -o conftest -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/x86_64-darwin20 -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/ruby/backward -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0 -I. -I/usr/local/Cellar/cairo/1.18.0/include/cairo -I/usr/local/opt/libpng/include/libpng16 -I/usr/local/Cellar/fontconfig/2.14.2/include -I/usr/local/opt/freetype/include/freetype2 -I/usr/local/Cellar/libx11/1.8.6/include -I/usr/local/Cellar/libxcb/1.16/include -I/usr/local/Cellar/libxau/1.0.11/include -I/usr/local/Cellar/libxdmcp/1.1.4/include -I/usr/local/Cellar/libxext/1.3.5/include -I/usr/local/Cellar/libxrender/0.9.11/include -I/usr/local/Cellar/pixman/0.42.2/include/pixman-1 -I/usr/local/Cellar/xorgproto/2023.2/include -I/usr/local/Cellar/cairo/1.18.0/include -I/usr/local/Cellar/cairo/1.18.0/include/cairo -I/usr/local/opt/libpng/include/libpng16 -I/usr/local/Cellar/fontconfig/2.14.2/include -I/usr/local/opt/freetype/include/freetype2 -I/usr/local/Cellar/libx11/1.8.6/include -I/usr/local/Cellar/libxcb/1.16/include -I/usr/local/Cellar/libxau/1.0.11/include -I/usr/local/Cellar/libxdmcp/1.1.4/include -I/usr/local/Cellar/libxext/1.3.5/include -I/usr/local/Cellar/libxrender/0.9.11/include -I/usr/local/Cellar/pixman/0.42.2/include/pixman-1 -I/usr/local/Cellar/xorgproto/2023.2/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -Wundef -fno-common -pipe -Wall   conftest.c  -L. -L/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/lib -L. -L/usr/local/opt/libyaml/lib -L/usr/local/opt/libksba/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib -fstack-protector-strong -L/usr/local/lib -L/usr/local/Cellar/cairo/1.18.0/lib -L/usr/local/Cellar/cairo/1.18.0/lib -L/usr/local/opt/freetype/lib     -lcairo -lcairo -lfreetype -lruby.3.1  -lcairo -lcairo -lfreetype  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_errinfo; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_gc_adjust_memory_usage() in ruby.h... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/lib "gcc -o conftest -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/x86_64-darwin20 -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/ruby/backward -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0 -I. -I/usr/local/Cellar/cairo/1.18.0/include/cairo -I/usr/local/opt/libpng/include/libpng16 -I/usr/local/Cellar/fontconfig/2.14.2/include -I/usr/local/opt/freetype/include/freetype2 -I/usr/local/Cellar/libx11/1.8.6/include -I/usr/local/Cellar/libxcb/1.16/include -I/usr/local/Cellar/libxau/1.0.11/include -I/usr/local/Cellar/libxdmcp/1.1.4/include -I/usr/local/Cellar/libxext/1.3.5/include -I/usr/local/Cellar/libxrender/0.9.11/include -I/usr/local/Cellar/pixman/0.42.2/include/pixman-1 -I/usr/local/Cellar/xorgproto/2023.2/include -I/usr/local/Cellar/cairo/1.18.0/include -I/usr/local/Cellar/cairo/1.18.0/include/cairo -I/usr/local/opt/libpng/include/libpng16 -I/usr/local/Cellar/fontconfig/2.14.2/include -I/usr/local/opt/freetype/include/freetype2 -I/usr/local/Cellar/libx11/1.8.6/include -I/usr/local/Cellar/libxcb/1.16/include -I/usr/local/Cellar/libxau/1.0.11/include -I/usr/local/Cellar/libxdmcp/1.1.4/include -I/usr/local/Cellar/libxext/1.3.5/include -I/usr/local/Cellar/libxrender/0.9.11/include -I/usr/local/Cellar/pixman/0.42.2/include/pixman-1 -I/usr/local/Cellar/xorgproto/2023.2/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -Wundef -fno-common -pipe -Wall   conftest.c  -L. -L/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/lib -L. -L/usr/local/opt/libyaml/lib -L/usr/local/opt/libksba/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib -fstack-protector-strong -L/usr/local/lib -L/usr/local/Cellar/cairo/1.18.0/lib -L/usr/local/Cellar/cairo/1.18.0/lib -L/usr/local/opt/freetype/lib     -lcairo -lcairo -lfreetype -lruby.3.1  -lcairo -lcairo -lfreetype  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <ruby.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     int (* volatile tp)(void)=(int (*)(void))&t;
+11:     printf("%d", (*tp)());
+12:   }
+13: 
+14:   return !!argv[argc];
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_gc_adjust_memory_usage; return !p; }
+/* end */
+
+--------------------
+
+have_type: checking for enum ruby_value_type in ruby.h... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/lib "gcc -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/x86_64-darwin20 -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0/ruby/backward -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/include/ruby-3.1.0 -I. -I/usr/local/Cellar/cairo/1.18.0/include/cairo -I/usr/local/opt/libpng/include/libpng16 -I/usr/local/Cellar/fontconfig/2.14.2/include -I/usr/local/opt/freetype/include/freetype2 -I/usr/local/Cellar/libx11/1.8.6/include -I/usr/local/Cellar/libxcb/1.16/include -I/usr/local/Cellar/libxau/1.0.11/include -I/usr/local/Cellar/libxdmcp/1.1.4/include -I/usr/local/Cellar/libxext/1.3.5/include -I/usr/local/Cellar/libxrender/0.9.11/include -I/usr/local/Cellar/pixman/0.42.2/include/pixman-1 -I/usr/local/Cellar/xorgproto/2023.2/include -I/usr/local/Cellar/cairo/1.18.0/include -I/usr/local/Cellar/cairo/1.18.0/include/cairo -I/usr/local/opt/libpng/include/libpng16 -I/usr/local/Cellar/fontconfig/2.14.2/include -I/usr/local/opt/freetype/include/freetype2 -I/usr/local/Cellar/libx11/1.8.6/include -I/usr/local/Cellar/libxcb/1.16/include -I/usr/local/Cellar/libxau/1.0.11/include -I/usr/local/Cellar/libxdmcp/1.1.4/include -I/usr/local/Cellar/libxext/1.3.5/include -I/usr/local/Cellar/libxrender/0.9.11/include -I/usr/local/Cellar/pixman/0.42.2/include/pixman-1 -I/usr/local/Cellar/xorgproto/2023.2/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -I/usr/local/opt/libyaml/include -I/usr/local/opt/libksba/include -I/usr/local/opt/readline/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl@1.1/include -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -Wundef -fno-common -pipe -Wall     -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <ruby.h>
+4: 
+5: /*top*/
+6: typedef enum ruby_value_type conftest_type;
+7: int conftestval[sizeof(conftest_type)?1:-1];
+/* end */
+
+--------------------
+

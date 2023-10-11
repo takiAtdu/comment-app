@@ -1,0 +1,43 @@
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/gdk3-4.2.0/dependency-check
+/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/bin/ruby -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -rrubygems /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/rake-13.0.6/exe/rake RUBYARCHDIR\=/Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/extensions/x86_64-darwin-20/3.1.0/gdk3-4.2.0 RUBYLIBDIR\=/Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/extensions/x86_64-darwin-20/3.1.0/gdk3-4.2.0
+installing 'gtk+3' native package... ==> Downloading https://ghcr.io/v2/homebrew/core/gtkx3/manifests/3.24.38
+Already downloaded: /Users/takigawaatsushi/Library/Caches/Homebrew/downloads/2a69bfc9e70cb980bd6efa824340ecf2fa6ff0b0a456f663120d2960394e9dc8--gtk+3-3.24.38.bottle_manifest.json
+==> Fetching dependencies for gtk+3: gsettings-desktop-schemas and libepoxy
+==> Downloading https://ghcr.io/v2/homebrew/core/gsettings-desktop-schemas/manifests/45.0
+Already downloaded: /Users/takigawaatsushi/Library/Caches/Homebrew/downloads/a1705413b8edee3a29ff7499ae013a711f9a29fa219667794b92d6fd9e41ee88--gsettings-desktop-schemas-45.0.bottle_manifest.json
+==> Fetching gsettings-desktop-schemas
+==> Downloading https://ghcr.io/v2/homebrew/core/gsettings-desktop-schemas/blobs/sha256:9b07d5867f7317b046208fdacf52f9c780a9bbd6264bab81dba80268b13dbe76
+Already downloaded: /Users/takigawaatsushi/Library/Caches/Homebrew/downloads/5f7388fd5559a082ce82d426aa7187b6431586a630e9028df86253ea8a475e6a--gsettings-desktop-schemas--45.0.ventura.bottle.tar.gz
+==> Downloading https://ghcr.io/v2/homebrew/core/libepoxy/manifests/1.5.10
+Already downloaded: /Users/takigawaatsushi/Library/Caches/Homebrew/downloads/fd91321dc6032305294ad3c7c3851bc80f1505f18512e4753036c509ba4b4e2c--libepoxy-1.5.10.bottle_manifest.json
+==> Fetching libepoxy
+==> Downloading https://ghcr.io/v2/homebrew/core/libepoxy/blobs/sha256:91cca5d118a350e7105a303fd873915fc5f36c0a83be02101f3c742a52d0059c
+Already downloaded: /Users/takigawaatsushi/Library/Caches/Homebrew/downloads/65c3e6f8c304491477aea9c4e5f845b969ece8d965daee91df822676011ba081--libepoxy--1.5.10.ventura.bottle.tar.gz
+==> Fetching gtk+3
+==> Downloading https://ghcr.io/v2/homebrew/core/gtkx3/blobs/sha256:87f200d7945307fcb47cb2ea31da643d571c898b752e2e2ddecd62c1c4c64b51
+Already downloaded: /Users/takigawaatsushi/Library/Caches/Homebrew/downloads/8375b9d1d055388df9753c56f18a23997fd0bd3c5839008b870f8f57f714c6d4--gtk+3--3.24.38.ventura.bottle.tar.gz
+==> Installing dependencies for gtk+3: gsettings-desktop-schemas and libepoxy
+==> Installing gtk+3 dependency: gsettings-desktop-schemas
+==> Downloading https://ghcr.io/v2/homebrew/core/gsettings-desktop-schemas/manifests/45.0
+Already downloaded: /Users/takigawaatsushi/Library/Caches/Homebrew/downloads/a1705413b8edee3a29ff7499ae013a711f9a29fa219667794b92d6fd9e41ee88--gsettings-desktop-schemas-45.0.bottle_manifest.json
+==> Pouring gsettings-desktop-schemas--45.0.ventura.bottle.tar.gz
+[34m==>[0m [1m/usr/local/opt/glib/bin/glib-compile-schemas /usr/local/share/glib-2.0/schem[0m
+🍺  /usr/local/Cellar/gsettings-desktop-schemas/45.0: 102 files, 5.0MB
+==> Installing gtk+3 dependency: libepoxy
+==> Downloading https://ghcr.io/v2/homebrew/core/libepoxy/manifests/1.5.10
+Already downloaded: /Users/takigawaatsushi/Library/Caches/Homebrew/downloads/fd91321dc6032305294ad3c7c3851bc80f1505f18512e4753036c509ba4b4e2c--libepoxy-1.5.10.bottle_manifest.json
+==> Pouring libepoxy--1.5.10.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/libepoxy/1.5.10: 10 files, 2.5MB
+==> Installing gtk+3
+==> Pouring gtk+3--3.24.38.ventura.bottle.tar.gz
+[34m==>[0m [1m/usr/local/opt/glib/bin/glib-compile-schemas /usr/local/share/glib-2.0/schem[0m
+[34m==>[0m [1m/usr/local/Cellar/gtk+3/3.24.38/bin/gtk3-update-icon-cache -f -t /usr/local/[0m
+[34m==>[0m [1m/usr/local/Cellar/gtk+3/3.24.38/bin/gtk-query-immodules-3.0 > /usr/local/lib[0m
+🍺  /usr/local/Cellar/gtk+3/3.24.38: 727 files, 52.2MB
+==> Running `brew cleanup gtk+3`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+installing 'gtk+3' native package... succeeded
+succeeded
+--------------------
+

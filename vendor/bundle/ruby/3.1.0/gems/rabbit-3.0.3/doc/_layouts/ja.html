@@ -1,0 +1,48 @@
+---
+layout: skeleton
+---
+{% if page.lang_suffix == null %}
+<nav class="menu">
+{% include ja.menu.html %}
+</nav>
+{% endif %}
+{% if page.no_sidebar %}
+  {{ content }}
+{% else %}
+<div id="body">
+  {{ content }}
+  <nav id="sidebar">
+    <h3>最新リリース</h3>
+    <ul>
+      <li>
+        Rabbit <a href="/ja/news.html">{{ site.version }}</a>:
+        {{ site.release_date }}
+      </li>
+      <li>
+        <a href="/ja/rabbiter/">Rabbiter</a> <a href="/ja/rabbiter/news.html">{{ site.rabbiter_version }}</a>:
+        {{ site.rabbiter_release_date }}
+      </li>
+      <li>
+        <a href="/ja/rabbirack">RabbiRack</a> <a href="/ja/rabbirack/news.html">{{ site.rabbirack_version }}</a>:
+        {{ site.rabbirack_release_date }}
+      </li>
+      <li>
+        <a href="/ja/rabwii">RabWii</a> <a href="/ja/rabwii/news.html">{{ site.rabwii_version }}</a>:
+        {{ site.rabwii_release_date }}
+      </li>
+    </ul>
+    <h3>リンク</h3>
+{% include ja.menu.html %}
+    <h3>関連サイト</h3>
+    <ul class="related-sites">
+      <li id="rabbit-slide-show">
+        <a href="https://slide.rabbit-shocker.org/"
+           title="Rabbit Slide Show">
+          <img src="/images/rabbit-slide-show-logo.png"
+               alt="Rabbit Slide Show">
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+{% endif %}

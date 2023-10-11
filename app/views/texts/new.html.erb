@@ -1,5 +1,6 @@
 <%= form_with model: @text, local: true do |form| %>
   <%= form.text_field :text, class: "form-control", rows: 3 %>
+  <%= form.file_field :document, class: "form-control" %>
   <%= form.submit 'テキストを追加', class: 'btn btn-primary' %>
 <% end %>
 

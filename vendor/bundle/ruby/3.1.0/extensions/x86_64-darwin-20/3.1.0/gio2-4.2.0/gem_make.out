@@ -1,0 +1,46 @@
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/gio2-4.2.0/ext/gio2
+/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20231011-90980-8p5xve.rb extconf.rb
+checking for --enable-debug-build option... no
+checking for -Wall option to compiler... yes
+checking for -Wcast-align option to compiler... yes
+checking for -Wextra option to compiler... no
+checking for -Wformat=2 option to compiler... yes
+checking for -Winit-self option to compiler... yes
+checking for -Wlarger-than-65500 option to compiler... yes
+checking for -Wmissing-declarations option to compiler... yes
+checking for -Wmissing-format-attribute option to compiler... yes
+checking for -Wmissing-include-dirs option to compiler... yes
+checking for -Wmissing-noreturn option to compiler... yes
+checking for -Wmissing-prototypes option to compiler... yes
+checking for -Wnested-externs option to compiler... yes
+checking for -Wold-style-definition option to compiler... yes
+checking for -Wpacked option to compiler... yes
+checking for -Wp,-D_FORTIFY_SOURCE=2 option to compiler... yes
+checking for -Wpointer-arith option to compiler... yes
+checking for -Wundef option to compiler... yes
+checking for -Wout-of-line-declaration option to compiler... yes
+checking for -Wunsafe-loop-optimizations option to compiler... no
+checking for -Wwrite-strings option to compiler... yes
+checking for Homebrew... yes
+checking for gio-2.0... yes (2.78.0)
+checking for gobject-introspection-1.0... yes (1.78.1)
+creating ruby-gio2.pc
+creating Makefile
+
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/gio2-4.2.0/ext/gio2
+make DESTDIR\= clean
+
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/gio2-4.2.0/ext/gio2
+make DESTDIR\=
+compiling rb-gio2-application.c
+compiling rb-gio2-pollable-source.c
+compiling rb-gio2.c
+linking shared-object gio2.bundle
+
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/gio2-4.2.0/ext/gio2
+make DESTDIR\= install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 gio2.bundle ./.gem.20231011-90980-1v3qk9
+if test -n ""; then			\
+	  /usr/local/opt/coreutils/bin/gmkdir -p ;				\
+	  /usr/local/opt/coreutils/bin/ginstall -c -m 644 ruby-gio2.pc ;		\
+	fi

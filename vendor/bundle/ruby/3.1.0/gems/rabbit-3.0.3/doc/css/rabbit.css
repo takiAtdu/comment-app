@@ -1,0 +1,368 @@
+@charset "utf-8";
+
+/* color:
+ *   * dark: #aa0202
+ *   * medium: #d26364
+ *   * light: #feced1
+ */
+
+body
+{
+    color: black;
+    background-color: #feced1;
+    background-image: url(../images/background.png);
+    background-repeat: repeat-x;
+    padding: 0;
+    margin: 0;
+}
+
+header
+{
+    display: block;
+    position: relative;
+}
+
+h1
+{
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    background: url(../images/lavie-icon.png) left no-repeat;
+}
+
+h1 a
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+    height: 90px;
+    padding-top: 30px;
+    padding-left: 130px;
+    margin-right: 440px;
+}
+
+h1 span.title
+{
+    letter-spacing: 3px;
+}
+
+h1 span.separator
+{
+    display: none;
+}
+
+h1 span.description
+{
+    display: block;
+    color: #eee;
+    font-size: small;
+    letter-spacing: 5px;
+}
+
+div.facebook-buttons
+{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    border: #aa0202 2px solid;
+    background-color: white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 90px;
+}
+
+pre,
+.highlighter-rouge
+{
+    overflow: auto;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0.2em 0.2em 0.5em rgb(100, 100, 100);
+    -webkit-box-shadow: 0.2em 0.2em 0.5em rgb(100, 100, 100);
+    box-shadow: 0.2em 0.2em 0.5em rgb(100, 100, 100);
+    border: solid 1px #abf562;
+    background: #d8ffb2;
+    padding: 5px 10px;
+}
+
+pre#install
+{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    -moz-border-radius: 10px 0;
+    -webkit-border-radius: 10px 0;
+    border-radius: 10px 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    margin: 0;
+    z-index: 2;
+}
+
+pre.command
+{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-style: none;
+    box-shadow: none;
+}
+
+header div.other-language-links
+{
+    position: absolute;
+    top: 10px;
+    right: 370px;
+    /* width: 50px; */
+}
+
+header div.other-language-links ul,
+header div.other-language-links li
+{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+header div.other-language-links a
+{
+    color: white;
+}
+
+div.latest-release p
+{
+    text-align: center;
+    font-size: x-large;
+    padding: 0;
+    margin: 0;
+}
+
+section#screenshots
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+section#screenshots h2
+{
+    display: none;
+}
+
+section#screenshots ul
+{
+    margin: 0;
+    padding-bottom: 0;
+    padding-top: 15px;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+section#screenshots ul li
+{
+    display: inline;
+}
+
+div.latest-release,
+nav.menu
+{
+    border: #aa0202 0 solid;
+    border-top-width: 1px;
+    border-bottom-width: 2px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px 40px;
+}
+
+nav.menu ul,
+nav.menu ul li
+{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+nav.menu ul li
+{
+    padding-right: 7.5px;
+}
+
+body > div#main,
+div#body,
+footer
+{
+    position: relative;
+    background: url(../images/hare-and-tortoise.png) repeat-x;
+    margin-top: 20px;
+    padding-top: 80px;
+}
+
+div#body div#main
+{
+    margin-right: 300px;
+}
+
+div#body nav#sidebar,
+section.contents,
+section.footnotes
+{
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: #aa0202 2px solid;
+    background-color: white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+section.contents h2,
+section.contents h3,
+section.contents h4,
+section.contents h5,
+div#body nav#sidebar h3
+{
+    color: #aa0202;
+}
+
+section.footnotes
+{
+    margin-top: 30px;
+}
+
+div#body nav#sidebar
+{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 230px;
+}
+
+div#body nav#sidebar ul.related-sites
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+}
+
+div#body nav#sidebar ul.related-sites li
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+nav p.note
+{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+div.latest-release a:link,
+div#main a:link,
+nav a:link
+{
+    color: #aa0202;
+}
+
+div.latest-release a:visited,
+div#main a:visited,
+nav a:visited
+{
+    color: #d26364;
+}
+
+div.latest-release a:hover[href],
+div#main a:hover[href],
+nav a:hover[href]
+{
+    color: white;
+    background-color: #aa0202;
+}
+
+div.latest-release a:active,
+div#main a:active,
+nav a:active
+{
+    color: #aa0202;
+    background-color: white;
+}
+
+footer
+{
+    display: block;
+    z-index: -1;
+}
+
+footer p.copyright
+{
+    text-align: center;
+}
+
+@media screen and (max-width: 640px)
+{
+    h1
+    {
+        margin-left: 0;
+    }
+
+    h1 a
+    {
+        padding-left: 110px;
+        margin-right: 10px;
+    }
+
+    div.facebook-buttons
+    {
+        position: static;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    pre#install
+    {
+        display: none;
+    }
+
+    header div.other-language-links
+    {
+        right: 10px;
+    }
+
+    section#screenshots
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    div.latest-release,
+    nav.menu
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    div#body div#main
+    {
+        margin-right: 0px;
+    }
+
+    div#body nav#sidebar
+    {
+        position: static;
+        width: auto;
+        margin-top: 20px;
+    }
+}

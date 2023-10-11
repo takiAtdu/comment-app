@@ -1,0 +1,3 @@
+Name: Ruby/GObjectIntrospection
+Description: Ruby bindings for GObject Introspection
+Version: 4.2.0

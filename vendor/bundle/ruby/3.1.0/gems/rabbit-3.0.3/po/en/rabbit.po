@@ -1,0 +1,2092 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Rabbit 0.5.4\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2020-09-21 06:47+0900\n"
+"Last-Translator: Kouhei Sutou <kou@cozmixng.org>\n"
+"Language-Team: Kouhei Sutou <kou@cozmixng.org> and Kobayashi Noritada <nori1@d"
+"olphin.c.u-tokyo.ac.jp>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "Specify Rabbit's dRuby URI as [URI]."
+msgstr ""
+
+msgid "Move commands"
+msgstr ""
+
+msgid "Move to previous"
+msgstr ""
+
+msgid "Move to next"
+msgstr ""
+
+msgid "Move to the previous slide"
+msgstr ""
+
+msgid "Move to the next slide"
+msgstr ""
+
+msgid "Move to the first slide"
+msgstr ""
+
+msgid "Move to the last slide"
+msgstr ""
+
+msgid "Move to the Nth slide"
+msgstr ""
+
+msgid "Get commands"
+msgstr ""
+
+msgid "Show source"
+msgstr ""
+
+msgid "Show the current slide source as RD"
+msgstr ""
+
+msgid "Control commands"
+msgstr ""
+
+msgid "Toggle fullscreen"
+msgstr ""
+
+msgid "Toggle index mode"
+msgstr ""
+
+msgid "Toggle whiteout"
+msgstr ""
+
+msgid "Toggle blackout"
+msgstr ""
+
+msgid "Quit"
+msgstr ""
+
+msgid "Image"
+msgstr ""
+
+msgid "Clear Blue Image"
+msgstr ""
+
+msgid "Images related to ((<clear-blue>)) theme"
+msgstr ""
+
+msgid "Provides images related to ((<clear-blue>)) theme."
+msgstr ""
+
+msgid "COZMIXNGImage"
+msgstr ""
+
+msgid "Images related to COZMIXNG"
+msgstr ""
+
+msgid "Provides images related to COZMIXNG."
+msgstr ""
+
+msgid "Dark Gradation background Image"
+msgstr ""
+
+msgid "Images related to dark gradation"
+msgstr ""
+
+msgid "Provides images related to Dark Gradation theme"
+msgstr ""
+
+msgid "DebianImage"
+msgstr ""
+
+msgid "Images related to Debian"
+msgstr ""
+
+msgid "Provides images related to Debian"
+msgstr ""
+
+msgid "Nari Image"
+msgstr ""
+
+msgid "Images related to ((<nari>)) theme"
+msgstr ""
+
+msgid "Provides images related to ((<nari>)) theme."
+msgstr ""
+
+msgid "RabbitImage"
+msgstr ""
+
+msgid "Images related to Rabbit"
+msgstr ""
+
+msgid "Provides images related to Rabbit."
+msgstr ""
+
+msgid "RubyImage"
+msgstr ""
+
+msgid "Images related to Ruby"
+msgstr ""
+
+msgid "Provides images related to Ruby."
+msgstr ""
+
+msgid "RubyKaigi2011Image"
+msgstr ""
+
+msgid "Images related to RubyKaigi2011"
+msgstr ""
+
+msgid "Provides images related to RubyKaigi2011."
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "Previous"
+msgstr ""
+
+msgid "Next slide"
+msgstr ""
+
+msgid "Previous slide"
+msgstr ""
+
+msgid "First slide"
+msgstr ""
+
+msgid "Last slide"
+msgstr ""
+
+msgid "Jump to"
+msgstr ""
+
+msgid "Save as image"
+msgstr ""
+
+msgid "Print"
+msgstr ""
+
+msgid "Iconify"
+msgstr ""
+
+msgid "Change theme"
+msgstr ""
+
+msgid "Merge theme"
+msgstr ""
+
+msgid "Reload theme"
+msgstr ""
+
+msgid "Redraw"
+msgstr ""
+
+msgid "Clear slide"
+msgstr ""
+
+msgid "_Quit"
+msgstr ""
+
+msgid "_Quit with confirmation"
+msgstr ""
+
+msgid "Now processing... Do you really quit?"
+msgstr ""
+
+msgid "Cache all slides"
+msgstr ""
+
+msgid "Graffiti"
+msgstr ""
+
+msgid "Clear graffiti"
+msgstr ""
+
+msgid "Undo graffiti"
+msgstr ""
+
+msgid "Change graffiti color"
+msgstr ""
+
+msgid "Reset adjustment"
+msgstr ""
+
+msgid "Reset timer"
+msgstr ""
+
+msgid "Expand hole"
+msgstr ""
+
+msgid "Narrow hole"
+msgstr ""
+
+msgid "Search slide forward"
+msgstr ""
+
+msgid "Search slide backward"
+msgstr ""
+
+msgid "Search slide forward next"
+msgstr ""
+
+msgid "Search slide backward next"
+msgstr ""
+
+msgid "Stop slide search"
+msgstr ""
+
+msgid "Log Level"
+msgstr ""
+
+msgid "Whiteout"
+msgstr ""
+
+msgid "Blackout"
+msgstr ""
+
+msgid "Show"
+msgstr ""
+
+msgid "Debug"
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "Warning"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Fatal"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Index mode"
+msgstr ""
+
+msgid "Full screen"
+msgstr ""
+
+msgid "Graffiti mode"
+msgstr ""
+
+msgid "Information window"
+msgstr ""
+
+msgid "Spotlight"
+msgstr ""
+
+msgid "Magnifier"
+msgstr ""
+
+msgid "Terminal"
+msgstr ""
+
+msgid "Failed to read author configuration: %s: %s"
+msgstr ""
+
+msgid "Failed to write author configuration: %s: %s"
+msgstr ""
+
+msgid "Unknown action: %s"
+msgstr ""
+
+msgid "Processing..."
+msgstr ""
+
+msgid "See --help for example"
+msgstr ""
+
+msgid ""
+"Usage: %s COMMAND [OPTIONS]\n"
+" e.g.: %s new \\\n"
+"          --id rubykaigi2012 \\\n"
+"          --base-name rabbit-introduction \\\n"
+"          --markup-language rd \\\n"
+"          --width 800 \\\n"
+"          --height 450 \\\n"
+"          --name \"Kouhei Sutou\" \\\n"
+"          --email kou@cozmixng.org \\\n"
+"          --rubygems-user kou \\\n"
+"          --slideshare-user kou \\\n"
+"          --speaker-deck-user kou"
+msgstr ""
+
+msgid "COMMAND"
+msgstr ""
+
+msgid "  new:    create a new slide"
+msgstr ""
+
+msgid "  change: change an existing slide"
+msgstr ""
+
+msgid "User interface"
+msgstr ""
+
+msgid "Don't use GUI"
+msgstr ""
+
+msgid "Slide information"
+msgstr ""
+
+msgid "Slide ID"
+msgstr ""
+
+msgid "(e.g.: %s)"
+msgstr ""
+
+msgid "(must)"
+msgstr ""
+
+msgid "Base name for the slide source file and generated PDF file"
+msgstr ""
+
+msgid "Markup language for the new slide"
+msgstr ""
+
+msgid "(available markup languages: %s)"
+msgstr ""
+
+msgid "(default: %s)"
+msgstr ""
+
+msgid "(optional)"
+msgstr ""
+
+msgid "Title of the new slide"
+msgstr ""
+
+msgid "--title=\"Rabbit Introduction\""
+msgstr ""
+
+msgid "License of the new slide"
+msgstr ""
+
+msgid "Tags of the new slide"
+msgstr ""
+
+msgid "Allotted time in presentaion"
+msgstr ""
+
+msgid "Presentation date with the new slide"
+msgstr ""
+
+msgid "Presentation start time"
+msgstr ""
+
+msgid "Presentation end time"
+msgstr ""
+
+msgid "The default slide width"
+msgstr ""
+
+msgid "The default slide height"
+msgstr ""
+
+msgid "Your information"
+msgstr ""
+
+msgid "Author name of the new slide"
+msgstr ""
+
+msgid "Author e-mail of the new slide"
+msgstr ""
+
+msgid "Account for %s"
+msgstr ""
+
+msgid "It is used to publish your slide to %s"
+msgstr ""
+
+msgid "too many commands: %s"
+msgstr ""
+
+msgid "invalid command: <%s>: available commands: %s"
+msgstr ""
+
+msgid "%s is missing"
+msgstr ""
+
+msgid "TODO: SLIDE TITLE"
+msgstr ""
+
+msgid "TODO: SLIDE DESCRIPTION"
+msgstr ""
+
+msgid "For author"
+msgstr ""
+
+msgid "Publish"
+msgstr ""
+
+msgid "For viewers"
+msgstr ""
+
+msgid "Install"
+msgstr ""
+
+msgid "TITLE"
+msgstr ""
+
+msgid "FIRST SLIDE"
+msgstr ""
+
+msgid "SECOND SLIDE"
+msgstr ""
+
+msgid "SUBTITLE"
+msgstr ""
+
+msgid "AUTHOR"
+msgstr ""
+
+msgid "INSTITUTION"
+msgstr ""
+
+msgid "EVENT NAME"
+msgstr ""
+
+msgid "ITEM %d"
+msgstr ""
+
+msgid ""
+"Usage: %s new [options]\n"
+" e.g.: %s new \\\n"
+"          --id rubykaigi2012 \\\n"
+"          --name \"Kouhei Sutou\" \\\n"
+"          --email kou@cozmixng.org \\\n"
+"          --rubygems-user kou"
+msgstr ""
+
+msgid "Theme information"
+msgstr ""
+
+msgid "Theme ID"
+msgstr ""
+
+msgid "TODO: THEME TITLE"
+msgstr ""
+
+msgid "TODO: THEME DESCRIPTION"
+msgstr ""
+
+msgid "For users"
+msgstr ""
+
+msgid "rabbit-theme-benchmark-en.gem"
+msgstr ""
+
+msgid "Theme"
+msgstr ""
+
+msgid "Add [PATH] to load path."
+msgstr ""
+
+msgid "Use [THEME] as theme."
+msgstr ""
+
+msgid "Use [THEME] for comment."
+msgstr ""
+
+msgid "Use [TIME] as allotted time."
+msgstr ""
+
+msgid "Source"
+msgstr ""
+
+msgid ""
+"When select %s\n"
+"specify %s\n"
+"as [SOURCE_INFOS]."
+msgstr ""
+
+msgid "Specify source type as [TYPE]."
+msgstr ""
+
+msgid "Select from [%s]."
+msgstr ""
+
+msgid "Note: case insensitive."
+msgstr ""
+
+msgid "Specify source encoding as [ENCODING]."
+msgstr ""
+
+msgid "(auto)"
+msgstr ""
+
+msgid "Specify base URI or path of source as [BASE]."
+msgstr ""
+
+msgid "Initial state"
+msgstr ""
+
+msgid "Toggle full screen mode."
+msgstr ""
+
+msgid "Toggle index mode."
+msgstr ""
+
+msgid "Show the Nth slide. (zero-based)"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Set window geometry [GEOMETRY]."
+msgstr ""
+
+msgid "Format: WIDTHxHEIGHT+X+Y"
+msgstr ""
+
+msgid "Set window width to [WIDTH]."
+msgstr ""
+
+msgid "Set window height to [HEIGHT]."
+msgstr ""
+
+msgid ""
+"Set window width and height to\n"
+"[WIDTH] and [HEIGHT]."
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Save as image and exit."
+msgstr ""
+
+msgid "Specify saved image type as [TYPE]."
+msgstr ""
+
+msgid "Specify saved image base name as [BASE_NAME]."
+msgstr ""
+
+msgid "Title of slide"
+msgstr ""
+
+msgid "Output HTML for viewing saved images."
+msgstr ""
+
+msgid "Output index HTML for navigating slides."
+msgstr ""
+
+msgid "Specify base URI of RSS as [URI]."
+msgstr ""
+
+msgid "RSS is generated only when HTML is output."
+msgstr ""
+
+msgid "Specify source filenam as [FILENAME]."
+msgstr ""
+
+msgid "Print and exit."
+msgstr ""
+
+msgid "Specify printed out filename as [FILENAME]."
+msgstr ""
+
+msgid "Set slides per page."
+msgstr ""
+
+msgid "Draw scaled image."
+msgstr ""
+
+msgid "Better look for displaying but lesser look for printing."
+msgstr ""
+
+msgid "Paper"
+msgstr ""
+
+msgid "Set paper width to [WIDTH] Pt."
+msgstr ""
+
+msgid "(landscape A4 width)"
+msgstr ""
+
+msgid "Set paper height to [HEIGHT] Pt."
+msgstr ""
+
+msgid "(landscape A4 height)"
+msgstr ""
+
+msgid ""
+"Set paper width and height to\n"
+"[WIDTH] Pt and [HEIGHT] Pt."
+msgstr ""
+
+msgid "(landscape A4 size)"
+msgstr ""
+
+msgid "Margin"
+msgstr ""
+
+msgid "Set left margin for slides per page mode print."
+msgstr ""
+
+msgid "Set right margin for slides per page mode print."
+msgstr ""
+
+msgid "Set top margin for slides per page mode print."
+msgstr ""
+
+msgid "Set bottom margin for slides per page mode print."
+msgstr ""
+
+msgid "[ALL]"
+msgstr ""
+
+msgid "[TOP_BOTTOM],[LEFT_RIGHT]"
+msgstr ""
+
+msgid "[TOP],[LEFT_RIGHT],[BOTTOM]"
+msgstr ""
+
+msgid "[TOP],[RIGHT],[BOTTOM],[LEFT]"
+msgstr ""
+
+msgid "Set margin for slides per page mode print."
+msgstr ""
+
+msgid "Set left page margin."
+msgstr ""
+
+msgid "Set right page margin."
+msgstr ""
+
+msgid "Set top page margin."
+msgstr ""
+
+msgid "Set bottom page margin."
+msgstr ""
+
+msgid "Set page margin."
+msgstr ""
+
+msgid "dRuby"
+msgstr ""
+
+msgid "Specify whether to use dRuby."
+msgstr ""
+
+msgid "Specify dRuby URI."
+msgstr ""
+
+msgid "Specify whether to output dRuby URI."
+msgstr ""
+
+msgid "SOAP"
+msgstr ""
+
+msgid "Specify whether to use SOAP."
+msgstr ""
+
+msgid "Specify SOAP host as [HOST]."
+msgstr ""
+
+msgid "Specify SOAP port as [PORT]."
+msgstr ""
+
+msgid "XML-RPC"
+msgstr ""
+
+msgid "Specify whether to use XML-RPC."
+msgstr ""
+
+msgid "Specify XML-RPC host as [HOST]."
+msgstr ""
+
+msgid "Specify XML-RPC port as [PORT]."
+msgstr ""
+
+msgid "Public level"
+msgstr ""
+
+msgid "Specify public level."
+msgstr ""
+
+msgid "Select from the following:"
+msgstr ""
+
+msgid "(%s)"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Deprecated. Just ignored."
+msgstr ""
+
+msgid "Specify initial comment source."
+msgstr ""
+
+msgid "(default source)"
+msgstr ""
+
+msgid "Specify comment source encoding."
+msgstr ""
+
+msgid "Migemo"
+msgstr ""
+
+msgid "Specify search paths for Migemo static dictionary."
+msgstr ""
+
+msgid "Specify static dictionary name for Migemo."
+msgstr ""
+
+msgid "3D"
+msgstr ""
+
+msgid "Specify whether to use OpenGL if available."
+msgstr ""
+
+msgid "Others"
+msgstr ""
+
+msgid "Check slide source syntax and exit."
+msgstr ""
+
+msgid "Show a native window ID of the Rabbit window if available."
+msgstr ""
+
+msgid "e.g. The ID is the ID of X resource on X window system."
+msgstr ""
+
+msgid "Choose a Rabbit source file"
+msgstr ""
+
+msgid "dRuby URI <%s> is in use."
+msgstr ""
+
+msgid "port <%s> for SOAP is in use."
+msgstr ""
+
+msgid "port <%s> for XML-RPC is in use."
+msgstr ""
+
+msgid "Window ID: %d"
+msgstr ""
+
+msgid "Usage: %s [options]"
+msgstr ""
+
+msgid "Common options"
+msgstr ""
+
+msgid "Load options from FILE."
+msgstr ""
+
+msgid "(none)"
+msgstr ""
+
+msgid "Specify locale dir as [DIR]."
+msgstr ""
+
+msgid "Specify logger type as [TYPE]."
+msgstr ""
+
+msgid "Specify log level as [LEVEL]."
+msgstr ""
+
+msgid "Show this message."
+msgstr ""
+
+msgid "Show version."
+msgstr ""
+
+msgid "Index"
+msgstr ""
+
+msgid "no such file: %s"
+msgstr ""
+
+msgid "can't handle %s because the following command can't be run successfully: %s"
+msgstr ""
+
+msgid "tried gs commands: %s"
+msgstr ""
+
+msgid "tried dia commands: %s"
+msgstr ""
+
+msgid "tried gimp commands: %s"
+msgstr ""
+
+msgid "Unknown property: %s"
+msgstr ""
+
+msgid "can't allocate color: %s"
+msgstr ""
+
+msgid "not exist: %s"
+msgstr ""
+
+msgid "not a file: %s"
+msgstr ""
+
+msgid "can not be read: %s"
+msgstr ""
+
+msgid "immutable source type: %s"
+msgstr ""
+
+msgid "not available interface: %s"
+msgstr ""
+
+msgid "can't find HTML template: %s"
+msgstr ""
+
+msgid "can't find theme RD template: %s"
+msgstr ""
+
+msgid "invalid motion: %s"
+msgstr ""
+
+msgid "invalid value of size property \"%{prop_name}\" of \"%{filename}\": %{value}"
+msgstr ""
+
+msgid "unknown cursor type: %s"
+msgstr ""
+
+msgid "print isn't supported"
+msgstr ""
+
+msgid "Installing gem: %s"
+msgstr ""
+
+msgid "Installing gem in user install mode: %s"
+msgstr ""
+
+msgid "Enter password on RubyGems.org [%{user}]: "
+msgstr ""
+
+msgid "Enter OTP on RubyGems.org [%{user}]: "
+msgstr ""
+
+msgid "Line width:"
+msgstr ""
+
+msgid "Creating a image for the %dth page"
+msgstr ""
+
+msgid "can't generate RSS"
+msgstr ""
+
+msgid "Slide"
+msgstr ""
+
+msgid "PDF"
+msgstr ""
+
+msgid "tried mermaid command: %s"
+msgstr ""
+
+msgid "invalid PDF page number: <%s>"
+msgstr ""
+
+msgid "%s page doesn't exist in PDF"
+msgstr ""
+
+msgid "%s: Information window"
+msgstr ""
+
+msgid "unlimited"
+msgstr ""
+
+msgid "DEBUG"
+msgstr ""
+
+msgid "INFO"
+msgstr ""
+
+msgid "WARNING"
+msgstr ""
+
+msgid "ERROR"
+msgstr ""
+
+msgid "FATAL"
+msgstr ""
+
+msgid "UNKNOWN"
+msgstr ""
+
+msgid "Rabbit Error Dialog"
+msgstr ""
+
+msgid "can't convert to current locale from UTF-8: %s"
+msgstr ""
+
+msgid "Jump to the %dth slide"
+msgstr ""
+
+msgid "unsupported format. (supported: %s)"
+msgstr ""
+
+msgid "tried aafigure command: %s"
+msgstr ""
+
+msgid "tried blockdiag command: %s"
+msgstr ""
+
+msgid "emacs: unsupported element name: %s"
+msgstr ""
+
+msgid "enscript: unsupported language: %s"
+msgstr ""
+
+msgid "enscript: unsupported element name: %s"
+msgstr ""
+
+msgid "multiple right aligns aren't supported."
+msgstr ""
+
+msgid "tried mimeTeX commands: %s"
+msgstr ""
+
+msgid "multiple ![alt]{image}s in a paragraph isn't supported."
+msgstr ""
+
+msgid "![alt]{image} and other contents in a paragraph isn't supported: %{types}"
+msgstr ""
+
+msgid "horizontal rule isn't supported."
+msgstr ""
+
+msgid "tag name is missing."
+msgstr ""
+
+msgid "HTML isn't supported."
+msgstr ""
+
+msgid "RTtool isn't available"
+msgstr ""
+
+msgid "[BUG] [%s] %s extension isn't available."
+msgstr ""
+
+msgid "horizontal rule is unsupported"
+msgstr ""
+
+msgid "unsupported list type: %s"
+msgstr ""
+
+msgid "inline {{image(...)}} isn't supported."
+msgstr ""
+
+msgid "multiple {{image(..., :align => :right)}} isn't supported."
+msgstr ""
+
+msgid "Creating directory: %s"
+msgstr ""
+
+msgid "Creating file:      %s"
+msgstr ""
+
+msgid "No README found"
+msgstr ""
+
+msgid "%s does not support: %s"
+msgstr ""
+
+msgid "can't find printer for %s"
+msgstr ""
+
+msgid "Failed to read slide configuration: %s: %s"
+msgstr ""
+
+msgid "Failed to write slide configuration: %s: %s"
+msgstr ""
+
+msgid "none (get from STDIN) or [FILE_NAMES]"
+msgstr ""
+
+msgid "[FILENAME]"
+msgstr ""
+
+msgid "[FILENAME_OR_NOT]"
+msgstr ""
+
+msgid "URI"
+msgstr ""
+
+msgid "Rabbit"
+msgstr ""
+
+msgid "To run rabbit, create '%{options_path}'!"
+msgstr ""
+
+msgid "Show slide"
+msgstr ""
+
+msgid "Create gem: %{gem_path}"
+msgstr ""
+
+msgid "Write %{item} in %{where}: %{content}"
+msgstr ""
+
+msgid "Generate PDF: %{pdf_path}"
+msgstr ""
+
+msgid "Publish the slide to all available targets"
+msgstr ""
+
+msgid "Publish the slide to %s"
+msgstr ""
+
+msgid "Show theme benchmark slide with this theme"
+msgstr ""
+
+msgid "Generate all PDFs"
+msgstr ""
+
+msgid "Publish the theme to all available targets"
+msgstr ""
+
+msgid "Publish the theme to %s"
+msgstr ""
+
+msgid "%s is deprecated. Use %s instead."
+msgstr ""
+
+msgid "Backward compatibility"
+msgstr ""
+
+msgid "Auto Slide"
+msgstr ""
+
+msgid "Backward compatibility theme for ((<slide-show>))"
+msgstr ""
+
+msgid "See ((<slide-show>))"
+msgstr ""
+
+msgid "Toolkit"
+msgstr ""
+
+msgid "Base"
+msgstr ""
+
+msgid "Define default variables"
+msgstr ""
+
+msgid "This theme is always included at the first."
+msgstr ""
+
+msgid "Blue Bar"
+msgstr ""
+
+msgid "Blue bar theme"
+msgstr ""
+
+msgid "Blue Circle"
+msgstr ""
+
+msgid "Blue Circle theme"
+msgstr ""
+
+msgid "Centering Rabbit"
+msgstr ""
+
+msgid "Rabbit theme with text centering."
+msgstr ""
+
+msgid "Clear Blue"
+msgstr ""
+
+msgid "Clear blue theme"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "TextClock"
+msgstr ""
+
+msgid "Clock toolkit, a text version"
+msgstr ""
+
+msgid "Displays current time with text."
+msgstr ""
+
+msgid "Properties for the clock, such as font family."
+msgstr ""
+
+msgid ""
+"Whether uninstalling this toolkit or not. This option is useful for cases you "
+"do not want to make the toolkit work for certain slides."
+msgstr ""
+
+msgid "Clutter Comment"
+msgstr ""
+
+msgid "Show comment as a rolling Clutter actor."
+msgstr ""
+
+msgid "Color Circle block quote"
+msgstr ""
+
+msgid "Toolkit to display itemization in quotation"
+msgstr ""
+
+msgid "Support itemization in quotation."
+msgstr ""
+
+msgid "Color Circle common"
+msgstr ""
+
+msgid "Provide common methods for Color Circle toolkit."
+msgstr ""
+
+msgid "Color Circle Description"
+msgstr ""
+
+msgid "Toolkit to set ((<color-circle>)) theme's description-list style up."
+msgstr ""
+
+msgid "Color Circle Foot Text"
+msgstr ""
+
+msgid "Toolkit to set ((<color-circle>)) theme's foot text style up."
+msgstr ""
+
+msgid "Color Circle Item Mark"
+msgstr ""
+
+msgid "Toolkit to set ((<color-circle>)) theme's item marks style up."
+msgstr ""
+
+msgid "Color Circle Method List"
+msgstr ""
+
+msgid "Toolkit to set ((<color-circle>)) theme's method-list style up."
+msgstr ""
+
+msgid "Color Circle Preformatted"
+msgstr ""
+
+msgid "Toolkit to set ((<color-circle>)) theme's preformatted text style up."
+msgstr ""
+
+msgid "Color Circle Slide"
+msgstr ""
+
+msgid "Toolkit to set ((<color-circle>)) theme's slide style up."
+msgstr ""
+
+msgid "Color Circle Text"
+msgstr ""
+
+msgid "Toolkit to set ((<color-circle>)) theme's text style up."
+msgstr ""
+
+msgid "Color Circle Title Slide"
+msgstr ""
+
+msgid "Toolkit to set ((<color-circle>)) theme's title slide style up."
+msgstr ""
+
+msgid "Color Circle Title text"
+msgstr ""
+
+msgid "Toolkit to set ((<color-circle>)) theme's title text style up."
+msgstr ""
+
+msgid "required variables aren't set: %s"
+msgstr ""
+
+msgid "Color Circle"
+msgstr ""
+
+msgid "Toolkit to make a theme that has colored circles"
+msgstr ""
+
+msgid "There are many colored circles in slides."
+msgstr ""
+
+msgid "COZMIXNGPoweredBy"
+msgstr ""
+
+msgid "Powered-by-COZMIXNG ad toolkit"
+msgstr ""
+
+msgid ""
+"Displays a text and images showing the presentation slides are powered by COZM"
+"IXNG and Rabbit at the foot of the title slide and of the last slide."
+msgstr ""
+
+msgid "COZMIXNG"
+msgstr ""
+
+msgid "COZMIXNG theme"
+msgstr ""
+
+msgid "Dark Gradation"
+msgstr ""
+
+msgid "Dark Gradation background theme"
+msgstr ""
+
+msgid "Day White"
+msgstr ""
+
+msgid "Day White theme"
+msgstr ""
+
+msgid "Debian Theme"
+msgstr ""
+
+msgid "Debian GNU/Linux Theme"
+msgstr ""
+
+msgid "[cited from `%s']"
+msgstr ""
+
+msgid "Default Block Quote"
+msgstr ""
+
+msgid "Displays block quote text with frame."
+msgstr ""
+
+msgid "DefaultComment"
+msgstr ""
+
+msgid "Toolkit to set up default comment theme."
+msgstr ""
+
+msgid "Sets up default comment theme."
+msgstr ""
+
+msgid "DefaultDescription"
+msgstr ""
+
+msgid "Toolkit to display description-list items with orange underlines."
+msgstr ""
+
+msgid "Displays description-list items with orange underlines."
+msgstr ""
+
+msgid "Default Foot Text"
+msgstr ""
+
+msgid "Displays foot text at the footer of slide."
+msgstr ""
+
+msgid "DefaultIcon"
+msgstr ""
+
+msgid "Toolkit to use pink circle and polygon as icons"
+msgstr ""
+
+msgid "Uses pink circle and polygon as icons."
+msgstr ""
+
+msgid ""
+"unknown item mark type: %s\n"
+"Rectangle type is used as fallback"
+msgstr ""
+
+msgid ""
+"unknown enumeration item mark type: %s\n"
+"Numeric type is used as fallback"
+msgstr ""
+
+msgid "Default Item Mark Setup"
+msgstr ""
+
+msgid "Provides methods to set item mark style up."
+msgstr ""
+
+msgid "DefaultItemMark"
+msgstr ""
+
+msgid "Toolkit to display squares as list item marks"
+msgstr ""
+
+msgid "Displays squares at the head of list items."
+msgstr ""
+
+msgid "Default Method List"
+msgstr ""
+
+msgid "Displays method description with indent."
+msgstr ""
+
+msgid "Default Preformatted"
+msgstr ""
+
+msgid "Displays preformatted text with frame."
+msgstr ""
+
+msgid "Default Slide"
+msgstr ""
+
+msgid "Displays headline with line."
+msgstr ""
+
+msgid "Default Text"
+msgstr ""
+
+msgid "Sets default text style up."
+msgstr ""
+
+msgid "DefaultTitleSlide"
+msgstr ""
+
+msgid "Toolkit to locate objects in the title slide in a simple way"
+msgstr ""
+
+msgid ""
+"Locates objects in the title slide simply by centering them and by making conf"
+"iguration for margins around them a little."
+msgstr ""
+
+msgid "Default Title Text"
+msgstr ""
+
+msgid "Sets default title text style up."
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "default theme"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+msgid "Abstract"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Dependency themes"
+msgstr ""
+
+msgid "Parameters"
+msgstr ""
+
+msgid "Default: "
+msgstr ""
+
+msgid "Edge Info Toolkit"
+msgstr ""
+
+msgid "Displays information with line at the edge of slide."
+msgstr ""
+
+msgid "Emphasize Keyword"
+msgstr ""
+
+msgid ""
+"Provides emphasize_keyword method that markups specified keyword as emphasis t"
+"ext."
+msgstr ""
+
+msgid "Enishi Green"
+msgstr ""
+
+msgid "EnishTech green based theme"
+msgstr ""
+
+msgid "Etc"
+msgstr ""
+
+msgid "Footer Comment"
+msgstr ""
+
+msgid "Show comment on the footer."
+msgstr ""
+
+msgid "Footer Logo"
+msgstr ""
+
+msgid "Toolkit to display an image as logo at the footer"
+msgstr ""
+
+msgid "Displays an image as a logo at the footer of slides."
+msgstr ""
+
+msgid "(Must be specified.)"
+msgstr ""
+
+msgid "Image file name."
+msgstr ""
+
+msgid "Whether keep ratio of an image or not."
+msgstr ""
+
+msgid "Right margin of an image."
+msgstr ""
+
+msgid "Bottom margin of an image."
+msgstr ""
+
+msgid "Whether uninstall this theme or not."
+msgstr ""
+
+msgid "Green Circle"
+msgstr ""
+
+msgid "Green Circle theme"
+msgstr ""
+
+msgid "HeadlineLogo"
+msgstr ""
+
+msgid "Toolkit to display an image as a logo at the headlines"
+msgstr ""
+
+msgid "Displays an image as a logo at the headlines of slides."
+msgstr ""
+
+msgid "Icon"
+msgstr ""
+
+msgid "Toolkit to specify an image or images as icons"
+msgstr ""
+
+msgid ""
+"Specifies an image or images as icons of the window, which will be used by som"
+"e window managers and desktop environments, for example when the window is min"
+"imized (or 'iconified'), in the window frame, or when windows are switched. Th"
+"e specified image or images are automatically scaled to the icon sizes case by"
+" case. When several images are specified and they have different sizes, an ima"
+"ge with the most similar size to that of icon among them is chosen and scaled "
+"in order to improve the quality of image finally displayed."
+msgstr ""
+
+msgid "List of image file names."
+msgstr ""
+
+msgid "ImageSlideNumber"
+msgstr ""
+
+msgid "Toolkit to display slide numbers, an image version"
+msgstr ""
+
+msgid ""
+"Displays the progress of presentation with position of an image. This is usefu"
+"l both for speakers and for listeners to know elapsed slide numbers and slide "
+"numbers left. By default, an image of a hare, which is a family of rabbit, jum"
+"ps along the bottom of slides between two flags.\n"
+"\n"
+"Using together with another theme, ((<image-timer>)), you can make a hare and "
+"a tortoise race like the fable of the hare and the tortoise. When doing so, ho"
+"wever, note that you should make your presentation not so slowly that the hare"
+" will lose to the tortoise."
+msgstr ""
+
+msgid ""
+"File name of an image that moves. An image of a hare in the ((<rabbit-images>)"
+") theme is used by default."
+msgstr ""
+
+msgid ""
+"Whether drawing start and goal flags with text or not. When (({true})), flags "
+"are drawn with text with a form of (({@image_slide_number_flag_type})) and on "
+"which slide numbers are also drawn with color ((|@image_slide_number_text_colo"
+"r|)). Otherwise, image files specified with ((|@image_slide_number_start_image"
+"|)) and ((|@image_slide_number_goal_image|)) are used as flags."
+msgstr ""
+
+msgid "Color of numbers displayed on the start and goal flags."
+msgstr ""
+
+msgid ""
+"Form of the start and goal flags. Avaiable forms are (({'triangle'})) and (({'"
+"rectangle'}))."
+msgstr ""
+
+msgid "File name of an image used as the start flag."
+msgstr ""
+
+msgid "File name of an image used as the goal flag."
+msgstr ""
+
+msgid "ImageTimer"
+msgstr ""
+
+msgid "Timer toolkit, an image version"
+msgstr ""
+
+msgid ""
+"Displays the progress of time with position of an image. This is useful both f"
+"or speakers and for listeners to know elapsed time and time left. By default, "
+"a tortoise image walks along the bottom of slides slowly step by step.\n"
+"\n"
+"Using together with another theme, ((<image-slide-number>)), you can make a ha"
+"re and a tortoise race like the fable of the hare and the tortoise. When doing"
+" so, however, note that you should make your presentation not so slowly that t"
+"he hare will lose to the tortoise."
+msgstr ""
+
+msgid "Limit time by second."
+msgstr ""
+
+msgid "Whether updating image position automatically or not."
+msgstr ""
+
+msgid "Whether scrolling automatically or not."
+msgstr ""
+
+msgid "Direction of automatic scrolling."
+msgstr ""
+
+msgid ""
+"File name of an image that moves. A tortoise image in the ((<rabbit-images>)) "
+"theme is used by default."
+msgstr ""
+
+msgid "Time interval between automatic update."
+msgstr ""
+
+msgid "Image viewer"
+msgstr ""
+
+msgid "Theme for image viewer mode"
+msgstr ""
+
+msgid "image rendering"
+msgstr ""
+
+msgid "Lightning Clear Blue"
+msgstr ""
+
+msgid "Clear blue theme with Lightning Talk theme"
+msgstr ""
+
+msgid "LightningTalk-Monochrome"
+msgstr ""
+
+msgid "Lightning Talk theme monochrome version"
+msgstr ""
+
+msgid "LightningRabbit"
+msgstr ""
+
+msgid "Rabbit theme with Lightning Talk theme"
+msgstr ""
+
+msgid "LightningTalk-Simple"
+msgstr ""
+
+msgid "Lightning Talk theme simple version"
+msgstr ""
+
+msgid "LightningTalk-Toolkit"
+msgstr ""
+
+msgid "Displays slides for lightning talk"
+msgstr ""
+
+msgid "LightningTalk"
+msgstr ""
+
+msgid "Lightning Talk theme"
+msgstr ""
+
+msgid "Effect"
+msgstr ""
+
+msgid "Mirror Effect"
+msgstr ""
+
+msgid "Provide mirror_effect method that flips content."
+msgstr ""
+
+msgid "Nari"
+msgstr ""
+
+msgid "Nari's theme"
+msgstr ""
+
+msgid "Convenience"
+msgstr ""
+
+msgid "Newline in Slides"
+msgstr ""
+
+msgid ""
+"Convenience '\n"
+"' newline notation."
+msgstr ""
+
+msgid ""
+"Enable '\n"
+"' notation to insert newline in all slides."
+msgstr ""
+
+msgid "Newline in Title"
+msgstr ""
+
+msgid ""
+"Enable '\n"
+"' notation to insert newline in title."
+msgstr ""
+
+msgid "Night Black"
+msgstr ""
+
+msgid "Night Black theme"
+msgstr ""
+
+msgid "Theme for PDF"
+msgstr ""
+
+msgid "PerSlideBackgroundColor"
+msgstr ""
+
+msgid "Toolkit to set background color of each slide"
+msgstr ""
+
+msgid ""
+"Set background color of each slide.\n"
+"\n"
+"Each color is specified as a slide property:\n"
+"  = target slide\n"
+"  \n"
+"  ...\n"
+"  \n"
+"  == properties\n"
+"  \n"
+"  : background-color\n"
+"     black\n"
+msgstr ""
+
+msgid "PerSlideBackgroundImage"
+msgstr ""
+
+msgid "Toolkit to display an image as a background of each slide"
+msgstr ""
+
+msgid ""
+"Displays an image as a background of each slide.\n"
+"\n"
+"Each image is specified as a slide property:\n"
+"  = target slide\n"
+"  \n"
+"  ...\n"
+"  \n"
+"  == properties\n"
+"  \n"
+"  : background-image\n"
+"     my-picture.png\n"
+msgstr ""
+
+msgid "PoweredBy"
+msgstr ""
+
+msgid "Powered-by ad toolkit"
+msgstr ""
+
+msgid ""
+"Displays programs the presentation slides are powered by (or displays some oth"
+"er ads) at the foot of the title slide and of the last slide. Images and/or a "
+"text are available as ads."
+msgstr ""
+
+msgid "Properties of the ad text, such as font family."
+msgstr ""
+
+msgid "Ad text."
+msgstr ""
+
+msgid "Rabbit Block Quote"
+msgstr ""
+
+msgid "Displays quotation block with quote mark in frame."
+msgstr ""
+
+msgid "RabbitHeadlineLogo"
+msgstr ""
+
+msgid "Toolkit to display Lavie as a logo at the headlines"
+msgstr ""
+
+msgid "Displays Lavie as a logo at the headlines of slides."
+msgstr ""
+
+msgid "RabbitIcon"
+msgstr ""
+
+msgid "Toolkit to use Lavie as icons"
+msgstr ""
+
+msgid "Uses Lavie as icons."
+msgstr ""
+
+msgid "RabbitItemMark"
+msgstr ""
+
+msgid "Toolkit to display colorful balls as list item marks"
+msgstr ""
+
+msgid "Displays colorful balls at the head of list items."
+msgstr ""
+
+msgid "RabbitPoweredBy"
+msgstr ""
+
+msgid "Powered-by-Rabbit ad toolkit"
+msgstr ""
+
+msgid ""
+"Displays a text and an image showing the presentation slides are powered by Ra"
+"bbit and COZMIXNG at the foot of the title slide and of the last slide."
+msgstr ""
+
+msgid "RabbitTitleLogo"
+msgstr ""
+
+msgid "Toolkit to display Lavie as a logo in the title slide"
+msgstr ""
+
+msgid "Displays Lavie as a logo in the title slide."
+msgstr ""
+
+msgid "Rabbit theme"
+msgstr ""
+
+msgid "Ranguba"
+msgstr ""
+
+msgid "Ranguba theme"
+msgstr ""
+
+msgid "RedFrame"
+msgstr ""
+
+msgid "Red frame theme"
+msgstr ""
+
+msgid "Rotate Zoom Effect"
+msgstr ""
+
+msgid "Provide rotate_zoom_effect method that rotates and zooms content."
+msgstr ""
+
+msgid "RubyGNOME2Description"
+msgstr ""
+
+msgid ""
+"Toolkit to display description-list items like ones in the website of the Ruby"
+"-GNOME2 Project"
+msgstr ""
+
+msgid ""
+"Displays description-list items like ones in the website of the Ruby-GNOME2 Pr"
+"oject; i.e. displays their text colored blue."
+msgstr ""
+
+msgid "Ruby-GNOME2 Foot Text"
+msgstr ""
+
+msgid "Displays foot text at the footer of slide with Ruby-GNOME2 style."
+msgstr ""
+
+msgid "RubyGNOME2Headline"
+msgstr ""
+
+msgid ""
+"Toolkit to display headlines like those in the website of the Ruby-GNOME2 Proj"
+"ect"
+msgstr ""
+
+msgid ""
+"Displays headlines like ones in the website of the Ruby-GNOME2 Project; i.e. d"
+"isplays their text colored white and placed in the dark red boxes with pink fr"
+"ames."
+msgstr ""
+
+msgid "RubyGNOME2Icon"
+msgstr ""
+
+msgid "Toolkit to use a pink circle as icons"
+msgstr ""
+
+msgid "Uses a pink circle as icons."
+msgstr ""
+
+msgid "RubyGNOME2ItemMark"
+msgstr ""
+
+msgid ""
+"Toolkit to display list items like ones in the website of the Ruby-GNOME2 Proj"
+"ect"
+msgstr ""
+
+msgid ""
+"Displays list items like ones in the website of the Ruby-GNOME2 Project; i.e. "
+"displays text of the first-level items colored blue and underlined, the second"
+"- and third-level items marked with black squares and circles."
+msgstr ""
+
+msgid "Ruby-GNOME2 Preformatted"
+msgstr ""
+
+msgid "Displays preformatted text with Ruby-GNOME2 style."
+msgstr ""
+
+msgid "Ruby-GNOME2 Slide"
+msgstr ""
+
+msgid "Displays slides with Ruby-GNOME2 style."
+msgstr ""
+
+msgid "Ruby-GNOME2"
+msgstr ""
+
+msgid "Ruby-GNOME2 theme"
+msgstr ""
+
+msgid "RubyKaigi2011"
+msgstr ""
+
+msgid "RubyKaigi2011 theme"
+msgstr ""
+
+msgid "Scroll Effect"
+msgstr ""
+
+msgid "Provide scroll_effect method that scrolls content."
+msgstr ""
+
+msgid "ShowFrame"
+msgstr ""
+
+msgid "Debug toolkit to show element frames"
+msgstr ""
+
+msgid "Show element frames useful for debug."
+msgstr ""
+
+msgid "Frame color."
+msgstr ""
+
+msgid "SimpleItemMark"
+msgstr ""
+
+msgid "Toolkit to display simple black circles as list item marks"
+msgstr ""
+
+msgid "Displays simple black circles at the head of list items."
+msgstr ""
+
+msgid "SlideBackgroundImage"
+msgstr ""
+
+msgid "Toolkit to display an image as a background of slides"
+msgstr ""
+
+msgid "Displays an image as a background of slides."
+msgstr ""
+
+msgid "SlideBackground"
+msgstr ""
+
+msgid "Backward compatibility theme for ((<slide-background-image>))"
+msgstr ""
+
+msgid "See ((<slide-background-image>))"
+msgstr ""
+
+msgid "Slide Footer Info"
+msgstr ""
+
+msgid "Toolkit to display information at the footer"
+msgstr ""
+
+msgid "Displays information with a line at the footer of slides."
+msgstr ""
+
+msgid "Line color."
+msgstr ""
+
+msgid "Line width."
+msgstr ""
+
+msgid "white <-> black gradation"
+msgstr ""
+
+msgid ""
+"Line fill pattern. @slide_footer_info_line_color is ignored if this parameter "
+"is specified."
+msgstr ""
+
+msgid "Text size."
+msgstr ""
+
+msgid "x-axis margin."
+msgstr ""
+
+msgid "Text color."
+msgstr ""
+
+msgid "Whether show a text over line or not."
+msgstr ""
+
+msgid "Base y-axis position to stroke line."
+msgstr ""
+
+msgid "Toolkit to display information at the header"
+msgstr ""
+
+msgid "Displays information with a line at the header of slides."
+msgstr ""
+
+msgid ""
+"Line fill pattern. @slide_header_info_line_color is ignored if this parameter "
+"is specified."
+msgstr ""
+
+msgid "Slide Logo"
+msgstr ""
+
+msgid "Toolkit to display an image as logo at the top"
+msgstr ""
+
+msgid "Displays an image as a logo at the top of all slides."
+msgstr ""
+
+msgid "Image position. :right or :left."
+msgstr ""
+
+msgid "Image width."
+msgstr ""
+
+msgid "Image height."
+msgstr ""
+
+msgid "must specify %s!!!"
+msgstr ""
+
+msgid "TextSlideNumber"
+msgstr ""
+
+msgid "Toolkit to display slide numbers, a text version"
+msgstr ""
+
+msgid "Displays slide numbers with text at the bottom of the slides."
+msgstr ""
+
+msgid "Properties of the slide numbers, such as font family."
+msgstr ""
+
+msgid "Slide Show"
+msgstr ""
+
+msgid "Toolkit to do slide show"
+msgstr ""
+
+msgid "Move to the next slide automatically."
+msgstr ""
+
+msgid "Stream Comment"
+msgstr ""
+
+msgid "Stream comments on canvas."
+msgstr ""
+
+msgid "Syntax Highlighting"
+msgstr ""
+
+msgid "Toolkit for syntax highlighting"
+msgstr ""
+
+msgid "Applies syntax highlighting style."
+msgstr ""
+
+msgid "Table"
+msgstr ""
+
+msgid "table rendering"
+msgstr ""
+
+msgid "Tag"
+msgstr ""
+
+msgid "Toolkit to apply custom tag"
+msgstr ""
+
+msgid "Applies custom tag style."
+msgstr ""
+
+msgid "TextTimer"
+msgstr ""
+
+msgid "text version timer"
+msgstr ""
+
+msgid "TitleBackgroundColor"
+msgstr ""
+
+msgid "Toolkit to color a background of the title slide"
+msgstr ""
+
+msgid "Color a background of the title slide."
+msgstr ""
+
+msgid "Background color."
+msgstr ""
+
+msgid "TitleBackgroundImage"
+msgstr ""
+
+msgid "Toolkit to display an image as a background of the title slide"
+msgstr ""
+
+msgid "Displays an image as a background of the title slide."
+msgstr ""
+
+msgid "TitleLogo"
+msgstr ""
+
+msgid "Toolkit to display an image as a logo in the title slide"
+msgstr ""
+
+msgid "Displays an image as a logo in the title slide."
+msgstr ""
+
+msgid ""
+"Position of the logo. The logo will be set at the upper-right corner when '(({"
+":right}))', and at the upper-left corner when '(({:left}))'."
+msgstr ""
+
+msgid "Title on Image Toolkit"
+msgstr ""
+
+msgid "Displays title on image"
+msgstr ""
+
+msgid "TitleShadow"
+msgstr ""
+
+msgid "Toolkit to display shadows behind the title"
+msgstr ""
+
+msgid "Displays shadows behind the title string in the title slide."
+msgstr ""
+
+msgid "Color of shadow."
+msgstr ""
+
+msgid "TitleSlideBackgroundImage"
+msgstr ""

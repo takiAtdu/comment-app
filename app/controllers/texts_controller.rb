@@ -6,6 +6,12 @@ class TextsController < ApplicationController
   def create
     @text = Text.new(text_params)
     @text.save
+    s3_client = Aws::S3::Client.new(region: ENV["REGION"], access_key_id: ENV["ACCESS_KEY_ID"], secret_access_key: ENV["SECRET_ACCESS_KEY"])
+    file = s3_client.get_object(bucket: ENV["BUCKET"], key: @text.document.key).body.read
+    tempfile = create_tempfile(file)
+    reader = Pdftotext.text(tempfile)
+    puts reader
+    @text.update(text: reader)
     redirect_to new_text_path
   end
 
@@ -24,6 +30,6 @@ class TextsController < ApplicationController
 
   private
   def text_params
-    params.require(:text).permit(:text)
+    params.require(:text).permit(:text, :document)
   end
 end

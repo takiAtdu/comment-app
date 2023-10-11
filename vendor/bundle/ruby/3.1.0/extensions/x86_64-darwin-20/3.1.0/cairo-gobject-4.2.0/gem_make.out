@@ -1,0 +1,50 @@
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/cairo-gobject-4.2.0/ext/cairo-gobject
+/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20231011-90980-kln5b9.rb extconf.rb
+checking for --enable-debug-build option... no
+checking for -Wall option to compiler... yes
+checking for -Wcast-align option to compiler... yes
+checking for -Wextra option to compiler... no
+checking for -Wformat=2 option to compiler... yes
+checking for -Winit-self option to compiler... yes
+checking for -Wlarger-than-65500 option to compiler... yes
+checking for -Wmissing-declarations option to compiler... yes
+checking for -Wmissing-format-attribute option to compiler... yes
+checking for -Wmissing-include-dirs option to compiler... yes
+checking for -Wmissing-noreturn option to compiler... yes
+checking for -Wmissing-prototypes option to compiler... yes
+checking for -Wnested-externs option to compiler... yes
+checking for -Wold-style-definition option to compiler... yes
+checking for -Wpacked option to compiler... yes
+checking for -Wp,-D_FORTIFY_SOURCE=2 option to compiler... yes
+checking for -Wpointer-arith option to compiler... yes
+checking for -Wundef option to compiler... yes
+checking for -Wout-of-line-declaration option to compiler... yes
+checking for -Wunsafe-loop-optimizations option to compiler... no
+checking for -Wwrite-strings option to compiler... yes
+checking for Homebrew... yes
+checking for cairo-gobject... yes (1.18.0)
+checking for cairo... yes (1.18.0)
+checking for rb_cairo.h... yes
+creating ruby-cairo-gobject.pc
+creating Makefile
+
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/cairo-gobject-4.2.0/ext/cairo-gobject
+make DESTDIR\= clean
+
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/cairo-gobject-4.2.0/ext/cairo-gobject
+make DESTDIR\=
+compiling rb-cairo-gobject.c
+In file included from rb-cairo-gobject.c:21:
+In file included from ./rb-cairo-gobject.h:38:
+/Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/cairo-1.17.12/ext/cairo/../../lib/rb_cairo.h:164:9: warning: 'RVAL2POINTER' macro redefined [-Wmacro-redefined]
+#define RVAL2POINTER(obj)       ((void *)(obj))
+        ^
+/Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/glib2-4.2.0/ext/glib2/../../lib/rbglib.h:142:9: note: previous definition is here
+#define RVAL2POINTER(value) ((gpointer)(value))
+        ^
+1 warning generated.
+linking shared-object cairo_gobject.bundle
+
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/cairo-gobject-4.2.0/ext/cairo-gobject
+make DESTDIR\= install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cairo_gobject.bundle ./.gem.20231011-90980-omxb3t

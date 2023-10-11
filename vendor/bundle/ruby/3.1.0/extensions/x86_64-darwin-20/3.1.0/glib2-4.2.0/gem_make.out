@@ -1,0 +1,930 @@
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/glib2-4.2.0/ext/glib2
+/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20231011-90980-3if6fv.rb extconf.rb
+checking for --enable-debug-build option... no
+checking for -Wall option to compiler... yes
+checking for -Wcast-align option to compiler... yes
+checking for -Wextra option to compiler... no
+checking for -Wformat=2 option to compiler... yes
+checking for -Winit-self option to compiler... yes
+checking for -Wlarger-than-65500 option to compiler... yes
+checking for -Wmissing-declarations option to compiler... yes
+checking for -Wmissing-format-attribute option to compiler... yes
+checking for -Wmissing-include-dirs option to compiler... yes
+checking for -Wmissing-noreturn option to compiler... yes
+checking for -Wmissing-prototypes option to compiler... yes
+checking for -Wnested-externs option to compiler... yes
+checking for -Wold-style-definition option to compiler... yes
+checking for -Wpacked option to compiler... yes
+checking for -Wp,-D_FORTIFY_SOURCE=2 option to compiler... yes
+checking for -Wpointer-arith option to compiler... yes
+checking for -Wundef option to compiler... yes
+checking for -Wout-of-line-declaration option to compiler... yes
+checking for -Wunsafe-loop-optimizations option to compiler... no
+checking for -Wwrite-strings option to compiler... yes
+checking for Homebrew... yes
+checking for gobject-2.0 version (>= 2.12.0)... yes (2.78.0)
+checking for gthread-2.0... yes (2.78.0)
+checking for unistd.h... yes
+checking for io.h... no
+checking for rb_check_array_type() in ruby.h... yes
+checking for rb_check_hash_type() in ruby.h... yes
+checking for rb_exec_recursive() in ruby.h... yes
+checking for rb_errinfo() in ruby.h... yes
+checking for rb_thread_call_without_gvl() in ruby.h... yes
+checking for ruby_native_thread_p() in ruby.h... yes
+checking for rb_thread_call_with_gvl() in ruby.h... yes
+checking for rb_gc_register_mark_object() in ruby.h... yes
+checking for rb_exc_new_str() in ruby.h... yes
+checking for rb_enc_str_new_static() in ruby.h... yes
+checking for curr_thread in ruby.h,node.h... no
+checking for rb_curr_thread in ruby.h,node.h... no
+creating ruby-glib2.pc
+creating glib-enum-types.c
+creating glib-enum-types.h
+creating Makefile
+
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/glib2-4.2.0/ext/glib2
+make DESTDIR\= clean
+
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/glib2-4.2.0/ext/glib2
+make DESTDIR\=
+compiling glib-enum-types.c
+glib-enum-types.c:652:9: warning: 'G_SPAWN_ERROR_2BIG' is deprecated: Use 'G_SPAWN_ERROR_TOO_BIG' instead [-Wdeprecated-declarations]
+      { G_SPAWN_ERROR_2BIG, "G_SPAWN_ERROR_2BIG", "2big" },
+        ^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gspawn.h:78:22: note: 'G_SPAWN_ERROR_2BIG' has been explicitly marked deprecated here
+  G_SPAWN_ERROR_2BIG GLIB_DEPRECATED_ENUMERATOR_IN_2_32_FOR(G_SPAWN_ERROR_TOO_BIG) = G_SPAWN_ERROR_TOO_BIG,
+                     ^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/glib-visibility.h:144:51: note: expanded from macro 'GLIB_DEPRECATED_ENUMERATOR_IN_2_32_FOR'
+#define GLIB_DEPRECATED_ENUMERATOR_IN_2_32_FOR(f) GLIB_DEPRECATED_ENUMERATOR_FOR (f)
+                                                  ^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:1312:43: note: expanded from macro 'GLIB_DEPRECATED_ENUMERATOR_FOR'
+#define GLIB_DEPRECATED_ENUMERATOR_FOR(f) G_DEPRECATED_FOR(f)
+                                          ^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:1272:44: note: expanded from macro 'G_DEPRECATED_FOR'
+#define G_DEPRECATED_FOR(f) __attribute__((__deprecated__("Use '" #f "' instead")))
+                                           ^
+1 warning generated.
+compiling rbglib-bytes.c
+compiling rbglib-gc.c
+compiling rbglib-variant-type.c
+compiling rbglib-variant.c
+compiling rbglib.c
+rbglib.c:35:12: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    return RG_TARGET_NAMESPACE;
+           ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:925:11: warning: variable 'n_keys' set but not used [-Wunused-but-set-variable]
+    gsize n_keys = 0;
+          ^
+rbglib.c:1108:5: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    RG_TARGET_NAMESPACE = rb_define_module("GLib");
+    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1116:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "VERSION",
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1121:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MAJOR_VERSION", INT2FIX(glib_major_version));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1122:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MINOR_VERSION", INT2FIX(glib_minor_version));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1123:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MICRO_VERSION", INT2FIX(glib_micro_version));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1124:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "INTERFACE_AGE", INT2FIX(glib_interface_age));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1125:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "BINARY_AGE", INT2FIX(glib_binary_age));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1127:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "BINDING_VERSION",
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1133:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "BUILD_VERSION",
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1140:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MININT", INT2FIX(G_MININT));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1141:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MAXINT", INT2NUM(G_MAXINT));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1142:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MAXUINT", UINT2NUM(G_MAXUINT));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1144:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MINSHORT", INT2FIX(G_MINSHORT));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1145:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MAXSHORT", INT2FIX(G_MAXSHORT));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1146:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MAXUSHORT", UINT2NUM(G_MAXUSHORT));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1148:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MINLONG", LL2NUM(G_MINLONG));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1149:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MAXLONG", LL2NUM(G_MAXLONG));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1150:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MAXULONG", ULL2NUM(G_MAXULONG));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1152:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MININT8", INT2FIX(G_MININT8));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1153:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MAXINT8", INT2FIX(G_MAXINT8));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1154:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MAXUINT8", UINT2NUM(G_MAXUINT8));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1156:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MININT16", INT2FIX(G_MININT16));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1157:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MAXINT16", INT2FIX(G_MAXINT16));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1158:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MAXUINT16", UINT2NUM(G_MAXUINT16));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1160:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MININT32", INT2FIX(G_MININT32));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1161:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MAXINT32", INT2NUM(G_MAXINT32));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1162:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MAXUINT32", UINT2NUM(G_MAXUINT32));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1164:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MININT64", LL2NUM(G_MININT64));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1165:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MAXINT64", LL2NUM(G_MAXINT64));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1166:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MAXUINT64", ULL2NUM(G_MAXUINT64));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1168:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MAXSIZE", ULL2NUM(G_MAXSIZE));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1170:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MINFLOAT", DBL2NUM(G_MINFLOAT));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1171:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MAXFLOAT", DBL2NUM(G_MAXFLOAT));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1173:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MINDOUBLE", DBL2NUM(G_MINDOUBLE));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1174:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "MAXDOUBLE", DBL2NUM(G_MAXDOUBLE));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1177:5: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    RG_DEF_SMETHOD_P(os_win32, 0);
+    ^
+./rbgutil.h:42:36: note: expanded from macro 'RG_DEF_SMETHOD_P'
+        rb_define_singleton_method(RG_TARGET_NAMESPACE, #method"?", rg_s_ ## method ## _p, argc)
+                                   ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1178:5: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    RG_DEF_SMETHOD_P(os_beos, 0);
+    ^
+./rbgutil.h:42:36: note: expanded from macro 'RG_DEF_SMETHOD_P'
+        rb_define_singleton_method(RG_TARGET_NAMESPACE, #method"?", rg_s_ ## method ## _p, argc)
+                                   ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1179:5: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    RG_DEF_SMETHOD_P(os_unix, 0);
+    ^
+./rbgutil.h:42:36: note: expanded from macro 'RG_DEF_SMETHOD_P'
+        rb_define_singleton_method(RG_TARGET_NAMESPACE, #method"?", rg_s_ ## method ## _p, argc)
+                                   ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1181:5: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    RG_DEF_SMETHOD(malloc, 1);
+    ^
+./rbgutil.h:40:37: note: expanded from macro 'RG_DEF_SMETHOD'
+        rbg_define_singleton_method(RG_TARGET_NAMESPACE, #method, rg_s_ ## method, argc)
+                                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1182:5: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    RG_DEF_SMETHOD(malloc0, 1);
+    ^
+./rbgutil.h:40:37: note: expanded from macro 'RG_DEF_SMETHOD'
+        rbg_define_singleton_method(RG_TARGET_NAMESPACE, #method, rg_s_ ## method, argc)
+                                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1183:5: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    RG_DEF_SMETHOD(free, 1);
+    ^
+./rbgutil.h:40:37: note: expanded from macro 'RG_DEF_SMETHOD'
+        rbg_define_singleton_method(RG_TARGET_NAMESPACE, #method, rg_s_ ## method, argc)
+                                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1185:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "DIR_SEPARATOR", CSTR2RVAL(G_DIR_SEPARATOR_S));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1186:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "SEARCHPATH_SEPARATOR", CSTR2RVAL(G_SEARCHPATH_SEPARATOR_S));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1198:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE,
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1227:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "E", CSTR2RVAL(G_STRINGIFY(G_E)));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1228:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "LN2", CSTR2RVAL(G_STRINGIFY(G_LN2)));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1229:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "LN10", CSTR2RVAL(G_STRINGIFY(G_LN10)));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1230:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "PI", CSTR2RVAL(G_STRINGIFY(G_PI)));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1231:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "PI_2", CSTR2RVAL(G_STRINGIFY(G_PI_2)));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1232:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "PI_4", CSTR2RVAL(G_STRINGIFY(G_PI_4)));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1233:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "SQRT2", CSTR2RVAL(G_STRINGIFY(G_SQRT2)));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1234:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "LOG_2_BASE_10", CSTR2RVAL(G_STRINGIFY(G_LOG_2_BASE_10)));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1237:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "PRIORITY_HIGH", INT2FIX(G_PRIORITY_HIGH));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1238:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "PRIORITY_DEFAULT", INT2FIX(G_PRIORITY_DEFAULT));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1239:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "PRIORITY_HIGH_IDLE", INT2FIX(G_PRIORITY_HIGH_IDLE));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1240:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "PRIORITY_DEFAULT_IDLE", INT2FIX(G_PRIORITY_DEFAULT_IDLE));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+rbglib.c:1241:21: warning: 'mGLib' is deprecated: Use rbg_mGLib() instead [-Wdeprecated-declarations]
+    rb_define_const(RG_TARGET_NAMESPACE, "PRIORITY_LOW", INT2FIX(G_PRIORITY_LOW));
+                    ^
+rbglib.c:26:29: note: expanded from macro 'RG_TARGET_NAMESPACE'
+#define RG_TARGET_NAMESPACE mGLib
+                            ^
+./rbglib.h:177:1: note: 'mGLib' has been explicitly marked deprecated here
+G_GNUC_DEPRECATED_FOR(rbg_mGLib())
+^
+/usr/local/Cellar/glib/2.78.0/include/glib-2.0/glib/gmacros.h:738:18: note: expanded from macro 'G_GNUC_DEPRECATED_FOR'
+  __attribute__((deprecated("Use " #f " instead")))     \
+                 ^
+59 warnings generated.
+compiling rbglib_bookmarkfile.c
+compiling rbglib_convert.c
+compiling rbglib_datetime.c
+compiling rbglib_error.c
+compiling rbglib_fileutils.c
+compiling rbglib_gettext.c
+compiling rbglib_i18n.c
+compiling rbglib_int64.c
+rbglib_int64.c:97:25: warning: implicit conversion loses integer precision: 'PRUint64' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+    VALUE lo = UINT2NUM(lo64);
+               ~~~~~~~~ ^~~~
+rbglib_int64.c:98:25: warning: implicit conversion loses integer precision: 'PRUint64' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+    VALUE hi = UINT2NUM(hi64);
+               ~~~~~~~~ ^~~~
+2 warnings generated.
+compiling rbglib_io_constants.c
+compiling rbglib_iochannel.c
+rbglib_iochannel.c:423:21: warning: implicit conversion loses integer precision: 'gsize' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32]
+    return UINT2NUM(bytes_written);
+           ~~~~~~~~ ^~~~~~~~~~~~~
+rbglib_iochannel.c:567:21: warning: implicit conversion loses integer precision: 'gsize' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32]
+    return UINT2NUM(g_io_channel_get_buffer_size(_SELF(self)));
+           ~~~~~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+compiling rbglib_iochannel_win32_socket.c
+compiling rbglib_iochannelerror.c
+compiling rbglib_keyfile.c
+compiling rbglib_maincontext.c
+rbglib_maincontext.c:486:49: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+    rb_funcall((VALUE)func, id_call, 2, INT2NUM((long)pid), INT2NUM(status));
+                                        ~~~~~~~ ^~~~~~~~~
+1 warning generated.
+compiling rbglib_mainloop.c
+compiling rbglib_matchinfo.c
+compiling rbglib_messages.c
+compiling rbglib_pollfd.c
+compiling rbglib_regex.c
+compiling rbglib_shell.c
+compiling rbglib_shellerror.c
+compiling rbglib_source.c
+compiling rbglib_spawn.c
+compiling rbglib_spawnerror.c
+compiling rbglib_threads.c
+compiling rbglib_timer.c
+compiling rbglib_timezone.c
+compiling rbglib_ucs4.c
+compiling rbglib_unichar.c
+compiling rbglib_unicode.c
+compiling rbglib_utf16.c
+compiling rbglib_utf8.c
+rbglib_utf8.c:57:20: warning: implicit conversion loses integer precision: 'glong' (aka 'long') to 'int' [-Wshorten-64-to-32]
+    return INT2NUM(g_utf8_strlen(utf8, RSTRING_LEN(rb_utf8)));
+           ~~~~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+compiling rbglib_utils.c
+compiling rbglib_win32.c
+compiling rbglibdeprecated.c
+compiling rbgobj_binding.c
+compiling rbgobj_boxed.c
+compiling rbgobj_closure.c
+compiling rbgobj_convert.c
+compiling rbgobj_enumflags.c
+compiling rbgobj_enums.c
+rbgobj_enums.c:389:30: warning: implicit conversion loses integer precision: 'unsigned long' to 'unsigned int' [-Wshorten-64-to-32]
+    return UINT2NUM(p->value ^ G_TYPE_FROM_CLASS(p->gclass));
+           ~~~~~~~~ ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+compiling rbgobj_flags.c
+rbgobj_flags.c:512:30: warning: implicit conversion loses integer precision: 'unsigned long' to 'unsigned int' [-Wshorten-64-to-32]
+    return UINT2NUM(p->value ^ G_TYPE_FROM_CLASS(p->gclass));
+           ~~~~~~~~ ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+compiling rbgobj_object.c
+compiling rbgobj_param.c
+compiling rbgobj_paramspecs.c
+rbgobj_paramspecs.c:69:1: warning: implicit conversion loses integer precision: 'glong' (aka 'long') to 'int' [-Wshorten-64-to-32]
+DEF_NUMERIC_PSPEC_METHODS_FUNC(GParamSpecLong, long, NUM2LONG, INT2NUM, G_PARAM_SPEC_LONG)
+^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rbgobj_paramspecs.c:49:49: note: expanded from macro 'DEF_NUMERIC_PSPEC_METHODS_FUNC'
+    return to_ruby(pspec_cast(RVAL2GOBJ(self))->minimum);               \
+           ~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+rbgobj_paramspecs.c:69:1: warning: implicit conversion loses integer precision: 'glong' (aka 'long') to 'int' [-Wshorten-64-to-32]
+DEF_NUMERIC_PSPEC_METHODS_FUNC(GParamSpecLong, long, NUM2LONG, INT2NUM, G_PARAM_SPEC_LONG)
+^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rbgobj_paramspecs.c:55:49: note: expanded from macro 'DEF_NUMERIC_PSPEC_METHODS_FUNC'
+    return to_ruby(pspec_cast(RVAL2GOBJ(self))->maximum);               \
+           ~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+rbgobj_paramspecs.c:70:1: warning: implicit conversion loses integer precision: 'gulong' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32]
+DEF_NUMERIC_PSPEC_METHODS_FUNC(GParamSpecULong, ulong, NUM2ULONG, UINT2NUM, G_PARAM_SPEC_ULONG)
+^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rbgobj_paramspecs.c:49:49: note: expanded from macro 'DEF_NUMERIC_PSPEC_METHODS_FUNC'
+    return to_ruby(pspec_cast(RVAL2GOBJ(self))->minimum);               \
+           ~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+rbgobj_paramspecs.c:70:1: warning: implicit conversion loses integer precision: 'gulong' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32]
+DEF_NUMERIC_PSPEC_METHODS_FUNC(GParamSpecULong, ulong, NUM2ULONG, UINT2NUM, G_PARAM_SPEC_ULONG)
+^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rbgobj_paramspecs.c:55:49: note: expanded from macro 'DEF_NUMERIC_PSPEC_METHODS_FUNC'
+    return to_ruby(pspec_cast(RVAL2GOBJ(self))->maximum);               \
+           ~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+4 warnings generated.
+compiling rbgobj_signal.c
+rbgobj_signal.c:507:24: warning: cast from 'gchar *' (aka 'char *') to 'GValue *' (aka 'struct _GValue *') increases required alignment from 1 to 8 [-Wcast-align]
+        g_signal_emitv((GValue *)(arg->instance_and_params->data),
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rbgobj_signal.c:708:40: warning: cast from 'gchar *' (aka 'char *') to 'GValue *' (aka 'struct _GValue *') increases required alignment from 1 to 8 [-Wcast-align]
+        g_signal_chain_from_overridden((GValue *)(arg->instance_and_params->data),
+                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+compiling rbgobj_strv.c
+compiling rbgobj_type.c
+compiling rbgobj_typeinstance.c
+compiling rbgobj_typeinterface.c
+compiling rbgobj_typemodule.c
+compiling rbgobj_typeplugin.c
+compiling rbgobj_value.c
+compiling rbgobj_valuearray.c
+compiling rbgobj_valuetypes.c
+compiling rbgobject.c
+compiling rbgutil.c
+compiling rbgutil_callback.c
+compiling rbgutil_list.c
+compiling rbgutildeprecated.c
+linking shared-object glib2.bundle
+
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/glib2-4.2.0/ext/glib2
+make DESTDIR\= install
+/usr/local/opt/coreutils/bin/ginstall -c -m 644 ./rbglib.h ./.gem.20231011-90980-3s01cw
+/usr/local/opt/coreutils/bin/ginstall -c -m 644 ./rbglibdeprecated.h ./.gem.20231011-90980-3s01cw
+/usr/local/opt/coreutils/bin/ginstall -c -m 644 ./rbglib2conversions.h ./.gem.20231011-90980-3s01cw
+/usr/local/opt/coreutils/bin/ginstall -c -m 644 ./rbgutil.h ./.gem.20231011-90980-3s01cw
+/usr/local/opt/coreutils/bin/ginstall -c -m 644 ./rbgutil_list.h ./.gem.20231011-90980-3s01cw
+/usr/local/opt/coreutils/bin/ginstall -c -m 644 ./rbgutildeprecated.h ./.gem.20231011-90980-3s01cw
+/usr/local/opt/coreutils/bin/ginstall -c -m 644 ./rbgobject.h ./.gem.20231011-90980-3s01cw
+/usr/local/opt/coreutils/bin/ginstall -c -m 644 ./rbgcompat.h ./.gem.20231011-90980-3s01cw
+/usr/local/opt/coreutils/bin/ginstall -c -m 644 glib-enum-types.h ./.gem.20231011-90980-3s01cw
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 glib2.bundle ./.gem.20231011-90980-3s01cw
+if test -n ""; then			\
+	  /usr/local/opt/coreutils/bin/gmkdir -p ;				\
+	  /usr/local/opt/coreutils/bin/ginstall -c -m 644 ruby-glib2.pc ;	\
+	fi

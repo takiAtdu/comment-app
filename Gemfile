@@ -13,6 +13,10 @@ gem "bootsnap",        "1.12.0", require: false
 gem 'bcrypt',          '3.1.18'
 gem 'will_paginate',           '3.3.1'
 gem 'bootstrap-will_paginate', '1.0.0'
+gem 'rabbit'
+gem 'pdftotext'
+gem "dotenv-rails"
+gem "aws-sdk-s3"
 
 group :development, :test do
   gem "sqlite3", "1.4.2"

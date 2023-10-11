@@ -1,0 +1,97 @@
+#!/usr/bin/env ruby
+# -*- ruby -*-
+
+require 'drb/drb'
+
+require "rabbit/console"
+
+include Rabbit::GetText
+
+def parse(args=ARGV, logger=nil)
+  Rabbit::Console.parse!(args, logger) do |parser, options|
+    options.rabbit_uri = options.druby_uri
+    options.commands = []
+
+    parser.separator ""
+
+    parser.on("--rabbit-uri=URI",
+              _("Specify Rabbit's dRuby URI as [URI]."),
+              "(#{options.rabbit_uri})") do |uri|
+      options.rabbit_uri = uri
+    end
+
+    parser.separator(_("Move commands"))
+
+    parser.on("--previous", _("Move to previous")) do
+      options.commands << [false, :move_to_previous_if_can]
+    end
+
+    parser.on("--next", _("Move to next")) do
+      options.commands << [false, :move_to_next_if_can]
+    end
+
+    parser.on("--previous-slide", _("Move to the previous slide")) do
+      options.commands << [false, :move_to_previous_slide_if_can]
+    end
+
+    parser.on("--next-slide", _("Move to the next slide")) do
+      options.commands << [false, :move_to_next_slide_if_can]
+    end
+
+    parser.on("--first-slide", _("Move to the first slide")) do
+      options.commands << [false, :move_to_first]
+    end
+
+    parser.on("--last-slide", _("Move to the last slide")) do
+      options.commands << [false, :move_to_last]
+    end
+
+    parser.on("--jump-to=N", Integer, _("Move to the Nth slide")) do |n|
+      options.commands << [false, :move_to_if_can, n]
+    end
+
+    parser.separator(_("Get commands"))
+
+    parser.on("--source", _("Show source")) do
+      options.commands << [:puts, :source]
+    end
+
+    parser.on("--current-slide-rd", _("Show the current slide source as RD")) do
+      options.commands << [:puts, :current_slide_rd]
+    end
+
+    parser.separator(_("Control commands"))
+
+    parser.on("--toggle-fullscreen", _("Toggle fullscreen")) do
+      options.commands << [false, :toggle_fullscreen]
+    end
+
+    parser.on("--toggle-index-mode", _("Toggle index mode")) do
+      options.commands << [false, :toggle_index_mode]
+    end
+
+    parser.on("--toggle-whiteout", _("Toggle whiteout")) do
+      options.commands << [false, :toggle_whiteout]
+    end
+
+    parser.on("--toggle-blackout", _("Toggle blackout")) do
+      options.commands << [false, :toggle_blackout]
+    end
+
+    parser.on("--quit", _("Quit")) do
+      options.commands << [false, :quit]
+    end
+  end
+end
+
+def main
+  options, logger = parse
+
+  rabbit = DRbObject.new_with_uri(options.rabbit_uri)
+  options.commands.each do |output, method, *args|
+    result = rabbit.send(method, *args)
+    send(output, result) if output
+  end
+end
+
+main

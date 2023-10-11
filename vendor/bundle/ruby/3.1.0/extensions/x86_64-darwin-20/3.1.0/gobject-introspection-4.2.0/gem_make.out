@@ -1,0 +1,88 @@
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/gobject-introspection-4.2.0/ext/gobject-introspection
+/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20231011-90980-geq5v.rb extconf.rb
+checking for --enable-debug-build option... no
+checking for -Wall option to compiler... yes
+checking for -Wcast-align option to compiler... yes
+checking for -Wextra option to compiler... no
+checking for -Wformat=2 option to compiler... yes
+checking for -Winit-self option to compiler... yes
+checking for -Wlarger-than-65500 option to compiler... yes
+checking for -Wmissing-declarations option to compiler... yes
+checking for -Wmissing-format-attribute option to compiler... yes
+checking for -Wmissing-include-dirs option to compiler... yes
+checking for -Wmissing-noreturn option to compiler... yes
+checking for -Wmissing-prototypes option to compiler... yes
+checking for -Wnested-externs option to compiler... yes
+checking for -Wold-style-definition option to compiler... yes
+checking for -Wpacked option to compiler... yes
+checking for -Wp,-D_FORTIFY_SOURCE=2 option to compiler... yes
+checking for -Wpointer-arith option to compiler... yes
+checking for -Wundef option to compiler... yes
+checking for -Wout-of-line-declaration option to compiler... yes
+checking for -Wunsafe-loop-optimizations option to compiler... no
+checking for -Wwrite-strings option to compiler... yes
+checking for Homebrew... yes
+checking for gobject-introspection-1.0... yes (1.78.1)
+creating rbgiversion.h
+creating gobject-introspection-enum-types.c
+creating gobject-introspection-enum-types.h
+creating ruby-gobject-introspection.pc
+creating Makefile
+
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/gobject-introspection-4.2.0/ext/gobject-introspection
+make DESTDIR\= clean
+
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/gobject-introspection-4.2.0/ext/gobject-introspection
+make DESTDIR\=
+compiling gobject-introspection-enum-types.c
+compiling rb-gi-arg-info.c
+compiling rb-gi-arguments-in.c
+compiling rb-gi-arguments-out.c
+compiling rb-gi-arguments.c
+compiling rb-gi-array-type.c
+compiling rb-gi-base-info.c
+compiling rb-gi-boxed-info.c
+compiling rb-gi-callable-info.c
+compiling rb-gi-callback-info.c
+compiling rb-gi-callback.c
+compiling rb-gi-constant-info.c
+compiling rb-gi-constructor-info.c
+compiling rb-gi-direction.c
+compiling rb-gi-enum-info.c
+compiling rb-gi-field-info.c
+compiling rb-gi-flags-info.c
+compiling rb-gi-function-info.c
+compiling rb-gi-interface-info.c
+compiling rb-gi-loader.c
+compiling rb-gi-method-info.c
+compiling rb-gi-object-info.c
+compiling rb-gi-property-info.c
+compiling rb-gi-registered-type-info.c
+compiling rb-gi-repository.c
+compiling rb-gi-signal-info.c
+compiling rb-gi-struct-info.c
+rb-gi-struct-info.c:281:21: warning: implicit conversion loses integer precision: 'gsize' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32]
+    return UINT2NUM(g_struct_info_get_size(info));
+           ~~~~~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rb-gi-struct-info.c:290:21: warning: implicit conversion loses integer precision: 'gsize' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32]
+    return UINT2NUM(g_struct_info_get_alignment(info));
+           ~~~~~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+compiling rb-gi-transfer.c
+compiling rb-gi-type-info.c
+compiling rb-gi-type-tag.c
+compiling rb-gi-union-info.c
+compiling rb-gi-unresolved-info.c
+compiling rb-gi-value-info.c
+compiling rb-gi-vfunc-info.c
+compiling rb-gobject-introspection.c
+linking shared-object gobject_introspection.bundle
+
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/gobject-introspection-4.2.0/ext/gobject-introspection
+make DESTDIR\= install
+/usr/local/opt/coreutils/bin/ginstall -c -m 644 ./rb-gobject-introspection.h ./.gem.20231011-90980-ztf0qy
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 gobject_introspection.bundle ./.gem.20231011-90980-ztf0qy
+if test -n ""; then				\
+	  /usr/local/opt/coreutils/bin/gmkdir -p ;					\
+	  /usr/local/opt/coreutils/bin/ginstall -c -m 644 ruby-gobject-introspection.pc ;\
+	fi

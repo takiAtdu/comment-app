@@ -1,0 +1,2179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Rabbit 0.5.4\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2023-06-25 15:49+0900\n"
+"Last-Translator: Kouhei Sutou <kou@cozmixng.org>\n"
+"Language-Team: Kouhei Sutou <kou@cozmixng.org> and Kobayashi Noritada <nori1@d"
+"olphin.c.u-tokyo.ac.jp>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Specify Rabbit's dRuby URI as [URI]."
+msgstr "RabbitのdRuby URIを[URI]とします．"
+
+msgid "Move commands"
+msgstr "移動コマンド"
+
+msgid "Move to previous"
+msgstr "前へ移動"
+
+msgid "Move to next"
+msgstr "次へ移動"
+
+msgid "Move to the previous slide"
+msgstr "前のスライドへ移動"
+
+msgid "Move to the next slide"
+msgstr "次のスライドへ移動"
+
+msgid "Move to the first slide"
+msgstr "最初のスライドへ移動"
+
+msgid "Move to the last slide"
+msgstr "最後のスライドへ移動"
+
+msgid "Move to the Nth slide"
+msgstr "N番目のスライドへ移動"
+
+msgid "Get commands"
+msgstr "取得コマンド"
+
+msgid "Show source"
+msgstr "ソースを表示"
+
+msgid "Show the current slide source as RD"
+msgstr "現在のスライドのソースをRDで表示"
+
+msgid "Control commands"
+msgstr "制御コマンド"
+
+msgid "Toggle fullscreen"
+msgstr "フルスクリーンモード切替え"
+
+msgid "Toggle index mode"
+msgstr "一覧モード切替え"
+
+msgid "Toggle whiteout"
+msgstr "ホワイトアウト切替え"
+
+msgid "Toggle blackout"
+msgstr "ブラックアウト切替え"
+
+msgid "Quit"
+msgstr "終了"
+
+msgid "Image"
+msgstr "画像"
+
+msgid "Clear Blue Image"
+msgstr "きれいな青: 画像"
+
+msgid "Images related to ((<clear-blue>)) theme"
+msgstr "((<clear-blue>))テーマ関連の画像"
+
+msgid "Provides images related to ((<clear-blue>)) theme."
+msgstr "((<clear-blue>))テーマに関連した画像を提供します。"
+
+msgid "COZMIXNGImage"
+msgstr "COZMIXNG: 画像"
+
+msgid "Images related to COZMIXNG"
+msgstr "COZMIXNG 関連の画像"
+
+msgid "Provides images related to COZMIXNG."
+msgstr "COZMIXNG に関連した画像を提供します。"
+
+msgid "Dark Gradation background Image"
+msgstr "暗いグラデーションの背景画像"
+
+msgid "Images related to dark gradation"
+msgstr "暗いグラデーション関連の画像"
+
+msgid "Provides images related to Dark Gradation theme"
+msgstr "暗いグラデーションテーマに関連した画像を提供します。"
+
+msgid "DebianImage"
+msgstr "Debian: 画像"
+
+msgid "Images related to Debian"
+msgstr "Debian 関連の画像"
+
+msgid "Provides images related to Debian"
+msgstr "Debianに関連した画像を提供します。"
+
+msgid "Nari Image"
+msgstr "Nari: 画像"
+
+msgid "Images related to ((<nari>)) theme"
+msgstr "((<nari>))テーマ関連の画像"
+
+msgid "Provides images related to ((<nari>)) theme."
+msgstr "((<nari>))テーマに関連した画像を提供します。"
+
+msgid "RabbitImage"
+msgstr "Rabbit: 画像"
+
+msgid "Images related to Rabbit"
+msgstr "Rabbit 関連の画像"
+
+msgid "Provides images related to Rabbit."
+msgstr "Rabbit に関連した画像を提供します。"
+
+msgid "RubyImage"
+msgstr "Ruby: 画像"
+
+msgid "Images related to Ruby"
+msgstr "Ruby 関連の画像"
+
+msgid "Provides images related to Ruby."
+msgstr "Ruby に関連した画像を提供します。"
+
+msgid "RubyKaigi2011Image"
+msgstr "RubyKaigi2011: 画像"
+
+msgid "Images related to RubyKaigi2011"
+msgstr "RubyKaigi2011関連の画像"
+
+msgid "Provides images related to RubyKaigi2011."
+msgstr "RubyKaigi2011に関連した画像を提供します。"
+
+msgid "Next"
+msgstr "次"
+
+msgid "Previous"
+msgstr "前"
+
+msgid "Next slide"
+msgstr "次のスライド"
+
+msgid "Previous slide"
+msgstr "前のスライド"
+
+msgid "First slide"
+msgstr "最初のスライド"
+
+msgid "Last slide"
+msgstr "最後のスライド"
+
+msgid "Jump to"
+msgstr "ジャンプ"
+
+msgid "Save as image"
+msgstr "画像として保存"
+
+msgid "Print"
+msgstr "印刷"
+
+msgid "Iconify"
+msgstr "最小化"
+
+msgid "Change theme"
+msgstr "テーマ変更"
+
+msgid "Merge theme"
+msgstr "テーマを追加"
+
+msgid "Reload theme"
+msgstr "テーマの再読み込み"
+
+msgid "Redraw"
+msgstr "再表示"
+
+msgid "Clear slide"
+msgstr "スライドをクリア"
+
+msgid "_Quit"
+msgstr "終了(_Q)"
+
+msgid "_Quit with confirmation"
+msgstr "確認付き終了(_Q)"
+
+msgid "Now processing... Do you really quit?"
+msgstr "処理中です．．．本当に終了しますか？"
+
+msgid "Cache all slides"
+msgstr "スライドをキャッシュ"
+
+msgid "Graffiti"
+msgstr "落書き"
+
+msgid "Clear graffiti"
+msgstr "落書きをクリア"
+
+msgid "Undo graffiti"
+msgstr "落書きを戻す"
+
+msgid "Change graffiti color"
+msgstr "落書きの色を変える"
+
+msgid "Reset adjustment"
+msgstr "ずれを直す"
+
+msgid "Reset timer"
+msgstr "タイマーをリセット"
+
+msgid "Expand hole"
+msgstr "穴を広げる"
+
+msgid "Narrow hole"
+msgstr "穴を狭める"
+
+msgid "Search slide forward"
+msgstr "スライドを前方検索"
+
+msgid "Search slide backward"
+msgstr "スライドを後方検索"
+
+msgid "Search slide forward next"
+msgstr "次のスライドを前方検索"
+
+msgid "Search slide backward next"
+msgstr "次のスライドを後方検索"
+
+msgid "Stop slide search"
+msgstr "スライド検索修了"
+
+msgid "Log Level"
+msgstr "ログレベル"
+
+msgid "Whiteout"
+msgstr "ホワイトアウト"
+
+msgid "Blackout"
+msgstr "ブラックアウト"
+
+msgid "Show"
+msgstr "表示"
+
+msgid "Debug"
+msgstr "デバッグ"
+
+msgid "Info"
+msgstr "情報"
+
+msgid "Warning"
+msgstr "警告"
+
+msgid "Error"
+msgstr "エラー"
+
+msgid "Fatal"
+msgstr "致命的"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "Index mode"
+msgstr "一覧モード"
+
+msgid "Full screen"
+msgstr "フルスクリーン"
+
+msgid "Graffiti mode"
+msgstr "落書きモード"
+
+msgid "Information window"
+msgstr "情報ウィンドウ"
+
+msgid "Spotlight"
+msgstr "スポットライト"
+
+msgid "Magnifier"
+msgstr "虫眼鏡"
+
+msgid "Terminal"
+msgstr "端末"
+
+msgid "Failed to read author configuration: %s: %s"
+msgstr "作者設定の読み込みに失敗しました: %s: %s"
+
+msgid "Failed to write author configuration: %s: %s"
+msgstr "作者設定の書き込みに失敗しました: %s: %s"
+
+msgid "Unknown action: %s"
+msgstr "未知のアクション: %s"
+
+msgid "Processing..."
+msgstr "処理中です．．．"
+
+msgid "See --help for example"
+msgstr "--helpで例を確認できます"
+
+msgid ""
+"Usage: %s COMMAND [OPTIONS]\n"
+" e.g.: %s new \\\n"
+"          --id rubykaigi2012 \\\n"
+"          --base-name rabbit-introduction \\\n"
+"          --markup-language rd \\\n"
+"          --width 800 \\\n"
+"          --height 450 \\\n"
+"          --name \"Kouhei Sutou\" \\\n"
+"          --email kou@cozmixng.org \\\n"
+"          --rubygems-user kou \\\n"
+"          --slideshare-user kou \\\n"
+"          --speaker-deck-user kou"
+msgstr ""
+"使い方: %s COMMAND [オプション]\n"
+"    例: %s new \\\n"
+"          --id rubykaigi2012 \\\n"
+"          --base-name rabbit-introduction \\\n"
+"          --markup-language rd \\\n"
+"          --width 800 \\\n"
+"          --height 450 \\\n"
+"          --name \"Kouhei Sutou\" \\\n"
+"          --email kou@cozmixng.org \\\n"
+"          --rubygems-user kou \\\n"
+"          --slideshare-user kou \\\n"
+"          --speaker-deck-user kou"
+
+msgid "COMMAND"
+msgstr ""
+
+msgid "  new:    create a new slide"
+msgstr "  new:    新しいスライドを作成"
+
+msgid "  change: change an existing slide"
+msgstr "  change: 既存のスライドを変更"
+
+msgid "User interface"
+msgstr "ユーザーインターフェイス"
+
+msgid "Don't use GUI"
+msgstr "GUIを使わない"
+
+msgid "Slide information"
+msgstr "スライドの情報"
+
+msgid "Slide ID"
+msgstr "スライドID"
+
+msgid "(e.g.: %s)"
+msgstr "（例: %s）"
+
+msgid "(must)"
+msgstr "（必須）"
+
+msgid "Base name for the slide source file and generated PDF file"
+msgstr "スライドのソースファイルとソースから生成するPDFファイルのベースファイル名"
+
+msgid "Markup language for the new slide"
+msgstr "新しいスライドのマークアップ言語"
+
+msgid "(available markup languages: %s)"
+msgstr "（利用可能なマークアップ言語: %s）"
+
+msgid "(default: %s)"
+msgstr "（デフォルト: %s）"
+
+msgid "(optional)"
+msgstr "（省略可能）"
+
+msgid "Title of the new slide"
+msgstr "新しいスライドのタイトル"
+
+msgid "--title=\"Rabbit Introduction\""
+msgstr "--title=\"Rabbitの紹介\""
+
+msgid "License of the new slide"
+msgstr "新しいスライドのライセンス"
+
+msgid "Tags of the new slide"
+msgstr "新しいスライドのタグ"
+
+msgid "Allotted time in presentaion"
+msgstr "プレゼンの持ち時間"
+
+msgid "Presentation date with the new slide"
+msgstr "新しいスライドでプレゼンする日"
+
+msgid "Presentation start time"
+msgstr "プレゼン開始時間"
+
+msgid "Presentation end time"
+msgstr "プレゼン終了時間"
+
+msgid "The default slide width"
+msgstr "デフォルトのスライドの幅"
+
+msgid "The default slide height"
+msgstr "デフォルトのスライドの高さ"
+
+msgid "Your information"
+msgstr "あなたの情報"
+
+msgid "Author name of the new slide"
+msgstr "新しいスライドの作者の名前"
+
+msgid "Author e-mail of the new slide"
+msgstr "新しいスライドの作者のEメールアドレス"
+
+msgid "Account for %s"
+msgstr "%sのアカウント"
+
+msgid "It is used to publish your slide to %s"
+msgstr "%sにスライドを公開するときに使います"
+
+msgid "too many commands: %s"
+msgstr "コマンドが多過ぎます: %s"
+
+msgid "invalid command: <%s>: available commands: %s"
+msgstr "不正なコマンド: <%s>: 利用可能なコマンド: %s"
+
+msgid "%s is missing"
+msgstr "%sがありません"
+
+msgid "TODO: SLIDE TITLE"
+msgstr "TODO: スライドのタイトル"
+
+msgid "TODO: SLIDE DESCRIPTION"
+msgstr "TODO: スライドの説明"
+
+msgid "For author"
+msgstr "作者向け"
+
+msgid "Publish"
+msgstr "公開"
+
+msgid "For viewers"
+msgstr "閲覧者向け"
+
+msgid "Install"
+msgstr "インストール"
+
+msgid "TITLE"
+msgstr "タイトル"
+
+msgid "FIRST SLIDE"
+msgstr "最初のスライド"
+
+msgid "SECOND SLIDE"
+msgstr "二番目のスライド"
+
+msgid "SUBTITLE"
+msgstr "サブタイトル"
+
+msgid "AUTHOR"
+msgstr "作者"
+
+msgid "INSTITUTION"
+msgstr "所属"
+
+msgid "EVENT NAME"
+msgstr "イベント名"
+
+msgid "ITEM %d"
+msgstr "項目%d"
+
+msgid ""
+"Usage: %s new [options]\n"
+" e.g.: %s new \\\n"
+"          --id rubykaigi2012 \\\n"
+"          --name \"Kouhei Sutou\" \\\n"
+"          --email kou@cozmixng.org \\\n"
+"          --rubygems-user kou"
+msgstr ""
+"使い方: %s new [options]\n"
+"    例: %s new \\\n"
+"          --id rubykaigi2012 \\\n"
+"          --name \"Kouhei Sutou\" \\\n"
+"          --email kou@cozmixng.org \\\n"
+"          --rubygems-user kou"
+
+msgid "Theme information"
+msgstr "テーマの情報"
+
+msgid "Theme ID"
+msgstr "テーマID"
+
+msgid "TODO: THEME TITLE"
+msgstr "TODO: テーマのタイトル"
+
+msgid "TODO: THEME DESCRIPTION"
+msgstr "TODO: テーマの説明"
+
+msgid "For users"
+msgstr "利用者用"
+
+msgid "rabbit-theme-benchmark-en.gem"
+msgstr "rabbit-theme-benchmark-ja.gem"
+
+msgid "Theme"
+msgstr "テーマ"
+
+msgid "Add [PATH] to load path."
+msgstr "[PATH]をロードパスに追加します．"
+
+msgid "Use [THEME] as theme."
+msgstr "テーマに[THEME]を使用します．"
+
+msgid "Use [THEME] for comment."
+msgstr "コメント用のテーマに[THEME]を使用します．"
+
+msgid "Use [TIME] as allotted time."
+msgstr "持ち時間を[TIME]とします。"
+
+msgid "Source"
+msgstr "ソース"
+
+msgid ""
+"When select %s\n"
+"specify %s\n"
+"as [SOURCE_INFOS]."
+msgstr ""
+"%sを選んだときは\n"
+"[SOURCE_INFOS]として\n"
+"%sを指定します．"
+
+msgid "Specify source type as [TYPE]."
+msgstr "[TYPE]にソースの種類を指定します．"
+
+msgid "Select from [%s]."
+msgstr "[%s]から選びます．"
+
+msgid "Note: case insensitive."
+msgstr "注意: 大文字小文字は区別しません．"
+
+msgid "Specify source encoding as [ENCODING]."
+msgstr "[ENCODING]にソースエンコーディングを指定します．"
+
+msgid "(auto)"
+msgstr "(自動)"
+
+msgid "Specify base URI or path of source as [BASE]."
+msgstr "ソースのベースURIまたはベースパスを[BASE]とします．"
+
+msgid "Initial state"
+msgstr "初期状態"
+
+msgid "Toggle full screen mode."
+msgstr "フルスクリーンモードに切替えます．"
+
+msgid "Toggle index mode."
+msgstr "一覧モードに切替えます．"
+
+msgid "Show the Nth slide. (zero-based)"
+msgstr "N番目のスライドを表示。（0はじまり）"
+
+msgid "Size"
+msgstr "サイズ"
+
+msgid "Set window geometry [GEOMETRY]."
+msgstr "ウィンドウの位置を[GEOMETRY]にします．"
+
+msgid "Format: WIDTHxHEIGHT+X+Y"
+msgstr "フォーマット: WIDTHxHEIGHT+X+Y"
+
+msgid "Set window width to [WIDTH]."
+msgstr "ウィンドウの幅を[WIDTH]にします．"
+
+msgid "Set window height to [HEIGHT]."
+msgstr "ウィンドウの高さを[HEIGHT]にします．"
+
+msgid ""
+"Set window width and height to\n"
+"[WIDTH] and [HEIGHT]."
+msgstr ""
+"ウィンドウの幅と高さを\n"
+"[WIDTH]と[HEIGHT]にします．"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Save as image and exit."
+msgstr "画像として保存し終了します．"
+
+msgid "Specify saved image type as [TYPE]."
+msgstr "保存する画像の種類を[TYPE]にします．"
+
+msgid "Specify saved image base name as [BASE_NAME]."
+msgstr "保存する画像のベース名を[BASE_NAME]にします．"
+
+msgid "Title of slide"
+msgstr "スライドのタイトル"
+
+msgid "Output HTML for viewing saved images."
+msgstr "保存した画像を閲覧するためのHTMLを出力します．"
+
+msgid "Output index HTML for navigating slides."
+msgstr "保存した画像を閲覧するための索引用HTMLを出力します．"
+
+msgid "Specify base URI of RSS as [URI]."
+msgstr "RSS のベース URI を [URI] と指定します．"
+
+msgid "RSS is generated only when HTML is output."
+msgstr "RSS は、HTML が出力されるときだけ生成されます。"
+
+msgid "Specify source filenam as [FILENAME]."
+msgstr "[FILENAME]をソースファイル名とします．"
+
+msgid "Print and exit."
+msgstr "印刷し終了します．"
+
+msgid "Specify printed out filename as [FILENAME]."
+msgstr "[FILENAME]を印刷するファイル名とします．"
+
+msgid "Set slides per page."
+msgstr "1ページ中のスライドの枚数を設定します．"
+
+msgid "Draw scaled image."
+msgstr "拡大・縮小した画面を描画します。"
+
+msgid "Better look for displaying but lesser look for printing."
+msgstr "画面表示時にはよりキレイになりますが、印刷時には少し見栄えが悪くなります。"
+
+msgid "Paper"
+msgstr "用紙"
+
+msgid "Set paper width to [WIDTH] Pt."
+msgstr "用紙幅を[WIDTH] Ptにします．"
+
+msgid "(landscape A4 width)"
+msgstr "(横置きA4の幅)"
+
+msgid "Set paper height to [HEIGHT] Pt."
+msgstr "用紙の高さを[HEIGHT] Ptにします．"
+
+msgid "(landscape A4 height)"
+msgstr "(横置きA4の高さ)"
+
+msgid ""
+"Set paper width and height to\n"
+"[WIDTH] Pt and [HEIGHT] Pt."
+msgstr ""
+"用紙の幅と高さを\n"
+"[WIDTH] Ptと[HEIGHT] Ptにします．"
+
+msgid "(landscape A4 size)"
+msgstr "(横置きA4サイズ)"
+
+msgid "Margin"
+msgstr "余白"
+
+msgid "Set left margin for slides per page mode print."
+msgstr "1ページ複数スライド印刷モードの左余白を設定します．"
+
+msgid "Set right margin for slides per page mode print."
+msgstr "1ページ複数スライド印刷モードの右余白を設定します．"
+
+msgid "Set top margin for slides per page mode print."
+msgstr "1ページ複数スライド印刷モードの上余白を設定します．"
+
+msgid "Set bottom margin for slides per page mode print."
+msgstr "1ページ複数スライド印刷モードの下余白を設定します．"
+
+msgid "[ALL]"
+msgstr "[全部]"
+
+msgid "[TOP_BOTTOM],[LEFT_RIGHT]"
+msgstr "[上下],[左右]"
+
+msgid "[TOP],[LEFT_RIGHT],[BOTTOM]"
+msgstr "[上],[左右],[下]"
+
+msgid "[TOP],[RIGHT],[BOTTOM],[LEFT]"
+msgstr "[上],[右],[下],[左]"
+
+msgid "Set margin for slides per page mode print."
+msgstr "1ページ複数スライド印刷モードの余白を設定します．"
+
+msgid "Set left page margin."
+msgstr "左ページ余白を設定します．"
+
+msgid "Set right page margin."
+msgstr "右ページ余白を指定します．"
+
+msgid "Set top page margin."
+msgstr "上ページ余白を指定します．"
+
+msgid "Set bottom page margin."
+msgstr "下ページ余白を指定します．"
+
+msgid "Set page margin."
+msgstr "ページ余白を指定します．"
+
+msgid "dRuby"
+msgstr "dRuby"
+
+msgid "Specify whether to use dRuby."
+msgstr "dRubyを使うかどうかを指定します．"
+
+msgid "Specify dRuby URI."
+msgstr "dRuby URIを指定します．"
+
+msgid "Specify whether to output dRuby URI."
+msgstr "dRuby URIを出力するかどうかを指定します．"
+
+msgid "SOAP"
+msgstr "SOAP"
+
+msgid "Specify whether to use SOAP."
+msgstr "SOAPを使うかどうかを指定します．"
+
+msgid "Specify SOAP host as [HOST]."
+msgstr "SOAPのホスト名を[HOST]とします．"
+
+msgid "Specify SOAP port as [PORT]."
+msgstr "SOAPのポートを[PORT]とします．"
+
+msgid "XML-RPC"
+msgstr "XML-RPC"
+
+msgid "Specify whether to use XML-RPC."
+msgstr "XML-RPCを使うかどうかを指定します．"
+
+msgid "Specify XML-RPC host as [HOST]."
+msgstr "XML-RPCのホスト名を[HOST]とします．"
+
+msgid "Specify XML-RPC port as [PORT]."
+msgstr "XML-RPCのポートを[PORT]とします．"
+
+msgid "Public level"
+msgstr "公開レベル"
+
+msgid "Specify public level."
+msgstr "公開レベルを指定します．"
+
+msgid "Select from the following:"
+msgstr "以下から選択します．"
+
+msgid "(%s)"
+msgstr "（%s）"
+
+msgid "Comment"
+msgstr "コメント"
+
+msgid "Deprecated. Just ignored."
+msgstr "非推奨です。無視してください。"
+
+msgid "Specify initial comment source."
+msgstr "初期コメントソースを指定します．"
+
+msgid "(default source)"
+msgstr "(デフォルトソース)"
+
+msgid "Specify comment source encoding."
+msgstr "コメントソースのエンコーディングを指定します．"
+
+msgid "Migemo"
+msgstr "Migemo"
+
+msgid "Specify search paths for Migemo static dictionary."
+msgstr "Migemoの静的辞書の検索パスを指定します．"
+
+msgid "Specify static dictionary name for Migemo."
+msgstr "Migemoの静的辞書名を指定します．"
+
+msgid "3D"
+msgstr "3D"
+
+msgid "Specify whether to use OpenGL if available."
+msgstr "可能ならOpenGLを使うかどうかを指定します．"
+
+msgid "Others"
+msgstr "その他"
+
+msgid "Check slide source syntax and exit."
+msgstr "スライドのソースの構文をチェックして終了します。"
+
+msgid "Show a native window ID of the Rabbit window if available."
+msgstr "可能ならウィンドウシステムに依存したRabbitのウィンドウのIDを表示します。"
+
+msgid "e.g. The ID is the ID of X resource on X window system."
+msgstr "例えば、Xウィンドウシステム上ではXリソースのIDになります。"
+
+msgid "Choose a Rabbit source file"
+msgstr "Rabbitのソースファイルを選んでください。"
+
+msgid "dRuby URI <%s> is in use."
+msgstr "dRuby URI<%s>は使用中です．"
+
+msgid "port <%s> for SOAP is in use."
+msgstr "SOAP用ポート<%s>は使用中です．"
+
+msgid "port <%s> for XML-RPC is in use."
+msgstr "XML-RPC用ポート<%s>は使用中です．"
+
+msgid "Window ID: %d"
+msgstr "ウィンドウID: %d"
+
+msgid "Usage: %s [options]"
+msgstr "使用法: %s [オプション]"
+
+msgid "Common options"
+msgstr "共通のオプション"
+
+msgid "Load options from FILE."
+msgstr "FILEからオプションを読み込みます。"
+
+msgid "(none)"
+msgstr "（なし）"
+
+msgid "Specify locale dir as [DIR]."
+msgstr "ロケールディレクトリを[DIR]にします．"
+
+msgid "Specify logger type as [TYPE]."
+msgstr "ログの出力種類を[TYPE]にします．"
+
+msgid "Specify log level as [LEVEL]."
+msgstr "ログの出力レベルを[LEVEL]にします．"
+
+msgid "Show this message."
+msgstr "このメッセージを表示します．"
+
+msgid "Show version."
+msgstr "バージョンを表示します．"
+
+msgid "Index"
+msgstr "一覧"
+
+msgid "no such file: %s"
+msgstr "そのようなファイルはありません: %s"
+
+msgid "can't handle %s because the following command can't be run successfully: %s"
+msgstr "次のコマンドを正常に実行できなかったので%sを扱うことができません: %s"
+
+msgid "tried gs commands: %s"
+msgstr "実行したgsコマンド名: %s"
+
+msgid "tried dia commands: %s"
+msgstr "実行したdiaコマンド名: %s"
+
+msgid "tried gimp commands: %s"
+msgstr "実行したgimpコマンド名: %s"
+
+msgid "Unknown property: %s"
+msgstr "未知のプロパティ: %s"
+
+msgid "can't allocate color: %s"
+msgstr "色を割り当てることができません: %s"
+
+msgid "not exist: %s"
+msgstr "存在しません: %s"
+
+msgid "not a file: %s"
+msgstr "ファイルではありません: %s"
+
+msgid "can not be read: %s"
+msgstr "読み込むことができません: %s"
+
+msgid "immutable source type: %s"
+msgstr "変更不能なソースタイプです: %s"
+
+msgid "not available interface: %s"
+msgstr "利用可能なインターフェイスではありません: %s"
+
+msgid "can't find HTML template: %s"
+msgstr "HTML のテンプレートが見つかりません: %s"
+
+msgid "can't find theme RD template: %s"
+msgstr "テーマ RD のテンプレートが見つかりません: %s"
+
+msgid "invalid motion: %s"
+msgstr "不正な動きです: %s"
+
+msgid "invalid value of size property \"%{prop_name}\" of \"%{filename}\": %{value}"
+msgstr "「%{filename}」のサイズプロパティ「%{prop_name}」の値が不正です: %{value}"
+
+msgid "unknown cursor type: %s"
+msgstr "未知のカーソルタイプ: %s"
+
+msgid "print isn't supported"
+msgstr "印刷をサポートしていません"
+
+msgid "Installing gem: %s"
+msgstr "gemをインストール中: %s"
+
+msgid "Installing gem in user install mode: %s"
+msgstr "gemをユーザーインストールモードでインストール中: %s"
+
+msgid "Enter password on RubyGems.org [%{user}]: "
+msgstr "RubyGems.orgのパスワードを入力してください [%{user}]: "
+
+msgid "Enter OTP on RubyGems.org [%{user}]: "
+msgstr "RubyGems.orgのワンタイムパスワードを入力してください [%{user}]: "
+
+msgid "Line width:"
+msgstr "線の太さ"
+
+msgid "Creating a image for the %dth page"
+msgstr "%dページ目の画像を生成しています。"
+
+msgid "can't generate RSS"
+msgstr "RSS を生成できません"
+
+msgid "Slide"
+msgstr "スライド"
+
+msgid "PDF"
+msgstr "PDF"
+
+msgid "tried mermaid command: %s"
+msgstr "実行したmermaidコマンド名: %s"
+
+msgid "invalid PDF page number: <%s>"
+msgstr "不正なPDFのページ番号です: <%s>"
+
+msgid "%s page doesn't exist in PDF"
+msgstr "PDFの中に%sページはありません"
+
+msgid "%s: Information window"
+msgstr "%s: 情報ウィンドウ"
+
+msgid "unlimited"
+msgstr "制限無し"
+
+msgid "DEBUG"
+msgstr "デバッグ"
+
+msgid "INFO"
+msgstr "情報"
+
+msgid "WARNING"
+msgstr "警告"
+
+msgid "ERROR"
+msgstr "エラー"
+
+msgid "FATAL"
+msgstr "致命的"
+
+msgid "UNKNOWN"
+msgstr "未知"
+
+msgid "Rabbit Error Dialog"
+msgstr "Rabbitエラーダイアログ"
+
+msgid "can't convert to current locale from UTF-8: %s"
+msgstr "UTF-8から現在のロケールに変換できません: %s"
+
+msgid "Jump to the %dth slide"
+msgstr "%d番目のスライドへジャンプ"
+
+msgid "unsupported format. (supported: %s)"
+msgstr "サポートしていない形式です。（サポートしている形式: %s）"
+
+msgid "tried aafigure command: %s"
+msgstr "実行したaafigureコマンド名: %s"
+
+msgid "tried blockdiag command: %s"
+msgstr "実行したblockdiagコマンド名: %s"
+
+msgid "emacs: unsupported element name: %s"
+msgstr "emacs: サポートしていない要素名です: %s"
+
+msgid "enscript: unsupported language: %s"
+msgstr "enscript: サポートしていない言語です: %s"
+
+msgid "enscript: unsupported element name: %s"
+msgstr "enscript: サポートしていない要素名です: %s"
+
+msgid "multiple right aligns aren't supported."
+msgstr "複数のright整列はサポートしていません。"
+
+msgid "tried mimeTeX commands: %s"
+msgstr "実行したmimeTeXコマンド名: %s"
+
+msgid "multiple ![alt]{image}s in a paragraph isn't supported."
+msgstr "ひとつの段落中で複数の「![alt]{image}」を使うことはできません。"
+
+msgid "![alt]{image} and other contents in a paragraph isn't supported: %{types}"
+msgstr "ひとつの段落中で「![alt]{image}」と他の内容を一緒に使うことはできません：%{types}"
+
+msgid "horizontal rule isn't supported."
+msgstr "水平線はサポートしていません"
+
+msgid "tag name is missing."
+msgstr "タグ名がありません。"
+
+msgid "HTML isn't supported."
+msgstr "HTMLはサポートしていません"
+
+msgid "RTtool isn't available"
+msgstr "RTtoolが利用できません"
+
+msgid "[BUG] [%s] %s extension isn't available."
+msgstr "[バグ] [%s] %s の拡張は利用できません．"
+
+msgid "horizontal rule is unsupported"
+msgstr "水平線はサポートしていません"
+
+msgid "unsupported list type: %s"
+msgstr "サポートしていないリストの種類: %s"
+
+msgid "inline {{image(...)}} isn't supported."
+msgstr "インラインの{{image(...)}}は未サポートです。"
+
+msgid "multiple {{image(..., :align => :right)}} isn't supported."
+msgstr "複数の{{image(..., :align => :right)}}は未対応です。"
+
+msgid "Creating directory: %s"
+msgstr "ディレクトリを作成中: %s"
+
+msgid "Creating file:      %s"
+msgstr "ファイルを作成中:     %s"
+
+msgid "No README found"
+msgstr "READMEがありません"
+
+msgid "%s does not support: %s"
+msgstr "%sはサポートしていません: %s"
+
+msgid "can't find printer for %s"
+msgstr "%sのためのプリンタが見付かりません．"
+
+msgid "Failed to read slide configuration: %s: %s"
+msgstr "スライド設定の読み込みに失敗しました: %s: %s"
+
+msgid "Failed to write slide configuration: %s: %s"
+msgstr "スライド設定の書き込みに失敗しました: %s: %s"
+
+msgid "none (get from STDIN) or [FILE_NAMES]"
+msgstr ""
+"[何も指定しない(標準入力から読込)]か\n"
+"[ファイル名(複数可)]"
+
+msgid "[FILENAME]"
+msgstr "[ファイル名]"
+
+msgid "[FILENAME_OR_NOT]"
+msgstr "[ファイル名か何も指定しない]"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "Rabbit"
+msgstr "Rabbit"
+
+msgid "To run rabbit, create '%{options_path}'!"
+msgstr "rabbitを実行するために'%{options_path}'を作ってください！"
+
+msgid "Show slide"
+msgstr "スライドを表示"
+
+msgid "Create gem: %{gem_path}"
+msgstr "gemを作成: %{gem_path}"
+
+msgid "Write %{item} in %{where}: %{content}"
+msgstr "%{where}の%{item}を書いてください: %{content}"
+
+msgid "Generate PDF: %{pdf_path}"
+msgstr "PDFを生成: %{pdf_path}"
+
+msgid "Publish the slide to all available targets"
+msgstr "すべての公開可能な公開場所にこのスライドを公開"
+
+msgid "Publish the slide to %s"
+msgstr "このスライドを%sに公開"
+
+msgid "Show theme benchmark slide with this theme"
+msgstr "このテーマでテーマベンチマーク用のスライドを表示"
+
+msgid "Generate all PDFs"
+msgstr "すべてのPDFを生成"
+
+msgid "Publish the theme to all available targets"
+msgstr "すべての公開可能な公開場所にこのテーマを公開"
+
+msgid "Publish the theme to %s"
+msgstr "このテーマを%sに公開"
+
+msgid "%s is deprecated. Use %s instead."
+msgstr "%sは非推奨です．代わりに%sを使ってください．"
+
+msgid "Backward compatibility"
+msgstr "後方互換性"
+
+msgid "Auto Slide"
+msgstr "自動スライド"
+
+msgid "Backward compatibility theme for ((<slide-show>))"
+msgstr "((<slide-show>))のための後方互換性のテーマ"
+
+msgid "See ((<slide-show>))"
+msgstr "((<slide-show>))を見てください．"
+
+msgid "Toolkit"
+msgstr "ツールキット"
+
+msgid "Base"
+msgstr "基本"
+
+msgid "Define default variables"
+msgstr "デフォルトの変数を定義します。"
+
+msgid "This theme is always included at the first."
+msgstr "このテーマは常に一番始めに読み込まれます。"
+
+msgid "Blue Bar"
+msgstr "青いバー"
+
+msgid "Blue bar theme"
+msgstr "青いバーのテーマ"
+
+msgid "Blue Circle"
+msgstr "青い円"
+
+msgid "Blue Circle theme"
+msgstr "青い円のテーマ"
+
+msgid "Centering Rabbit"
+msgstr "中央揃えRabbit"
+
+msgid "Rabbit theme with text centering."
+msgstr "テキストの中央揃え付きRabbitテーマ"
+
+msgid "Clear Blue"
+msgstr "きれいな青"
+
+msgid "Clear blue theme"
+msgstr "きれいな青のテーマ"
+
+msgid "Time"
+msgstr "時間"
+
+msgid "TextClock"
+msgstr "テキスト時計"
+
+msgid "Clock toolkit, a text version"
+msgstr "時計ツールキット (テキストバージョン)"
+
+msgid "Displays current time with text."
+msgstr "テキストで現在時刻を表示します。"
+
+msgid "Properties for the clock, such as font family."
+msgstr "フォントファミリーなどの、時計の属性。"
+
+msgid ""
+"Whether uninstalling this toolkit or not. This option is useful for cases you "
+"do not want to make the toolkit work for certain slides."
+msgstr "このツールキットをアンインストールするか否か。このオプションは、特定のスライドでツールキットを動かなくしたいときに便利です。"
+
+msgid "Clutter Comment"
+msgstr "Clutterコメント"
+
+msgid "Show comment as a rolling Clutter actor."
+msgstr "コメントを回転するClutterのアクターとして表示します。"
+
+msgid "Color Circle block quote"
+msgstr "色付きの円: 引用ブロック"
+
+msgid "Toolkit to display itemization in quotation"
+msgstr "引用中に箇条書きを表示するツールキット"
+
+msgid "Support itemization in quotation."
+msgstr "引用中での箇条書きをサポートします。"
+
+msgid "Color Circle common"
+msgstr "色付きの円: 共通"
+
+msgid "Provide common methods for Color Circle toolkit."
+msgstr "色付きの円ツールキットでの共通のメソッドを定義します。"
+
+msgid "Color Circle Description"
+msgstr "色付きの円: 説明文"
+
+msgid "Toolkit to set ((<color-circle>)) theme's description-list style up."
+msgstr "((<color-circle>))テーマの説明リストのスタイルを設定するツールキットです。"
+
+msgid "Color Circle Foot Text"
+msgstr "色付きの円: 脚注テキスト"
+
+msgid "Toolkit to set ((<color-circle>)) theme's foot text style up."
+msgstr "((<color-circle>))テーマの脚注テキストのスタイルを設定するツールキットです。"
+
+msgid "Color Circle Item Mark"
+msgstr "色付きの円: 項目マーク"
+
+msgid "Toolkit to set ((<color-circle>)) theme's item marks style up."
+msgstr "((<color-circle>))テーマの項目マークのスタイルを設定するツールキットです。"
+
+msgid "Color Circle Method List"
+msgstr "色付きの円: メソッドリスト"
+
+msgid "Toolkit to set ((<color-circle>)) theme's method-list style up."
+msgstr "((<color-circle>))テーマのメソッドリストのスタイルを設定するツールキットです。"
+
+msgid "Color Circle Preformatted"
+msgstr "色付きの円: 整形済みテキスト"
+
+msgid "Toolkit to set ((<color-circle>)) theme's preformatted text style up."
+msgstr "((<color-circle>))テーマの整形済みテキストのスタイルを設定するツールキットです。"
+
+msgid "Color Circle Slide"
+msgstr "色付きの円: スライド"
+
+msgid "Toolkit to set ((<color-circle>)) theme's slide style up."
+msgstr "((<color-circle>))テーマのスライドのスタイルを設定するツールキットです。"
+
+msgid "Color Circle Text"
+msgstr "色付きの円: テキスト"
+
+msgid "Toolkit to set ((<color-circle>)) theme's text style up."
+msgstr "((<color-circle>))テーマのタイトルテキストのスタイルを設定するツールキットです。"
+
+msgid "Color Circle Title Slide"
+msgstr "色付きの円: タイトルスライド"
+
+msgid "Toolkit to set ((<color-circle>)) theme's title slide style up."
+msgstr "((<color-circle>))テーマのタイトルスライドのスタイルを設定するツールキット"
+
+msgid "Color Circle Title text"
+msgstr "色付きの円: タイトルテキスト"
+
+msgid "Toolkit to set ((<color-circle>)) theme's title text style up."
+msgstr "((<color-circle>))テーマのタイトルテキストのスタイルを設定するツールキットです。"
+
+msgid "required variables aren't set: %s"
+msgstr "必須の変数が設定されていません: %s"
+
+msgid "Color Circle"
+msgstr "色付きの円"
+
+msgid "Toolkit to make a theme that has colored circles"
+msgstr "色付きの円を持つテーマを作るためのツールキットです。"
+
+msgid "There are many colored circles in slides."
+msgstr "スライド中にたくさんの色付きの円があります。"
+
+msgid "COZMIXNGPoweredBy"
+msgstr "ぱわーどばいこずみくしんぐ"
+
+msgid "Powered-by-COZMIXNG ad toolkit"
+msgstr "Powered-by-COZMIXNG 宣伝ツールキット"
+
+msgid ""
+"Displays a text and images showing the presentation slides are powered by COZM"
+"IXNG and Rabbit at the foot of the title slide and of the last slide."
+msgstr ""
+"タイトルスライドと最終スライドの下部に、プレゼンテーションスライドが COZMIXNG と Rabbit の力を使っていることを示すテキストと画像を表示しま"
+"す。"
+
+msgid "COZMIXNG"
+msgstr "COZMIXNG"
+
+msgid "COZMIXNG theme"
+msgstr "COZMIXNGテーマ"
+
+msgid "Dark Gradation"
+msgstr "暗いグラデーション"
+
+msgid "Dark Gradation background theme"
+msgstr "暗いグラデーションが背景のテーマ"
+
+msgid "Day White"
+msgstr "Day White"
+
+msgid "Day White theme"
+msgstr "Day Whiteテーマ"
+
+msgid "Debian Theme"
+msgstr "Debianのテーマ"
+
+msgid "Debian GNU/Linux Theme"
+msgstr "Debian GNU/Linuxテーマ"
+
+msgid "[cited from `%s']"
+msgstr "[「%s」より引用]"
+
+msgid "Default Block Quote"
+msgstr "デフォルト: 引用ブロック"
+
+msgid "Displays block quote text with frame."
+msgstr "枠付きで引用テキストブロックを表示します。"
+
+msgid "DefaultComment"
+msgstr "デフォルト: コメント"
+
+msgid "Toolkit to set up default comment theme."
+msgstr "デフォルトのコメントテーマを設定するツールキット。"
+
+msgid "Sets up default comment theme."
+msgstr "デフォルトのコメントのスタイルを設定します。"
+
+msgid "DefaultDescription"
+msgstr "デフォルト: 説明文"
+
+msgid "Toolkit to display description-list items with orange underlines."
+msgstr "説明文リスト項目にオレンジ色の下線をつけて表示するツールキット"
+
+msgid "Displays description-list items with orange underlines."
+msgstr "説明文リスト項目にオレンジ色の下線をつけて表示します。"
+
+msgid "Default Foot Text"
+msgstr "デフォルト: 脚注テキスト"
+
+msgid "Displays foot text at the footer of slide."
+msgstr "スライドフッターに脚注テキストを表示します。"
+
+msgid "DefaultIcon"
+msgstr "デフォルト: アイコン"
+
+msgid "Toolkit to use pink circle and polygon as icons"
+msgstr "ピンク色の丸と多角形をアイコンとして用いるツールキット"
+
+msgid "Uses pink circle and polygon as icons."
+msgstr "ピンク色の丸と多角形をアイコンとして用います。"
+
+msgid ""
+"unknown item mark type: %s\n"
+"Rectangle type is used as fallback"
+msgstr ""
+"未知の項目マークのタイプ: %s\n"
+"代わりに四角を使います。"
+
+msgid ""
+"unknown enumeration item mark type: %s\n"
+"Numeric type is used as fallback"
+msgstr ""
+"未知の順序つきリスト項目マークのタイプ: %s\n"
+"代わりに数値タイプを使います。"
+
+msgid "Default Item Mark Setup"
+msgstr "デフォルト: 項目マークセットアップ"
+
+msgid "Provides methods to set item mark style up."
+msgstr "項目マークのスタイルを設定するメソッドを提供します。"
+
+msgid "DefaultItemMark"
+msgstr "デフォルト: 項目マーク"
+
+msgid "Toolkit to display squares as list item marks"
+msgstr "リスト項目のマークとして四角をを表示するツールキット"
+
+msgid "Displays squares at the head of list items."
+msgstr "リスト項目の頭にカラフルなボールを表示します。"
+
+msgid "Default Method List"
+msgstr "デフォルト: メソッドリスト"
+
+msgid "Displays method description with indent."
+msgstr "メソッドの説明をインデント付きで表示します。"
+
+msgid "Default Preformatted"
+msgstr "デフォルト: 整形済みテキスト"
+
+msgid "Displays preformatted text with frame."
+msgstr "枠付きで整形済みテキストを表示します。"
+
+msgid "Default Slide"
+msgstr "デフォルト: スライド"
+
+msgid "Displays headline with line."
+msgstr "見出しを線付きで表示します。"
+
+msgid "Default Text"
+msgstr "デフォルト: テキスト"
+
+msgid "Sets default text style up."
+msgstr "デフォルトのテキストのスタイルを設定します。"
+
+msgid "DefaultTitleSlide"
+msgstr "デフォルト: タイトルスライド"
+
+msgid "Toolkit to locate objects in the title slide in a simple way"
+msgstr "タイトルスライドにオブジェクトを簡単に配置するツールキット。"
+
+msgid ""
+"Locates objects in the title slide simply by centering them and by making conf"
+"iguration for margins around them a little."
+msgstr "オブジェクトをタイトルスライドの中央に置きその周りにマージンを設定するだけの、簡単な配置をします。"
+
+msgid "Default Title Text"
+msgstr "デフォルト: タイトルテキスト"
+
+msgid "Sets default title text style up."
+msgstr "デフォルトのタイトルテキストのスタイルを設定します。"
+
+msgid "Default"
+msgstr "デフォルト"
+
+msgid "default theme"
+msgstr "デフォルトテーマ"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Category"
+msgstr "カテゴリ"
+
+msgid "Abstract"
+msgstr "概要"
+
+msgid "Description"
+msgstr "説明文"
+
+msgid "Dependency themes"
+msgstr "依存しているテーマ"
+
+msgid "Parameters"
+msgstr "パラメタ"
+
+msgid "Default: "
+msgstr "デフォルト: "
+
+msgid "Edge Info Toolkit"
+msgstr "すみっこ情報ツールキット"
+
+msgid "Displays information with line at the edge of slide."
+msgstr "スライドの端に線付きで情報を表示します。"
+
+msgid "Emphasize Keyword"
+msgstr "キーワード強調"
+
+msgid ""
+"Provides emphasize_keyword method that markups specified keyword as emphasis t"
+"ext."
+msgstr "指定したキーワードを強調テキストとしてマークアップするemphasize_keywordメソッドを提供します。"
+
+msgid "Enishi Green"
+msgstr "えにしグリーン"
+
+msgid "EnishTech green based theme"
+msgstr "えにしテックの緑色をベースにしたテーマ"
+
+msgid "Etc"
+msgstr "その他"
+
+msgid "Footer Comment"
+msgstr "フッターコメント"
+
+msgid "Show comment on the footer."
+msgstr "コメントをフッターに表示します。"
+
+msgid "Footer Logo"
+msgstr "フッターロゴ"
+
+msgid "Toolkit to display an image as logo at the footer"
+msgstr "フッターに画像をロゴとして表示するためのツールキット"
+
+msgid "Displays an image as a logo at the footer of slides."
+msgstr "スライドのフッターに画像をロゴとして表示します。"
+
+msgid "(Must be specified.)"
+msgstr "(指定しなければいけません。)"
+
+msgid "Image file name."
+msgstr "画像ファイル名。"
+
+msgid "Whether keep ratio of an image or not."
+msgstr "画像のサイズの比率を維持するかどうか。"
+
+msgid "Right margin of an image."
+msgstr "画像の右余白。"
+
+msgid "Bottom margin of an image."
+msgstr "画像の下部余白。"
+
+msgid "Whether uninstall this theme or not."
+msgstr "このテーマをアンインストールするかどうか。"
+
+msgid "Green Circle"
+msgstr "緑の円"
+
+msgid "Green Circle theme"
+msgstr "緑の円のテーマ"
+
+msgid "HeadlineLogo"
+msgstr "見出しロゴ"
+
+msgid "Toolkit to display an image as a logo at the headlines"
+msgstr "見出しに画像をロゴとして表示するためのツールキット"
+
+msgid "Displays an image as a logo at the headlines of slides."
+msgstr "スライドの見出しに画像をロゴとして表示します。"
+
+msgid "Icon"
+msgstr "アイコン"
+
+msgid "Toolkit to specify an image or images as icons"
+msgstr "1 つまたは複数の画像をアイコンに指定するツールキット"
+
+msgid ""
+"Specifies an image or images as icons of the window, which will be used by som"
+"e window managers and desktop environments, for example when the window is min"
+"imized (or 'iconified'), in the window frame, or when windows are switched. Th"
+"e specified image or images are automatically scaled to the icon sizes case by"
+" case. When several images are specified and they have different sizes, an ima"
+"ge with the most similar size to that of icon among them is chosen and scaled "
+"in order to improve the quality of image finally displayed."
+msgstr ""
+"1 つまたは複数の画像をアイコンに指定します。アイコンは、一部のウィンドウマネージャやデスクトップ環境によって、例えばウィンドウが最小化 (あるいは「アイコ"
+"ン化」) されたときに用いられたり、ウィンドウの枠に用いられたり、ウィンドウが切り替えられたときに用いられたりします。指定された画像は、状況に応じてアイコン"
+"の大きさに自動的に変換されます。最終的に表示される画像の品質をよくするため、複数の画像が指定されてそれらが異なる大きさをもっている場合は、アイコンの大きさに"
+"最も近い画像が選ばれて大きさが変換されます。"
+
+msgid "List of image file names."
+msgstr "画像ファイル名のリスト。"
+
+msgid "ImageSlideNumber"
+msgstr "画像スライド番号"
+
+msgid "Toolkit to display slide numbers, an image version"
+msgstr "スライド番号表示ツールキット (画像バージョン)"
+
+msgid ""
+"Displays the progress of presentation with position of an image. This is usefu"
+"l both for speakers and for listeners to know elapsed slide numbers and slide "
+"numbers left. By default, an image of a hare, which is a family of rabbit, jum"
+"ps along the bottom of slides between two flags.\n"
+"\n"
+"Using together with another theme, ((<image-timer>)), you can make a hare and "
+"a tortoise race like the fable of the hare and the tortoise. When doing so, ho"
+"wever, note that you should make your presentation not so slowly that the hare"
+" will lose to the tortoise."
+msgstr ""
+"プレゼンテーションの進行を画像の位置で表示します。これを用いると、話し手と聴き手の両方が、これまでのスライドの数と残りのスライドの数を知ることができるので便"
+"利です。デフォルトでは、ウサギ (ラビットの仲間) の画像が、スライド下部の 2 つの旗の間を跳ねていきます。\n"
+"\n"
+"別のテーマ((<image-timer>))と一緒に用いると、ウサギとカメの話のようにウサギとカメを競争させることができます。しかしそうする場合、あまりゆっ"
+"くりプレゼンテーションをおこなってウサギがカメに敗けてしまうことがないよう気をつけてください。"
+
+msgid ""
+"File name of an image that moves. An image of a hare in the ((<rabbit-images>)"
+") theme is used by default."
+msgstr "動く画像のファイル名。デフォルトでは、((<rabbit-images>))テーマのウサギの画像が使われます。"
+
+msgid ""
+"Whether drawing start and goal flags with text or not. When (({true})), flags "
+"are drawn with text with a form of (({@image_slide_number_flag_type})) and on "
+"which slide numbers are also drawn with color ((|@image_slide_number_text_colo"
+"r|)). Otherwise, image files specified with ((|@image_slide_number_start_image"
+"|)) and ((|@image_slide_number_goal_image|)) are used as flags."
+msgstr ""
+"スタートとゴールの旗をテキストで表示するか否か。(({true})) の場合、((|@image_slide_number_flag_type|)) の形を"
+"した旗がテキストで描かれ、その上に ((|@image_slide_number_text_color|)) の色のスライド番号も描かれます。そうでない場合"
+"は、((|@image_slide_number_start_image|)) と ((|@image_slide_number_goal_image|))"
+" で指定された画像ファイルが旗として用いられます。"
+
+msgid "Color of numbers displayed on the start and goal flags."
+msgstr "スタートとゴールの旗に表示される数字の色。"
+
+msgid ""
+"Form of the start and goal flags. Avaiable forms are (({'triangle'})) and (({'"
+"rectangle'}))."
+msgstr "スタートとゴールの旗の形。(({'triangle'})) (三角) と (({'rectangle'})) (四角) が指定可能です。"
+
+msgid "File name of an image used as the start flag."
+msgstr "スタートの旗として使われる画像のファイル名。"
+
+msgid "File name of an image used as the goal flag."
+msgstr "ゴールの旗として使われる画像のファイル名。"
+
+msgid "ImageTimer"
+msgstr "画像タイマー"
+
+msgid "Timer toolkit, an image version"
+msgstr "タイマーツールキット (画像バージョン)"
+
+msgid ""
+"Displays the progress of time with position of an image. This is useful both f"
+"or speakers and for listeners to know elapsed time and time left. By default, "
+"a tortoise image walks along the bottom of slides slowly step by step.\n"
+"\n"
+"Using together with another theme, ((<image-slide-number>)), you can make a ha"
+"re and a tortoise race like the fable of the hare and the tortoise. When doing"
+" so, however, note that you should make your presentation not so slowly that t"
+"he hare will lose to the tortoise."
+msgstr ""
+"時間の進行を画像の位置で表示します。これを用いると、話し手と聴き手の両方が、これまでの時間と残りの時間を知ることができるので便利です。デフォルトでは、カメの"
+"画像が、スライド下部の 2 つの旗の間をのろのろと歩いていきます。\n"
+"\n"
+"別のテーマ ((<image-slide-number>)) と一緒に用いると、ウサギとカメの話のようにウサギとカメを競争させることができます。しかしそうす"
+"る場合、あまりゆっくりプレゼンテーションをおこなってウサギがカメに敗けてしまうことがないよう気をつけてください。"
+
+msgid "Limit time by second."
+msgstr "秒単位での制限時間。"
+
+msgid "Whether updating image position automatically or not."
+msgstr "画像の位置を自動更新するか否か。"
+
+msgid "Whether scrolling automatically or not."
+msgstr "自動スクロールするかどうか。"
+
+msgid "Direction of automatic scrolling."
+msgstr "自動スクロールの方向。"
+
+msgid ""
+"File name of an image that moves. A tortoise image in the ((<rabbit-images>)) "
+"theme is used by default."
+msgstr "動く画像のファイル名。デフォルトでは、((<rabbit-images>)) テーマのカメの画像が使われます。"
+
+msgid "Time interval between automatic update."
+msgstr "自動更新の時間間隔。"
+
+msgid "Image viewer"
+msgstr "画像ビューア"
+
+msgid "Theme for image viewer mode"
+msgstr "画像ビューアモード用のテーマ"
+
+msgid "image rendering"
+msgstr "画像表示"
+
+msgid "Lightning Clear Blue"
+msgstr "ライトニングトーク用きれいな青"
+
+msgid "Clear blue theme with Lightning Talk theme"
+msgstr "ライトニングトークテーマ付ききれいな青テーマ"
+
+msgid "LightningTalk-Monochrome"
+msgstr "モノクロバージョンのライトニングトークテーマ"
+
+msgid "Lightning Talk theme monochrome version"
+msgstr "モノクロバージョンのライトニングトークテーマ"
+
+msgid "LightningRabbit"
+msgstr "ライトニングRabbit"
+
+msgid "Rabbit theme with Lightning Talk theme"
+msgstr "ライトニングトークテーマ付きRabbitテーマ"
+
+msgid "LightningTalk-Simple"
+msgstr "シンプルバージョンのライトニングトークトーク"
+
+msgid "Lightning Talk theme simple version"
+msgstr "シンプルバージョンのライトニングトークテーマ"
+
+msgid "LightningTalk-Toolkit"
+msgstr "ライトニングトーク・ツールキット"
+
+msgid "Displays slides for lightning talk"
+msgstr "ライトニングトーク用にスライドを表示します。"
+
+msgid "LightningTalk"
+msgstr "ライトニングトーク"
+
+msgid "Lightning Talk theme"
+msgstr "ライトニングトークテーマ"
+
+msgid "Effect"
+msgstr "効果"
+
+msgid "Mirror Effect"
+msgstr "鏡の効果"
+
+msgid "Provide mirror_effect method that flips content."
+msgstr "内容を反転するmirror_effectメソッドを提供します。"
+
+msgid "Nari"
+msgstr ""
+
+msgid "Nari's theme"
+msgstr "Nariのテーマ"
+
+msgid "Convenience"
+msgstr "便利"
+
+msgid "Newline in Slides"
+msgstr "スライド内での改行"
+
+msgid ""
+"Convenience '\n"
+"' newline notation."
+msgstr ""
+"便利な'\n"
+"'改行記法。"
+
+msgid ""
+"Enable '\n"
+"' notation to insert newline in all slides."
+msgstr ""
+"タイトルで改行を挿入する'\n"
+"'記法を有効にする。"
+
+msgid "Newline in Title"
+msgstr "タイトル内での改行"
+
+msgid ""
+"Enable '\n"
+"' notation to insert newline in title."
+msgstr ""
+"タイトルで改行を挿入する'\n"
+"'記法を有効にする。"
+
+msgid "Night Black"
+msgstr "Night Black"
+
+msgid "Night Black theme"
+msgstr "Night Blackテーマ"
+
+msgid "Theme for PDF"
+msgstr "PDF用のテーマ"
+
+msgid "PerSlideBackgroundColor"
+msgstr "スライド毎の背景色"
+
+msgid "Toolkit to set background color of each slide"
+msgstr "各スライドの背景に色をつけるツールキット"
+
+msgid ""
+"Set background color of each slide.\n"
+"\n"
+"Each color is specified as a slide property:\n"
+"  = target slide\n"
+"  \n"
+"  ...\n"
+"  \n"
+"  == properties\n"
+"  \n"
+"  : background-color\n"
+"     black\n"
+msgstr ""
+"各スライドの背景色を設定します。\n"
+"\n"
+"各背景色はスライドプロパティとして指定します。\n"
+"  = 対象となるスライド\n"
+"  \n"
+"  ...\n"
+"  \n"
+"  == プロパティ\n"
+"  \n"
+"  : background-color\n"
+"     black\n"
+
+msgid "PerSlideBackgroundImage"
+msgstr "スライド毎の背景画像"
+
+msgid "Toolkit to display an image as a background of each slide"
+msgstr "各スライドの背景として画像を表示するツールキット"
+
+msgid ""
+"Displays an image as a background of each slide.\n"
+"\n"
+"Each image is specified as a slide property:\n"
+"  = target slide\n"
+"  \n"
+"  ...\n"
+"  \n"
+"  == properties\n"
+"  \n"
+"  : background-image\n"
+"     my-picture.png\n"
+msgstr ""
+"各スライドの背景に画像を表示します。\n"
+"\n"
+"各画像はスライドプロパティで指定します。\n"
+"  = 対象となるスライド\n"
+"  \n"
+"  ...\n"
+"  \n"
+"  == プロパティ\n"
+"  \n"
+"  : background-image\n"
+"     my-picture.png\n"
+
+msgid "PoweredBy"
+msgstr "PoweredBy"
+
+msgid "Powered-by ad toolkit"
+msgstr "Powered-by 宣伝ツールキット"
+
+msgid ""
+"Displays programs the presentation slides are powered by (or displays some oth"
+"er ads) at the foot of the title slide and of the last slide. Images and/or a "
+"text are available as ads."
+msgstr ""
+"タイトルスライドと最終スライドの下部に、プレゼンテーションスライドを駆動しているプログラム (あるいは何かその他の宣伝) を表示します。宣伝として、画像とテ"
+"キストのどちらか一方または両方が使えます。"
+
+msgid "Properties of the ad text, such as font family."
+msgstr "フォントファミリーなどの、宣伝文の属性。"
+
+msgid "Ad text."
+msgstr "宣伝文。"
+
+msgid "Rabbit Block Quote"
+msgstr "Rabbit: 引用ブロック"
+
+msgid "Displays quotation block with quote mark in frame."
+msgstr "枠の中に引用マーク付きで引用ブロックを表示します。"
+
+msgid "RabbitHeadlineLogo"
+msgstr "Rabbit: 見出しロゴ"
+
+msgid "Toolkit to display Lavie as a logo at the headlines"
+msgstr "見出しで Lavie をロゴとして表示するツールキット"
+
+msgid "Displays Lavie as a logo at the headlines of slides."
+msgstr "スライドの見出しで Lavie をロゴとして表示します。"
+
+msgid "RabbitIcon"
+msgstr "Rabbit: アイコン"
+
+msgid "Toolkit to use Lavie as icons"
+msgstr "アイコンとして Lavie を用いるツールキット"
+
+msgid "Uses Lavie as icons."
+msgstr "Lavie をアイコンとして用います。"
+
+msgid "RabbitItemMark"
+msgstr "Rabbit: 項目マーク"
+
+msgid "Toolkit to display colorful balls as list item marks"
+msgstr "リスト項目のマークとしてカラフルなボールを表示するツールキット"
+
+msgid "Displays colorful balls at the head of list items."
+msgstr "リスト項目の頭にカラフルなボールを表示します。"
+
+msgid "RabbitPoweredBy"
+msgstr "Rabbit: PoweredBy"
+
+msgid "Powered-by-Rabbit ad toolkit"
+msgstr "Powered-by-Rabbit 宣伝ツールキット"
+
+msgid ""
+"Displays a text and an image showing the presentation slides are powered by Ra"
+"bbit and COZMIXNG at the foot of the title slide and of the last slide."
+msgstr ""
+"タイトルスライドと最終スライドの下部に、プレゼンテーションスライドが Rabbit と COZMIXNG の力を使っていることを示すテキストと画像を表示しま"
+"す。"
+
+msgid "RabbitTitleLogo"
+msgstr "Rabbit: タイトルロゴ"
+
+msgid "Toolkit to display Lavie as a logo in the title slide"
+msgstr "タイトルスライドで Lavie をロゴとして表示するツールキット"
+
+msgid "Displays Lavie as a logo in the title slide."
+msgstr "タイトルスライドで Lavie をロゴとして表示します。"
+
+msgid "Rabbit theme"
+msgstr "Rabbitテーマ"
+
+msgid "Ranguba"
+msgstr "ラングバ"
+
+msgid "Ranguba theme"
+msgstr "ラングバテーマ"
+
+msgid "RedFrame"
+msgstr "赤い枠"
+
+msgid "Red frame theme"
+msgstr "赤い枠のテーマ"
+
+msgid "Rotate Zoom Effect"
+msgstr "回転・拡大効果"
+
+msgid "Provide rotate_zoom_effect method that rotates and zooms content."
+msgstr "内容を回転・拡大するrotate_zoom_effectメソッドを提供します。"
+
+msgid "RubyGNOME2Description"
+msgstr "Ruby-GNOME2: 説明文"
+
+msgid ""
+"Toolkit to display description-list items like ones in the website of the Ruby"
+"-GNOME2 Project"
+msgstr "Ruby-GNOME2 プロジェクトのウェブサイトの説明文リスト項目のように項目を表示するツールキット"
+
+msgid ""
+"Displays description-list items like ones in the website of the Ruby-GNOME2 Pr"
+"oject; i.e. displays their text colored blue."
+msgstr "Ruby-GNOME2 プロジェクトのウェブサイトの説明文リスト項目のように項目を表示します。すなわち、テキストに青色をつけて表示します。"
+
+msgid "Ruby-GNOME2 Foot Text"
+msgstr "Ruby-GNOME2: 脚注テキスト"
+
+msgid "Displays foot text at the footer of slide with Ruby-GNOME2 style."
+msgstr "Ruby-GNOME2スタイルでスライドのフッターに脚注テキストを表示します。"
+
+msgid "RubyGNOME2Headline"
+msgstr "Ruby-GNOME2: 見出し"
+
+msgid ""
+"Toolkit to display headlines like those in the website of the Ruby-GNOME2 Proj"
+"ect"
+msgstr "Ruby-GNOME2 プロジェクトのウェブサイトの見出しのように見出しを表示するツールキット"
+
+msgid ""
+"Displays headlines like ones in the website of the Ruby-GNOME2 Project; i.e. d"
+"isplays their text colored white and placed in the dark red boxes with pink fr"
+"ames."
+msgstr ""
+"Ruby-GNOME2 プロジェクトのウェブサイトの見出しのように見出しを表示します。すなわち、項目のテキストを白色にし、ピンク色の枠の暗赤色の箱の中に入れ"
+"て表示します。"
+
+msgid "RubyGNOME2Icon"
+msgstr "Ruby-GNOME2: アイコン"
+
+msgid "Toolkit to use a pink circle as icons"
+msgstr "ピンク色の丸をアイコンとして用いるツールキット"
+
+msgid "Uses a pink circle as icons."
+msgstr "ピンク色の丸をアイコンとして用います。"
+
+msgid "RubyGNOME2ItemMark"
+msgstr "Ruby-GNOME2: 項目マーク"
+
+msgid ""
+"Toolkit to display list items like ones in the website of the Ruby-GNOME2 Proj"
+"ect"
+msgstr "Ruby-GNOME2 プロジェクトのウェブサイトのリスト項目のように項目を表示するツールキット"
+
+msgid ""
+"Displays list items like ones in the website of the Ruby-GNOME2 Project; i.e. "
+"displays text of the first-level items colored blue and underlined, the second"
+"- and third-level items marked with black squares and circles."
+msgstr ""
+"Ruby-GNOME2 プロジェクトのウェブサイトのリスト項目のように項目を表示します。すなわち、第 1 レベルの項目のテキストは青色にして下線をつけ、第 "
+"2 レベルと第 3 レベルの項目には黒い四角と丸のマークをつけます。"
+
+msgid "Ruby-GNOME2 Preformatted"
+msgstr "Ruby-GNOME2: 整形済みテキスト"
+
+msgid "Displays preformatted text with Ruby-GNOME2 style."
+msgstr "Ruby-GNOME2スタイルで整形済みテキストを表示します。"
+
+msgid "Ruby-GNOME2 Slide"
+msgstr "Ruby-GNOME2: スライド"
+
+msgid "Displays slides with Ruby-GNOME2 style."
+msgstr "Ruby-GNOME2スタイルでスライドを表示します。"
+
+msgid "Ruby-GNOME2"
+msgstr "Ruby-GNOME2"
+
+msgid "Ruby-GNOME2 theme"
+msgstr "Ruby-GNOME2テーマ"
+
+msgid "RubyKaigi2011"
+msgstr ""
+
+msgid "RubyKaigi2011 theme"
+msgstr "RubyKaigi2011のテーマ"
+
+msgid "Scroll Effect"
+msgstr "スクロール効果"
+
+msgid "Provide scroll_effect method that scrolls content."
+msgstr "内容をスクロールするscroll_effectメソッドを提供します。"
+
+msgid "ShowFrame"
+msgstr "枠の表示"
+
+msgid "Debug toolkit to show element frames"
+msgstr "要素の枠を表示するデバッグ用ツールキット"
+
+msgid "Show element frames useful for debug."
+msgstr "デバッグに便利な要素の枠を表示します。"
+
+msgid "Frame color."
+msgstr "枠の色。"
+
+msgid "SimpleItemMark"
+msgstr "シンプル項目マーク"
+
+msgid "Toolkit to display simple black circles as list item marks"
+msgstr "リスト項目のマークとしてシンプルな黒い丸を表示するツールキット"
+
+msgid "Displays simple black circles at the head of list items."
+msgstr "リスト項目の頭にシンプルな黒い丸を表示します。"
+
+msgid "SlideBackgroundImage"
+msgstr "スライド背景画像"
+
+msgid "Toolkit to display an image as a background of slides"
+msgstr "スライドの背景として画像を表示するツールキット"
+
+msgid "Displays an image as a background of slides."
+msgstr "スライドの背景として画像を表示します。"
+
+msgid "SlideBackground"
+msgstr "スライド背景"
+
+msgid "Backward compatibility theme for ((<slide-background-image>))"
+msgstr "((<slide-background-image>))のための後方互換性のテーマ"
+
+msgid "See ((<slide-background-image>))"
+msgstr "((<slide-background-image>))を見てください．"
+
+msgid "Slide Footer Info"
+msgstr "スライドフッター情報"
+
+msgid "Toolkit to display information at the footer"
+msgstr "フッターに情報を表示するツールキット"
+
+msgid "Displays information with a line at the footer of slides."
+msgstr "スライドのフッターに線付きで情報を表示します。"
+
+msgid "Line color."
+msgstr "線の色。"
+
+msgid "Line width."
+msgstr "線の太さ。"
+
+msgid "white <-> black gradation"
+msgstr "白<->黒のグラデーション"
+
+msgid ""
+"Line fill pattern. @slide_footer_info_line_color is ignored if this parameter "
+"is specified."
+msgstr "線の塗りつぶしパターン。このパラメータが指定されると@slide_footer_info_line_colorは無視されます。"
+
+msgid "Text size."
+msgstr "テキストの大きさ。"
+
+msgid "x-axis margin."
+msgstr "X方向の余白。"
+
+msgid "Text color."
+msgstr "テキストの色。"
+
+msgid "Whether show a text over line or not."
+msgstr "線の上にテキストを表示するかどうか。"
+
+msgid "Base y-axis position to stroke line."
+msgstr "線を描くためのY方向の基準位置。"
+
+msgid "Toolkit to display information at the header"
+msgstr "ヘッダーに情報を表示するツールキット"
+
+msgid "Displays information with a line at the header of slides."
+msgstr "スライドの上部に線付きで情報を表示します。"
+
+msgid ""
+"Line fill pattern. @slide_header_info_line_color is ignored if this parameter "
+"is specified."
+msgstr "線の塗りつぶしパターン。このパラメータが指定されると@slide_header_info_line_colorは無視されます。"
+
+msgid "Slide Logo"
+msgstr "スライドロゴ"
+
+msgid "Toolkit to display an image as logo at the top"
+msgstr "上部に画像をロゴとして表示するためのツールキット"
+
+msgid "Displays an image as a logo at the top of all slides."
+msgstr "すべてのスライドの上部に画像をロゴとして表示します。"
+
+msgid "Image position. :right or :left."
+msgstr "画像の位置。:rightか:left。"
+
+msgid "Image width."
+msgstr "画像の幅。"
+
+msgid "Image height."
+msgstr "画像の高さ。"
+
+msgid "must specify %s!!!"
+msgstr "%sを指定してください！！！"
+
+msgid "TextSlideNumber"
+msgstr "テキストスライド番号"
+
+msgid "Toolkit to display slide numbers, a text version"
+msgstr "スライド番号表示ツールキット (テキストバージョン)"
+
+msgid "Displays slide numbers with text at the bottom of the slides."
+msgstr "スライド下部にテキストでスライド番号を表示します。"
+
+msgid "Properties of the slide numbers, such as font family."
+msgstr "フォントファミリーなどの、スライド番号の属性。"
+
+msgid "Slide Show"
+msgstr "スライドショー"
+
+msgid "Toolkit to do slide show"
+msgstr "スライドショーをするためのツールキット"
+
+msgid "Move to the next slide automatically."
+msgstr "自動的に次のスライドに移動します。"
+
+msgid "Stream Comment"
+msgstr "ストリームコメント"
+
+msgid "Stream comments on canvas."
+msgstr "キャンバス上にコメントを流します。"
+
+msgid "Syntax Highlighting"
+msgstr "シンタックスハイライト"
+
+msgid "Toolkit for syntax highlighting"
+msgstr "シンタックスハイライト用のツールキット。"
+
+msgid "Applies syntax highlighting style."
+msgstr "シンタックスハイライトにスタイルを適用します。"
+
+msgid "Table"
+msgstr "表"
+
+msgid "table rendering"
+msgstr "表の表示"
+
+msgid "Tag"
+msgstr "タグ"
+
+msgid "Toolkit to apply custom tag"
+msgstr "カスタムタグを適用するツールキット。"
+
+msgid "Applies custom tag style."
+msgstr "カスタムタグスタイルを適用します。"
+
+msgid "TextTimer"
+msgstr "テキストタイマー"
+
+msgid "text version timer"
+msgstr "テキストーバージョンのタイマー"
+
+msgid "TitleBackgroundColor"
+msgstr "タイトル背景色"
+
+msgid "Toolkit to color a background of the title slide"
+msgstr "タイトルスライドの背景に色をつけるツールキット"
+
+msgid "Color a background of the title slide."
+msgstr "タイトルスライドの背景に色をつけます。"
+
+msgid "Background color."
+msgstr "背景色。"
+
+msgid "TitleBackgroundImage"
+msgstr "タイトル背景画像"
+
+msgid "Toolkit to display an image as a background of the title slide"
+msgstr "タイトルスライドの背景として画像を表示するツールキット"
+
+msgid "Displays an image as a background of the title slide."
+msgstr "タイトルスライドの背景として画像を表示します。"
+
+msgid "TitleLogo"
+msgstr "タイトルロゴ"
+
+msgid "Toolkit to display an image as a logo in the title slide"
+msgstr "タイトルスライドに画像をロゴとして表示するためのツールキット"
+
+msgid "Displays an image as a logo in the title slide."
+msgstr "タイトルスライドに画像をロゴとして表示します。"
+
+msgid ""
+"Position of the logo. The logo will be set at the upper-right corner when '(({"
+":right}))', and at the upper-left corner when '(({:left}))'."
+msgstr "ロゴの位置。ロゴは '(({:right}))' のとき右上隅に配置され、'(({:left}))' のとき左上隅に配置されます。"
+
+msgid "Title on Image Toolkit"
+msgstr "画像の上にタイトルツールキット"
+
+msgid "Displays title on image"
+msgstr "画像の上にタイトルを表示します。"
+
+msgid "TitleShadow"
+msgstr "タイトル影つき"
+
+msgid "Toolkit to display shadows behind the title"
+msgstr "タイトルの後ろに影を表示するツールキット"
+
+msgid "Displays shadows behind the title string in the title slide."
+msgstr "タイトルスライドにおいて、タイトル文字列の後ろに影を表示します。"
+
+msgid "Color of shadow."
+msgstr "影の色。"
+
+msgid "TitleSlideBackgroundImage"
+msgstr "タイトルスライド背景画像"

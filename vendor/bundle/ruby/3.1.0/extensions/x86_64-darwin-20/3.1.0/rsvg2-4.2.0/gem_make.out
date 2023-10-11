@@ -1,0 +1,15 @@
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/rsvg2-4.2.0/dependency-check
+/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/bin/ruby -I/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -rrubygems /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/rake-13.0.6/exe/rake RUBYARCHDIR\=/Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/extensions/x86_64-darwin-20/3.1.0/rsvg2-4.2.0 RUBYLIBDIR\=/Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/extensions/x86_64-darwin-20/3.1.0/rsvg2-4.2.0
+installing 'librsvg' native package... ==> Downloading https://ghcr.io/v2/homebrew/core/librsvg/manifests/2.56.3
+==> Fetching librsvg
+==> Downloading https://ghcr.io/v2/homebrew/core/librsvg/blobs/sha256:be8b22a9eecab201f48f798f10e8f596a30c5062f1741cb036e6611b84a6a6e0
+==> Pouring librsvg--2.56.3.ventura.bottle.tar.gz
+[34m==>[0m [1m/usr/local/opt/gdk-pixbuf/bin/gdk-pixbuf-query-loaders --update-cache[0m
+🍺  /usr/local/Cellar/librsvg/2.56.3: 22 files, 44.4MB
+==> Running `brew cleanup librsvg`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+installing 'librsvg' native package... succeeded
+succeeded
+--------------------
+

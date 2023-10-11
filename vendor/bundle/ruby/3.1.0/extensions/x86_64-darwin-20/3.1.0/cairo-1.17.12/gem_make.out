@@ -1,0 +1,46 @@
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/cairo-1.17.12/ext/cairo
+/Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/takigawaatsushi/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20231011-90980-q5a7ic.rb extconf.rb
+checking for GCC... yes
+checking for Homebrew... yes
+checking for cairo version (>= 1.2.0)... yes (1.18.0)
+checking for cairo-ft... yes (1.18.0)
+checking for macOS... yes
+checking for HAVE_RUBY_ST_H in ruby.h... yes
+checking for HAVE_RUBY_IO_H in ruby.h... yes
+checking for rb_errinfo() in ruby.h... yes
+checking for rb_gc_adjust_memory_usage() in ruby.h... yes
+checking for enum ruby_value_type in ruby.h... yes
+creating Makefile
+
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/cairo-1.17.12/ext/cairo
+make DESTDIR\= clean
+
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/cairo-1.17.12/ext/cairo
+make DESTDIR\=
+compiling rb_cairo.c
+compiling rb_cairo_constants.c
+compiling rb_cairo_context.c
+compiling rb_cairo_device.c
+compiling rb_cairo_exception.c
+compiling rb_cairo_font_extents.c
+compiling rb_cairo_font_face.c
+compiling rb_cairo_font_options.c
+compiling rb_cairo_glyph.c
+compiling rb_cairo_io.c
+compiling rb_cairo_matrix.c
+compiling rb_cairo_path.c
+compiling rb_cairo_pattern.c
+compiling rb_cairo_private.c
+compiling rb_cairo_quartz_surface.c
+compiling rb_cairo_rectangle.c
+compiling rb_cairo_region.c
+compiling rb_cairo_scaled_font.c
+compiling rb_cairo_surface.c
+compiling rb_cairo_text_cluster.c
+compiling rb_cairo_text_extents.c
+linking shared-object cairo.bundle
+
+current directory: /Users/takigawaatsushi/Documents/comment-app/vendor/bundle/ruby/3.1.0/gems/cairo-1.17.12/ext/cairo
+make DESTDIR\= install
+/usr/local/opt/coreutils/bin/ginstall -c -m 644 ./rb_cairo.h ./.gem.20231011-90980-u2givi
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cairo.bundle ./.gem.20231011-90980-u2givi

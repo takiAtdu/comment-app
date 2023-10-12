@@ -15,21 +15,17 @@
   <body>
     <div class="container">
       <div id="head-manu">
-        <%= link_to "ホーム",  root_path, class: "btn" %>
-
         <% if logged_in? %>
+          <%= link_to "ホーム", current_user, class: "btn" %>
+          <%= link_to "テキストを追加", new_text_path, class: "btn" %>
+          <%= link_to "テキスト一覧", texts_path, class: "btn" %>
           <%= link_to "ユーザー一覧", users_path, class: "btn" %>
-          <a href="#", class="btn">
-            アカウント<b class="caret"></b>
-          </a>
-          <%= link_to "プロフィール", current_user, class: "btn" %>
           <%= link_to "設定", edit_user_path(current_user), class: "btn" %>
           <%# <%= button_to "ログアウト", logout_path, data: { "turbo-method": :delete}, class: "btn" %>
           <%= button_to "ログアウト", logout_path, method: :delete, data: {turbo: false}, class: "btn" %>
         <% else %>
-          <%= link_to login_path do %>
-            <button class="btn btn-outline-primary">ログイン</button>
-          <% end %>
+          <%= link_to "新規登録", new_user_path, class: "btn" %>
+          <%= link_to "ログイン", login_path, class: "btn" %>
         <% end %>
       </div>
     </div>

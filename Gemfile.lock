@@ -318,6 +318,7 @@ DEPENDENCIES
   guard-minitest (= 2.4.6)
   importmap-rails (= 1.1.0)
   jbuilder (= 2.11.5)
+  matrix
   minitest (= 5.15.0)
   minitest-reporters (= 1.5.0)
   pdftotext

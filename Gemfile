@@ -17,6 +17,7 @@ gem 'pdftotext'
 gem "dotenv-rails"
 gem "aws-sdk-s3"
 gem 'prawn'
+gem 'matrix'
 
 group :development, :test do
   gem "sqlite3", "1.4.2"

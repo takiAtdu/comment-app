@@ -16,6 +16,7 @@ gem 'bootstrap-will_paginate', '1.0.0'
 gem 'pdftotext'
 gem "dotenv-rails"
 gem "aws-sdk-s3"
+gem 'prawn'
 
 group :development, :test do
   gem "sqlite3", "1.4.2"

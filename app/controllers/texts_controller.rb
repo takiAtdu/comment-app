@@ -1,8 +1,14 @@
 class TextsController < ApplicationController
-  before_action :logged_in_user, only: [:new, :create, :edit, :destroy]
+  before_action :logged_in_user, only: [:new, :show, :create, :edit, :destroy]
 
   def new
     @text = Text.new
+  end
+
+  def show
+    @text = Text.find(params[:id])
+    @comments = Comment.where(text_id: params[:id]).order(start_offset: "ASC")
+    @highlighted_texts = @comments.pluck(:highlighted_text).uniq
   end
 
   def create

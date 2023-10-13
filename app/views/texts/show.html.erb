@@ -1,0 +1,39 @@
+<script>
+  var highlightedTexts = <%= raw @highlighted_texts %>;
+</script>
+
+<div class="row align-items-center">
+  <div class="col">
+    <div class="overlay">
+      <div id="commentable-text">
+        <%= @text.text %>
+      </div>
+      <div id="highlightable-text">
+        <%= @text.text %>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div id="comments" class="p-3">
+      <% @comments.each do |comment| %>
+        <div class="comment border border-3 border-info rounded-3 p-2 my-3">
+          <div id="comment-show">
+            <div>
+              コメント：
+              <%= comment.comment %>
+            </div>
+            <div>
+              ハイライトするテキスト：
+              <%= comment.highlighted_text %>
+            </div>
+            <div>
+              位置情報：
+              <%= comment.start_offset %>,<%= comment.end_offset %>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

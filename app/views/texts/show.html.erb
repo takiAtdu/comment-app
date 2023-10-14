@@ -2,6 +2,8 @@
   var highlightedTexts = <%= raw @highlighted_texts %>;
 </script>
 
+<%= link_to "PDFを出力", show_pdf_index_path(format: "pdf") %>
+
 <div class="row align-items-center">
   <div class="col">
     <div class="overlay">

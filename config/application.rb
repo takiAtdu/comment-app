@@ -20,5 +20,8 @@ module CommentApp
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    # pdf
+    config.paths.add 'app/assets/pdfs', eager_load: true
   end
 end

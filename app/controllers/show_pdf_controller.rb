@@ -4,8 +4,8 @@ class ShowPdfController < ApplicationController
     @comments = Comment.where(text_id: params[:id]).order(start_offset: "ASC")
     @highlighted_texts = @comments.pluck(:highlighted_text).uniq
 
-    html = render_to_string("show_pdf/index", layout: "application")
-    # html = File.read("#{Rails.root}/app/views/show_pdf/index.html.erb")
+    # html = render_to_string("show_pdf/index", layout: "application")
+    html = File.read("#{Rails.root}/app/views/show_pdf/index.html.erb")
     kit = PDFKit.new(html, page_size: 'A4')
     kit.stylesheets << "#{Rails.root}/app/assets/stylesheets/custom.scss"
     # kit.javascripts << "#{Rails.root}/app/javascript/application.js"

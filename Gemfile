@@ -20,7 +20,7 @@ gem 'prawn'
 gem 'matrix'
 gem "pdfkit"
 gem 'wkhtmltopdf-binary-edge'
-# gem "wkhtmltopdf-binary"
+gem 'wicked_pdf'
 
 
 group :development, :test do

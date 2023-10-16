@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+arch = case RUBY_PLATFORM
+  when /64.*linux/
+    'linux-amd64'
+  when /darwin/
+    'darwin-x86_64'
+  else
+    raise "Invalid platform. Must be running linux or intel-based Mac OS."
+end
+
+cmd = File.expand_path "#{File.dirname(__FILE__)}/../libexec/wkhtmltopdf-#{arch}"
+
+exec cmd, *ARGV

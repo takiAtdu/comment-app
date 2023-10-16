@@ -18,6 +18,10 @@ gem "dotenv-rails"
 gem "aws-sdk-s3"
 gem 'prawn'
 gem 'matrix'
+gem "pdfkit"
+gem 'wkhtmltopdf-binary-edge'
+# gem "wkhtmltopdf-binary"
+
 
 group :development, :test do
   gem "sqlite3", "1.4.2"
